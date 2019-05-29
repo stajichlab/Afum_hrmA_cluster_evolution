@@ -1,0 +1,77 @@
+# ssearch36 -E 1e-2 -S cgnA_Afu5g14910.seg all_pep.fasta
+SSEARCH performs a Smith-Waterman search
+ version 36.3.7a Jan, 2015(preload9)
+Please cite:
+ T. F. Smith and M. S. Waterman, (1981) J. Mol. Biol. 147:195-197; 
+ W.R. Pearson (1991) Genomics 11:635-650
+
+Query: cgnA_Afu5g14910.seg
+  1>>>cgnA_Afu5g14910 - 143 aa
+Library: all_pep.fasta
+  6746674221 residues in 15711829 sequences
+
+Statistics:  Expectation_n fit: rho(ln(x))= 3.8755+/-0.00018; mu= 8.3821+/- 0.011
+ mean_var=25.0722+/- 4.916, 0's: 5 Z-trim(131.3): 5  B-trim: 0 in 0/54
+ Lambda= 0.256141
+ statistics sampled from 60000 (393678) to 15710515 sequences
+Algorithm: Smith-Waterman (SSE2, Michael Farrar 2006) (7.2 Nov 2010)
+Parameters: BL50 matrix (15:-5)xS, open/ext: -10/-2
+ Scan time: 265.680
+
+The best scores are:                                      s-w bits E(15711829)
+Aspfu_A1163_1|Aspfu_A1163_1_107031 CADAFUBT0000784 ( 126)  224 87.7 1.1e-15
+Aspfu1|Aspfu1_7256 Afu5g14910_mRNA                 ( 144)  224 87.7 1.3e-15
+
+>>Aspfu_A1163_1|Aspfu_A1163_1_107031 CADAFUBT00007840m.0  (126 aa)
+ s-w opt: 224  Z-score: 443.2  bits: 87.7 E(15711829): 1.1e-15
+Smith-Waterman score: 773; 86.0% identity (86.0% similar) in 143 aa overlap (1-143:1-125)
+
+               10        20        30        40        50        60
+cgnA_A MVLIIEIIKigqigpigqrgqsgqrgqsgqrgqsgqigqsgqsgqsgqigqigqigqigq
+       :::::::::::::::::::::::::::::::::::::::::::::::: :: ::::::::
+Aspfu_ MVLIIEIIKIGQIGPIGQRGQSGQRGQSGQRGQSGQIGQSGQSGQSGQSGQSGQIGQIGQ
+               10        20        30        40        50        60
+
+               70        80        90       100       110       120
+cgnA_A igqigqigqigqigqigqigqigqigqigqigqigqArrtgrtgrtvhrrMLQASSSFNI
+       :::::::::::                  :::::::::::::::::::::::::::::::
+Aspfu_ IGQIGQIGQIG------------------QIGQIGQARRTGRTGRTVHRRMLQASSSFNI
+               70                          80        90       100  
+
+              130       140    
+cgnA_A SPDISICRRATRNMGEEERPLGC 
+       ::::::::::::::::::::::: 
+Aspfu_ SPDISICRRATRNMGEEERPLGC*
+            110       120      
+
+>>Aspfu1|Aspfu1_7256 Afu5g14910_mRNA                      (144 aa)
+ s-w opt: 224  Z-score: 442.1  bits: 87.7 E(15711829): 1.3e-15
+Smith-Waterman score: 955; 100.0% identity (100.0% similar) in 143 aa overlap (1-143:1-143)
+
+               10        20        30        40        50        60
+cgnA_A MVLIIEIIKigqigpigqrgqsgqrgqsgqrgqsgqigqsgqsgqsgqigqigqigqigq
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Aspfu1 MVLIIEIIKIGQIGPIGQRGQSGQRGQSGQRGQSGQIGQSGQSGQSGQIGQIGQIGQIGQ
+               10        20        30        40        50        60
+
+               70        80        90       100       110       120
+cgnA_A igqigqigqigqigqigqigqigqigqigqigqigqArrtgrtgrtvhrrMLQASSSFNI
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Aspfu1 IGQIGQIGQIGQIGQIGQIGQIGQIGQIGQIGQIGQARRTGRTGRTVHRRMLQASSSFNI
+               70        80        90       100       110       120
+
+              130       140    
+cgnA_A SPDISICRRATRNMGEEERPLGC 
+       ::::::::::::::::::::::: 
+Aspfu1 SPDISICRRATRNMGEEERPLGC*
+              130       140    
+
+
+
+143 residues in 1 query   sequences
+6746674221 residues in 15711829 library sequences
+ Tcomplib [36.3.7a Jan, 2015(preload9)] (64 proc in memory [6G])
+ start: Tue Apr 30 12:32:03 2019 done: Tue Apr 30 12:35:33 2019
+ Total Scan time: 265.680 Total Display time:  0.010
+
+Function used was SSEARCH [36.3.7a Jan, 2015(preload9)]

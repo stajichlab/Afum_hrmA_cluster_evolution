@@ -1,0 +1,2371 @@
+# ssearch36 -E 1e-3 -S hrmAp_Afu5g14900.seg all_pep.fasta
+SSEARCH performs a Smith-Waterman search
+ version 36.3.7a Jan, 2015(preload9)
+Please cite:
+ T. F. Smith and M. S. Waterman, (1981) J. Mol. Biol. 147:195-197; 
+ W.R. Pearson (1991) Genomics 11:635-650
+
+Query: hrmAp_Afu5g14900.seg
+  1>>>hrmAp_Afu5g14900 - 362 aa
+Library: all_pep.fasta
+  6746674221 residues in 15711829 sequences
+
+Statistics:  Expectation_n fit: rho(ln(x))= 7.6289+/-0.000185; mu= 4.6067+/- 0.011
+ mean_var=58.6131+/-12.051, 0's: 5 Z-trim(131.3): 6  B-trim: 3428 in 1/53
+ Lambda= 0.167524
+ statistics sampled from 60000 (393678) to 15709589 sequences
+Algorithm: Smith-Waterman (SSE2, Michael Farrar 2006) (7.2 Nov 2010)
+Parameters: BL50 matrix (15:-5)xS, open/ext: -10/-2
+ Scan time: 584.060
+
+The best scores are:                                      s-w bits E(15711829)
+Aspfu1|Aspfu1_7255 Afu5g14900_mRNA                 ( 293) 1779 435.9  1e-119
+Aspfu_A1163_1|Aspfu_A1163_1_107030 CADAFUBT0000783 ( 293) 1779 435.9  1e-119
+Aspnom1|Aspnom1_128755 fgenesh1_kg.68_#_26_#_TRINI ( 363) 1578 387.2 5.6e-105
+Aspuva1|Aspuva1_296546 e_gw1.85.64.1               ( 379) 1234 304.1 6.3e-80
+Penfla1|Penfla1_9993 PENFLA_c074G01980T0           ( 356) 1001 247.8 5.2e-63
+PenchWisc1_1|PenchWisc1_1_139027 PCH_Pc13g00800    ( 517)  979 242.3 3.3e-61
+Hisca1|Hisca1_4661 HCAG_10275T0                    ( 313)  776 193.5   1e-46
+Hisca1|Hisca1_4332 HCAG_10194T0                    ( 369)  759 189.3 2.2e-45
+Perma1|Perma1_676530 estExt_Genemark1.C_2510008    ( 352)  740 184.7   5e-44
+Aspnovo1|Aspnovo1_84269 CE84268_1157               ( 346)  723 180.6 8.4e-43
+Aspell1|Aspell1_420908 fgenesh1_pm.114_#_5         ( 280)  673 168.6 2.8e-39
+Aspacri1|Aspacri1_201352 fgenesh1_kg.92_#_48_#_TRI ( 355)  671 168.0 5.3e-39
+Amnli1|Amnli1_527144 fgenesh1_kg.104_#_24_#_Locus2 ( 340)  628 157.7 6.7e-36
+Penth1|Penth1_122329 e_gw1.518.17.1                ( 279)  596 150.0 1.1e-33
+Aspuva1|Aspuva1_349812 estExt_Genewise1Plus.C_1450 ( 353)  592 148.9 2.9e-33
+Exosp1|Exosp1_9384 PV08_08997T0                    ( 347)  588 148.0 5.6e-33
+Aspfu_A1163_1|Aspfu_A1163_1_103689 CADAFUBT0000442 ( 424)  580 146.0 2.8e-32
+Aspfu_A1163_1|Aspfu_A1163_1_108716 CADAFUBT0000956 ( 343)  567 142.9 1.9e-31
+Pendi1|Pendi1_5644 PDIG_60520m.01                  ( 284)  559 141.1 5.6e-31
+Pendig1|Pendig1_6277 PDIP_69930                    ( 284)  559 141.1 5.6e-31
+Aspgl1|Aspgl1_174118 estExt_Genewise1Plus.C_13_t20 ( 331)  552 139.3 2.2e-30
+Claps1|Claps1_10563 A1O5_03922T0                   ( 339)  551 139.1 2.7e-30
+Zoprh1|Zoprh1_665631 estExt_Genewise1Plus.C_25_t10 ( 251)  543 137.2 6.9e-30
+Aspscle1|Aspscle1_403434 fgenesh1_pm.3_#_152       ( 339)  540 136.4 1.7e-29
+Aspnovo1|Aspnovo1_211291 gm1.13772_g               ( 113)  526 133.4 4.3e-29
+PenbrAgRF18_1|PenbrAgRF18_1_328858 fgenesh1_kg.14_ ( 281)  532 134.5 5.1e-29
+Hisca1|Hisca1_8541 HCAG_11214T0                    ( 356)  526 133.0 1.9e-28
+Aspuva1|Aspuva1_388367 estExt_fgenesh1_pm.C_130000 ( 338)  523 132.3 2.9e-28
+Photr1|Photr1_473398 fgenesh1_kg.87_#_6_#_Locus127 ( 311)  520 131.6 4.3e-28
+Aspjap1|Aspjap1_417242 fgenesh1_pm.9_#_96          ( 330)  513 129.9 1.5e-27
+CodFL1790_1|CodFL1790_1_640372 e_gw1.23.556.1      ( 344)  513 129.9 1.6e-27
+Didma1|Didma1_20132 g3037.t1                       ( 488)  508 128.5 5.7e-27
+Gloac1|Gloac1_1584021 fgenesh1_kg.165_#_62_#_Locus ( 291)  495 125.6 2.6e-26
+Aspstec1_1|Aspstec1_1_266378 fgenesh1_kg.157_#_2_# ( 289)  494 125.3 3.1e-26
+Colgo1|Colgo1_627601 fgenesh1_pg.4_#_429           ( 363)  480 121.9 4.3e-25
+Penbr2|Penbr2_47537 fgenesh1_pg.13_#_12            ( 170)  471 120.0 7.3e-25
+Didma1|Didma1_22083 g1366.t1                       ( 332)  475 120.7 8.8e-25
+Gelte1|Gelte1_327423 CE327422_3763                 ( 362)  474 120.4 1.2e-24
+Setho1|Setho1_80139 e_gw1.170.4.1                  ( 298)  434 110.8 7.4e-22
+Claba1|Claba1_134726 Z519_12093T0                  ( 282)  418 107.0   1e-20
+Claps1|Claps1_6092 A1O5_10635T0                    ( 282)  412 105.5 2.7e-20
+Lizem1|Lizem1_128809 e_gw1.29.85.1                 ( 258)  405 103.9 7.9e-20
+Penja1|Penja1_348587 gw1.76.4.1                    ( 189)  377 97.2 5.8e-18
+Phimu1|Phimu1_649289 fgenesh1_pg.27_#_10           ( 361)  378 97.2 1.1e-17
+Altro1|Altro1_297979 gw1.5.2109.1                  ( 184)  350 90.7 5.1e-16
+Cloaq1|Cloaq1_495502 e_gw1.199.10.1                ( 111)  273 72.3 1.1e-10
+Trepe1|Trepe1_522299 fgenesh1_kg.13_#_61_#_Locus46 ( 305)  279 73.4 1.4e-10
+TriharT22_1|TriharT22_1_175974 CE175569_1013       ( 328)  266 70.2 1.4e-09
+Aspscl1|Aspscl1_617576 MIX25674_2_39               (  94)  230 62.0 1.2e-07
+Hymvar1|Hymvar1_513880 estExt_fgenesh1_pg.C_80030  ( 361)  236 62.9 2.4e-07
+Lizem1|Lizem1_158680 fgenesh1_pg.35_#_81           ( 303)  223 59.8 1.7e-06
+Parch1|Parch1_199075 CE198872_35970                ( 246)  221 59.4 1.8e-06
+Schves1|Schves1_401126 fgenesh1_kg.1_#_5602_#_TRIN ( 142)  210 57.0 5.7e-06
+Cernew1|Cernew1_8215 CE8214_244                    ( 219)  209 56.6 1.2e-05
+Cocim1|Cocim1_5449 CIMG_13248T0                    ( 511)  214 57.4 1.5e-05
+Micbo1|Micbo1_169989 fgenesh1_kg.65_#_1_#_Locus450 ( 353)  208 56.1 2.5e-05
+Aspfu_A1163_1|Aspfu_A1163_1_103707 CADAFUBT0000444 ( 143)  194 53.1 8.3e-05
+Cloaq1|Cloaq1_496750 e_gw1.230.12.1                (  66)  178 49.6 0.00045
+Aaoar1|Aaoar1_32683 CE32590_1332                   ( 168)  183 50.4 0.00065
+Aspsc1|Aspsc1_240789 fgenesh1_pm.74_#_6            ( 204)  183 50.3 0.00083
+
+>>Aspfu1|Aspfu1_7255 Afu5g14900_mRNA                      (293 aa)
+ s-w opt: 1779  Z-score: 2311.1  bits: 435.9 E(15711829): 1e-119
+Smith-Waterman score: 1779; 98.6% identity (99.3% similar) in 279 aa overlap (1-279:1-279)
+
+               10        20        30        40        50        60
+hrmAp_ MASTKPASSLIYQAWNKLSINQTIPSDSLELLGERLAIAFAPKLKEQRRNGRRRNLEYVA
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Aspfu1 MASTKPASSLIYQAWNKLSINQTIPSDSLELLGERLAIAFAPKLKEQRRNGRRRNLEYVA
+               10        20        30        40        50        60
+
+               70        80        90       100       110       120
+hrmAp_ QHRRKIARKIYLEILEKDPNIFLPFILAVSPRACLSFDISSFLEQHQSQGRHFLRNNAEA
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Aspfu1 QHRRKIARKIYLEILEKDPNIFLPFILAVSPRACLSFDISSFLEQHQSQGRHFLRNNAEA
+               70        80        90       100       110       120
+
+              130       140       150       160       170       180
+hrmAp_ ILWGLAKKHDIDGSLHFRKLMREIFQLSPPATEAEGKEHYSLHLSTLPAIRNAFGDVIFD
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Aspfu1 ILWGLAKKHDIDGSLHFRKLMREIFQLSPPATEAEGKEHYSLHLSTLPAIRNAFGDVIFD
+              130       140       150       160       170       180
+
+              190       200       210       220       230       240
+hrmAp_ AIERSPTQVTARAKGYFSEKTESVWTKVPYRSSQDAIISLEVGSAIELANVLFPIATQKI
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Aspfu1 AIERSPTQVTARAKGYFSEKTESVWTKVPYRSSQDAIISLEVGSAIELANVLFPIATQKI
+              190       200       210       220       230       240
+
+              250       260       270       280       290       300
+hrmAp_ VSILSACSPTVRQKNFSEAILGPDPQDTPATSSEIDVAYFTLRGATVSAIESVFRADICE
+       ::::::::::::::::::::::::::::::::::: . .                     
+Aspfu1 VSILSACSPTVRQKNFSEAILGPDPQDTPATSSEIGMKFKVHMTAVANSTLC*       
+              250       260       270       280       290          
+
+              310       320       330       340       350       360
+hrmAp_ GIKDSELRNWEKEQLLIDTTDCVTMQIWRAQPQHGTIKLRIGFYAAVNLANRLYAETPQD
+
+>>Aspfu_A1163_1|Aspfu_A1163_1_107030 CADAFUBT00007839m.0  (293 aa)
+ s-w opt: 1779  Z-score: 2311.1  bits: 435.9 E(15711829): 1e-119
+Smith-Waterman score: 1779; 98.6% identity (99.3% similar) in 279 aa overlap (1-279:1-279)
+
+               10        20        30        40        50        60
+hrmAp_ MASTKPASSLIYQAWNKLSINQTIPSDSLELLGERLAIAFAPKLKEQRRNGRRRNLEYVA
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Aspfu_ MASTKPASSLIYQAWNKLSINQTIPSDSLELLGERLAIAFAPKLKEQRRNGRRRNLEYVA
+               10        20        30        40        50        60
+
+               70        80        90       100       110       120
+hrmAp_ QHRRKIARKIYLEILEKDPNIFLPFILAVSPRACLSFDISSFLEQHQSQGRHFLRNNAEA
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Aspfu_ QHRRKIARKIYLEILEKDPNIFLPFILAVSPRACLSFDISSFLEQHQSQGRHFLRNNAEA
+               70        80        90       100       110       120
+
+              130       140       150       160       170       180
+hrmAp_ ILWGLAKKHDIDGSLHFRKLMREIFQLSPPATEAEGKEHYSLHLSTLPAIRNAFGDVIFD
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Aspfu_ ILWGLAKKHDIDGSLHFRKLMREIFQLSPPATEAEGKEHYSLHLSTLPAIRNAFGDVIFD
+              130       140       150       160       170       180
+
+              190       200       210       220       230       240
+hrmAp_ AIERSPTQVTARAKGYFSEKTESVWTKVPYRSSQDAIISLEVGSAIELANVLFPIATQKI
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Aspfu_ AIERSPTQVTARAKGYFSEKTESVWTKVPYRSSQDAIISLEVGSAIELANVLFPIATQKI
+              190       200       210       220       230       240
+
+              250       260       270       280       290       300
+hrmAp_ VSILSACSPTVRQKNFSEAILGPDPQDTPATSSEIDVAYFTLRGATVSAIESVFRADICE
+       ::::::::::::::::::::::::::::::::::: . .                     
+Aspfu_ VSILSACSPTVRQKNFSEAILGPDPQDTPATSSEIGMKFKVHMTAVANSTLC*       
+              250       260       270       280       290          
+
+              310       320       330       340       350       360
+hrmAp_ GIKDSELRNWEKEQLLIDTTDCVTMQIWRAQPQHGTIKLRIGFYAAVNLANRLYAETPQD
+
+>>Aspnom1|Aspnom1_128755 fgenesh1_kg.68_#_26_#_TRINITY_D  (363 aa)
+ s-w opt: 1578  Z-score: 2046.4  bits: 387.2 E(15711829): 5.6e-105
+Smith-Waterman score: 1578; 65.7% identity (86.2% similar) in 362 aa overlap (1-362:1-362)
+
+               10        20        30        40        50        60
+hrmAp_ MASTKPASSLIYQAWNKLSINQTIPSDSLELLGERLAIAFAPKLKEQRRNGRRRNLEYVA
+       : ::.   .:::..:..:. .::::  :.::: ::::::: : : ::. ..::.: .:::
+Aspnom MRSTQSILDLIYKTWTNLNSSQTIPEGSIELLEERLAIAFKPILTEQHSTSRRQNRDYVA
+               10        20        30        40        50        60
+
+               70        80        90       100       110       120
+hrmAp_ QHRRKIARKIYLEILEKDPNIFLPFILAVSPRACLSFDISSFLEQHQSQGRHFLRNNAEA
+       ::: : ::.::::.:. ::.:::::::.::::.: :::::.: :.::..:::::.:::..
+Aspnom QHRWKRARQIYLEVLQTDPDIFLPFILSVSPRSCSSFDISNFREHHQKKGRHFLHNNAQS
+               70        80        90       100       110       120
+
+              130       140       150       160       170       180
+hrmAp_ ILWGLAKKHDIDGSLHFRKLMREIFQLSPPATEAEGKEHYSLHLSTLPAIRNAFGDVIFD
+       .::..:.:::.: . .: ..:: :. :: :.:::::..::::.::.. ::::.::... :
+Aspnom LLWNIARKHDFDKATRFIQFMRTIYPLSRPTTEAEGEQHYSLYLSNITAIRNSFGNIVSD
+              130       140       150       160       170       180
+
+              190       200       210       220       230       240
+hrmAp_ AIERSPTQVTARAKGYFSEKTESVWTKVPYRSSQDAIISLEVGSAIELANVLFPIATQKI
+       :::.::...::::.::.::::::::::.::. :.:.:::::::::::::.:::: :...:
+Aspnom AIEHSPSRTTARANGYYSEKTESVWTKIPYECSEDTIISLEVGSAIELADVLFPTAARRI
+              190       200       210       220       230       240
+
+              250       260       270       280       290       300
+hrmAp_ VSILSACSPTVRQKNFSEAILGPDPQDTPATSSEIDVAYFTLRGATVSAIESVFRADICE
+       .:.::: : :. : : :    :     . :.: ::: ::::::::.:::: ::: .::::
+Aspnom ASVLSANSSTMPQTNSSGIASGSGTGGSLAASPEIDFAYFTLRGASVSAIASVFGSDICE
+              250       260       270       280       290       300
+
+              310       320       330       340       350       360
+hrmAp_ GIKDSELRNWEKEQLLIDTTDCVTMQIWRAQPQHGTIKLRIGFYAAVNLANRLYAETPQD
+       :::::::::::.::::.:::::::::::::::.:: :.:::::::.::::::::::. ::
+Aspnom GIKDSELRNWEREQLLVDTTDCVTMQIWRAQPHHGIIRLRIGFYAGVNLANRLYAESSQD
+              310       320       330       340       350       360
+
+          
+hrmAp_ HI 
+        : 
+Aspnom SI*
+          
+
+>>Aspuva1|Aspuva1_296546 e_gw1.85.64.1                    (379 aa)
+ s-w opt: 1234  Z-score: 1596.6  bits: 304.1 E(15711829): 6.3e-80
+Smith-Waterman score: 1234; 52.7% identity (76.2% similar) in 374 aa overlap (5-357:2-372)
+
+                10        20        30        40        50         
+hrmAp_ MASTKPAS-SLIYQAWNKLSINQTIPSDSLELLGERLAIAFAPKLKEQRRNGRRRNLEYV
+           ::.  .:.:: :... ..::::..:: :: :::.:  . : .: .:..::.: .::
+Aspuva    MKPSFLKLLYQKWEEIHVSQTIPGNSLSLLEERLSIICTTK-EEPKRSNRRENSHYV
+                  10        20        30        40         50      
+
+      60        70        80        90       100       110         
+hrmAp_ AQHRRKIARKIYLEILEKDPNIFLPFILAVSPRACLSFDISSFLEQHQSQGRHFLRNNAE
+        ::::: :: .:: :.. ::.::.:::: :.:::::::.:: :  .: .:   :  :.: 
+Aspuva QQHRRKKARDVYLSIFDIDPHIFIPFILIVTPRACLSFNISEFQSKHTKQRTLFSCNEAL
+         60        70        80        90       100       110      
+
+     120       130       140       150       160       170         
+hrmAp_ AILWGLAKKHDIDGSLHFRKLMREIFQLSPPATEAEGKEHYSLHLSTLPAIRNAFGDVIF
+        :. :.:.:: .. .  .:...  ::.:.:: :.:.:.:::::.::.: :....:::..:
+Aspuva NIFLGIARKHGLERNSLYRRFLGTIFHLTPPLTDADGNEHYSLRLSNLAAVHSTFGDALF
+        120       130       140       150       160       170      
+
+     180       190         200       210       220       230       
+hrmAp_ DAIERSPTQVTARAK--GYFSEKTESVWTKVPYRSSQDAIISLEVGSAIELANVLFPIAT
+       .::: ::.:. :.::    . : :::::::: :.: .:..: .:::::.:::..::: ..
+Aspuva NAIELSPVQIQAKAKVKDSLLETTESVWTKVSYKSHEDSVICIEVGSALELADILFPGSA
+        180       190       200       210       220       230      
+
+       240       250       260       270                           
+hrmAp_ QKIVSILSACSPTVRQKNFSEAILGPDPQDTPATSSEI------------------DVAY
+       :.:.::::::.  . :: .: . :  :       ::::                  :.::
+Aspuva QRIASILSACALDISQKCYSGTSL--DSGRLGKISSEIGEEVHLEIFAMTNIDLTIDLAY
+        240       250       260         270       280       290    
+
+     280       290       300       310       320       330         
+hrmAp_ FTLRGATVSAIESVFRADICEGIKDSELRNWEKEQLLIDTTDCVTMQIWRAQPQHGTIKL
+       :.::::.. .: :.: .:::.::.::::: :::.::: :::::::::::::.::::.:::
+Aspuva FSLRGASILSIPSIFGTDICDGINDSELRRWEKNQLLSDTTDCVTMQIWRAEPQHGVIKL
+          300       310       320       330       340       350    
+
+     340       350       360    
+hrmAp_ RIGFYAAVNLANRLYAETPQDHI  
+       :.::::...::: :::::       
+Aspuva RVGFYAGLSLANALYAETTPANST*
+          360       370         
+
+>>Penfla1|Penfla1_9993 PENFLA_c074G01980T0                (356 aa)
+ s-w opt: 1001  Z-score: 1292.9  bits: 247.8 E(15711829): 5.2e-63
+Smith-Waterman score: 1001; 48.2% identity (72.3% similar) in 357 aa overlap (11-362:7-353)
+
+               10        20        30        40        50        60
+hrmAp_ MASTKPASSLIYQAWNKLSINQTIPSDSLELLGERLAIAFAPKLKEQRRNGRRRNLEYVA
+                 ::.  . .. .::::  .. :. :::.:. .    ...:  :  : : . 
+Penfla     MNKFAPIYEKHKDIGAEQTIPEADISLFEERLVIVCTVDETQNHRRVRIPNREKLI
+                   10        20        30        40        50      
+
+               70        80        90       100       110       120
+hrmAp_ QHRRKIARKIYLEILEKDPNIFLPFILAVSPRACLSFDISSFLEQHQSQGRHFLRNNAEA
+       . :.. :...::.:::: :.::: :::.::::: ..::.:.: :::  :    : .:::.
+Penfla RSRKRKAQRLYLKILEKFPGIFLAFILSVSPRASIDFDLSAFCEQHTEQPI-VLSDNAES
+         60        70        80        90       100        110     
+
+              130       140       150       160       170       180
+hrmAp_ ILWGLAKKHDIDGSLHFRKLMREIFQLSPPATEAEGKEHYSLHLSTLPAIRNAFGDVIFD
+       .::  : .: :. :  : :::  .: :  :::::::.:  :: ::.::. : ::::.: .
+Penfla LLWRSAIRHGIEKSKAFGKLMSLLFTLPCPATEAEGEESCSLSLSSLPVTRIAFGDIICE
+         120       130       140       150       160       170     
+
+              190       200       210       220       230       240
+hrmAp_ AIERSPTQVTARAKGYFSEKTESVWTKVPYRSSQDAIISLEVGSAIELANVLFPIATQKI
+       :.: :::.    : : ..: :. : : : : . ::.:: ..:: :..::..::: :..::
+Penfla AVECSPTHHPMNADGDYAETTQCVRTTVFY-NHQDTIIHIDVGCAVKLADMLFPSASRKI
+         180       190       200        210       220       230    
+
+              250       260       270            280       290     
+hrmAp_ VSILSACSPTVRQKNFSEAILGPDPQDTPATSSE-----IDVAYFTLRGATVSAIESVFR
+        : ::  . ... .:       :.:   :.:.::      : ::::::::....:.::: 
+Penfla NSALSQSNVSIQARN-------PEPALLPGTQSESLVQDYDFAYFTLRGASLAGIRSVFS
+          240              250       260       270       280       
+
+         300       310       320       330       340       350     
+hrmAp_ ADICEGIKDSELRNWEKEQLLIDTTDCVTMQIWRAQPQHGTIKLRIGFYAAVNLANRLYA
+       :.:::.:..:::: :::..:: ..:::.:::.:::. :.: ::::.: :..:::::.:::
+Penfla ASICEAIEESELRRWEKHHLLTEVTDCITMQLWRAESQRGLIKLRVGHYTGVNLANKLYA
+       290       300       310       320       330       340       
+
+         360     
+hrmAp_ ETPQDHI   
+       : :...:   
+Penfla E-PRSYIAS*
+        350      
+
+>>PenchWisc1_1|PenchWisc1_1_139027 PCH_Pc13g00800         (517 aa)
+ s-w opt: 979  Z-score: 1260.5  bits: 242.3 E(15711829): 3.3e-61
+Smith-Waterman score: 979; 48.9% identity (72.2% similar) in 352 aa overlap (11-362:168-514)
+
+                                   10        20        30        40
+hrmAp_                     MASTKPASSLIYQAWNKLSINQTIPSDSLELLGERLAIAF
+                                     :::  . .. .::::  .. :. :::.:. 
+PenchW RVHRVHRVHRVHRVHSVHKLIAANMNKFAPIYQKHKDIGAEQTIPEADISLFEERLVIVC
+       140       150       160       170       180       190       
+
+               50        60        70        80        90       100
+hrmAp_ APKLKEQRRNGRRRNLEYVAQHRRKIARKIYLEILEKDPNIFLPFILAVSPRACLSFDIS
+       .    ...:  :  :   . . :.. :...::.:::: :.::: :::.::::: ..::.:
+PenchW TVDETQNHRRVRIPNRVKLIRSRERKAQRLYLKILEKFPGIFLAFILSVSPRASIDFDLS
+       200       210       220       230       240       250       
+
+              110       120       130       140       150       160
+hrmAp_ SFLEQHQSQGRHFLRNNAEAILWGLAKKHDIDGSLHFRKLMREIFQLSPPATEAEGKEHY
+       .: :::  :    : .:::..::  : .: :. :  : :::  .: :  :::::::.:  
+PenchW AFCEQHIEQPI-VLCDNAESLLWRSAIRHGIEKSKAFGKLMSLLFTLPRPATEAEGEEIC
+       260        270       280       290       300       310      
+
+              170       180       190       200       210       220
+hrmAp_ SLHLSTLPAIRNAFGDVIFDAIERSPTQVTARAKGYFSEKTESVWTKVPYRSSQDAIISL
+       :: :: : .:: ::::.: .:.: :::..   : . ..: :. : : : : : ::.:: .
+PenchW SLSLSRLSVIRIAFGDIICEAVECSPTHLPMNADSDYAEITQCVRTTVFY-SHQDTIIHI
+        320       330       340       350       360        370     
+
+              230       240       250       260       270       280
+hrmAp_ EVGSAIELANVLFPIATQKIVSILSACSPTVRQKNFSEAILGPDPQDTPATSSEIDVAYF
+       ::: :..::..::: :. .: : ::  . ... .:  :: : :  : . .  .. : :::
+PenchW EVGCAVKLADMLFPSASGRINSALSQSNASIQARN-PEAALPPGTQ-SESLVQDYDFAYF
+         380       390       400       410        420        430   
+
+              290       300       310       320       330       340
+hrmAp_ TLRGATVSAIESVFRADICEGIKDSELRNWEKEQLLIDTTDCVTMQIWRAQPQHGTIKLR
+       :::::.:..:.::: :.:::.:..:::: :::..:: ..:::.:::.:::. :.: ::::
+PenchW TLRGASVAGIRSVFSASICEAIEESELRRWEKHHLLTEVTDCITMQLWRAESQRGLIKLR
+           440       450       460       470       480       490   
+
+              350       360     
+hrmAp_ IGFYAAVNLANRLYAETPQDHI   
+       .: :..::::: :::: :.. :   
+PenchW VGHYTGVNLANNLYAE-PRSCIAS*
+           500        510       
+
+>>Hisca1|Hisca1_4661 HCAG_10275T0                         (313 aa)
+ s-w opt: 776  Z-score: 1000.3  bits: 193.5 E(15711829): 1e-46
+Smith-Waterman score: 776; 40.8% identity (62.5% similar) in 360 aa overlap (1-356:1-309)
+
+               10        20        30        40        50        60
+hrmAp_ MASTKPASSLIYQAWNKLSINQTIPSDSLELLGERLAIAFAPKLKEQRRNGRRRNLEYVA
+       :::.:  :: ::.  ..:.  :::::   : : :::.:.  :  ..:::. :: . :  .
+Hisca1 MASSK--SSHIYEILGQLNRRQTIPSFHREALEERLVISCKPLGRQQRRKVRRTQQEIRS
+                 10        20        30        40        50        
+
+               70        80        90       100       110       120
+hrmAp_ QHRRKIARKIYLEILEKDPNIFLPFILAVSPRACLSFDISSFLEQHQSQGRHFLRNNAEA
+       ..... :.:.:::.:..::..:::::::.::.:: :::::.:.                 
+Hisca1 HYKQRKAQKVYLEVLDEDPHVFLPFILAISPKACESFDISGFFS----------------
+       60        70        80        90       100                  
+
+              130       140       150       160       170       180
+hrmAp_ ILWGLAKKHDIDGSLHFRKLMREIFQLSPPATEAEGKEHYSLHLSTLPAIRNAFGDVIFD
+                               :.   : : ::. ::..   . : :.:: ::. : :
+Hisca1 ------------------------FRAPKPITTAESDEHWAYFAADLKAVRNIFGSPICD
+                                    110       120       130        
+
+              190       200       210       220       230       240
+hrmAp_ AIERSPTQVTARAKGYFSEKTESVWTKVPYRSSQDAIISLEVGSAIELANVLFPIATQKI
+       :.: .:...   ::    . :: : :. : .. ::::. :.:::: :::..:::   :. 
+Hisca1 AVESAPVRIREIAKTPTRQTTECVRTNFPQQNFQDAIVWLDVGSAGELAGTLFPRIDQRS
+      140       150       160       170       180       190        
+
+                  250       260       270       280       290      
+hrmAp_ V----SILSACSPTVRQKNFSEAILGPDPQDTPATSSEIDVAYFTLRGATVSAIESVFRA
+       .     :.   .:   ....: ..:  . .:          ::::..::.:::: :::  
+Hisca1 LLTHQEIIMQAAPMSGHQGISTSVLDSETEDH---------AYFTFQGASVSAIASVFSP
+      200       210       220       230                240         
+
+        300       310       320       330       340       350      
+hrmAp_ DICEGIKDSELRNWEKEQLLIDTTDCVTMQIWRAQPQHGTIKLRIGFYAAVNLANRLYAE
+        ::..:. :::: ::: .::.:::::::... : ::.::::.::::: ... .:: :::.
+Hisca1 RICHAIEKSELRVWEKGHLLLDTTDCVTLEMRRKQPNHGTIRLRIGFVVGTLIANDLYAD
+     250       260       270       280       290       300         
+
+        360  
+hrmAp_ TPQDHI
+             
+Hisca1 DVL*  
+     310     
+
+>>Hisca1|Hisca1_4332 HCAG_10194T0                         (369 aa)
+ s-w opt: 759  Z-score: 976.5  bits: 189.3 E(15711829): 2.2e-45
+Smith-Waterman score: 759; 39.7% identity (64.8% similar) in 355 aa overlap (1-355:26-365)
+
+                                        10        20        30     
+hrmAp_                          MASTKPASSLIYQAWNKLSINQTIPSDSLELLGER
+                                :::.  . : :: . ..::  ::::.. :  : ::
+Hisca1 MEGMDKRPTSPTSPTSPTSPTCIFPMASS--TWSRIYCTKDELSQRQTIPGSYLTALEER
+               10        20          30        40        50        
+
+          40        50        60        70        80        90     
+hrmAp_ LAIAFAPKLKEQRRNGRRRNLEYVAQHRRKIARKIYLEILEKDPNIFLPFILAVSPRACL
+       :.::  :  . :: . ::   :   .  :. :.::::.::..::::::::::..:  :: 
+Hisca1 LVIACKPLPRLQRSTVRRTMQESRLMSIRRTAQKIYLDILHEDPNIFLPFILTISETACR
+       60        70        80        90       100       110        
+
+         100       110       120       130       140       150     
+hrmAp_ SFDISSFLEQHQSQGRHFLRNNAEAILWGLAKKHDIDGSLHFRKLMREIFQLSPPATEAE
+       ::..: : .::... :  :  .:. :: ..: .:.:    ... :   .:    : :.:.
+Hisca1 SFNVSRFCQQHKKEDRIRLNVKAKNILESIATRHNIRLEPNYKILENFLFPQPKPITRAD
+      120       130       140       150       160       170        
+
+         160       170       180       190       200       210     
+hrmAp_ GKEHYSLHLSTLPAIRNAFGDVIFDAIERSPTQVTARAKGYFSEKTESVWTKVPYRSSQD
+       ..:...   ..: : .: ::: ::.::: ::  .  : ...    ::::  : : .. ::
+Hisca1 SNEYWAYSAASLKAAHNFFGDRIFNAIESSP--IRMREQSH--PTTESVRMKFPQEDFQD
+      180       190       200         210         220       230    
+
+         220       230       240       250       260       270     
+hrmAp_ AIISLEVGSAIELANVLFPIATQKIVSILSACSPTVRQKNFSEAILGPDPQDTPATSSEI
+       . . :.::   .: . ::: :....  .:.:     .    .. :  :.          .
+Hisca1 VNLMLDVGLDNKLISDLFPRASERLFPLLQAHPSDGHPVLTTRCIAMPE---------CL
+          240       250       260       270       280              
+
+         280       290       300       310       320       330     
+hrmAp_ DVAYFTLRGATVSAIESVFRADICEGIKDSELRNWEKEQLLIDTTDCVTMQIWRAQPQHG
+       : ::::: ::..:.. :.:  :::..:  :.:: :::..:: .::::: :...: :::: 
+Hisca1 DNAYFTLLGASLSGVSSIFCPDICNAIGKSKLRIWEKDNLLHETTDCVIMEVYRDQPQHC
+         290       300       310       320       330       340     
+
+         340       350       360  
+hrmAp_ TIKLRIGFYAAVNLANRLYAETPQDHI
+       :..::..:  . .. : :.:       
+Hisca1 TLRLRLAFVESFEIMNNLFAPGT*   
+         350       360            
+
+>>Perma1|Perma1_676530 estExt_Genemark1.C_2510008         (352 aa)
+ s-w opt: 740  Z-score: 952.1  bits: 184.7 E(15711829): 5e-44
+Smith-Waterman score: 740; 39.2% identity (67.8% similar) in 339 aa overlap (22-356:20-347)
+
+               10        20        30        40        50          
+hrmAp_ MASTKPASSLIYQAWNKLSINQTIPSDSLELLGERLAIAFAPKLKEQRRNGRRRNLEYV-
+                            :::::.    : :::.:. .: : .: :.  :: :.   
+Perma1   MSSRQLSNIKKVSDDIRWRQTIPSSYRAALEERLVIVCTP-LTRQSRGKVRRCLRNNR
+                 10        20        30        40         50       
+
+      60        70        80        90       100       110         
+hrmAp_ AQHRRKIARKIYLEILEKDPNIFLPFILAVSPRACLSFDISSFLEQHQSQGRHFLRNNAE
+       ..: :: :. .: .:::. :..::::.:..::::: .::. .: ... .:    :.:.::
+Perma1 SRHNRKKAQTVYAQILEEAPDVFLPFLLVISPRACENFDVPKFCQNYGKQELVPLKNDAE
+        60        70        80        90       100       110       
+
+     120       130       140          150       160       170      
+hrmAp_ AILWGLAKKHDIDGSLHFRKLMREIFQL---SPPATEAEGKEHYSLHLSTLPAIRNAFGD
+       ::. ..:. : :. : ....:.  .:     . : : ::. .:.. : . . :::..:::
+Perma1 AIFGAIASTHGINESSEYKRLIGLLFPKAFSTRPITIAESGQHWAYHAADINAIRTVFGD
+       120       130       140       150       160       170       
+
+        180       190       200       210       220       230      
+hrmAp_ VIFDAIERSPTQVTARAKGYFSEKTESVWTKVPYRSSQDAIISLEVGSAIELANVLFPIA
+        :   .: .  ..  ..:.   . :: :  ..:  . ::::: :..: :  ::..:::  
+Perma1 YICRFVESASIRLREKTKNPTLQTTECVRMSLPRSNFQDAIIRLDIGPARGLAKTLFP--
+       180       190       200       210       220       230       
+
+        240       250       260       270       280       290      
+hrmAp_ TQKIVSILSACSPTVRQKNFSEAILGPDPQDTPATSSEIDVAYFTLRGATVSAIESVFRA
+         . :  ::   :   . . ....:  . :    .  :.: :::::.::.. :. .::  
+Perma1 --RAVLPLSD-EP---EDGCTQVLL--EQQGISISEFEVDHAYFTLKGASALAFATVFTP
+           240           250         260       270       280       
+
+        300       310       320       330       340       350      
+hrmAp_ DICEGIKDSELRNWEKEQLLIDTTDCVTMQIWRAQPQHGTIKLRIGFYAAVNLANRLYAE
+        :::... :.:: ::::..:.::.::::... : .:..::. :: :: :.:..:. :::.
+Perma1 RICEALEASDLRLWEKEHFLLDTSDCVTLELCRKEPHYGTVFLRTGFIASVQIASDLYAD
+       290       300       310       320       330       340       
+
+        360  
+hrmAp_ TPQDHI
+             
+Perma1 VGML* 
+       350   
+
+>>Aspnovo1|Aspnovo1_84269 CE84268_1157                    (346 aa)
+ s-w opt: 723  Z-score: 930.1  bits: 180.6 E(15711829): 8.4e-43
+Smith-Waterman score: 723; 35.3% identity (68.1% similar) in 354 aa overlap (8-357:4-343)
+
+               10        20        30        40        50        60
+hrmAp_ MASTKPASSLIYQAWNKLSINQTIPSDSLELLGERLAIAFAPKLKEQRRNGRRRNLEYVA
+              .: .:. ...:. .:.:::   ... ::: ..:.:  . .: ...: ..:   
+Aspnov     MSNASAVYKIFSELKNSQSIPSYYNDVIEERLIVSFTPVYRLSRGGSKRTKVEIRR
+                   10        20        30        40        50      
+
+               70        80        90       100       110       120
+hrmAp_ QHRRKIARKIYLEILEKDPNIFLPFILAVSPRACLSFDISSFLEQHQSQGRHFLRNNAEA
+       .: :: :...::..:. .: ::::::::.:: :: .::.:. ... ...   .:..  . 
+Aspnov HHWRKKAQRVYLDVLDYSPYIFLPFILAISPNACRTFDLST-IRRDDTKPTLYLKTPIKE
+         60        70        80        90        100       110     
+
+              130       140        150        160       170        
+hrmAp_ ILWGLAKKHDIDGSLHFRKLMREIF-QLSPPATEA-EGKEHYSLHLSTLPAIRNAFGDVI
+        :  .::....: . .: .:.  .: :   : :.:  :.  . .  . : :::. ::: :
+Aspnov KLEDIAKRNNFDEDSRFTSLLDSLFPQTLRPITDAGTGNFCWVFCAAELTAIRDLFGDNI
+         120       130       140       150       160       170     
+
+      180       190       200       210       220       230        
+hrmAp_ FDAIERSPTQVTARAKGYFSEKTESVWTKVPYRSSQDAIISLEVGSAIELANVLFPIATQ
+       ..... .: ..  .::.   ..:: : :. : :  ::::::..:: . .::...::  ..
+Aspnov WNGVNTAPIRAQEKAKSTAIQSTECVKTNFPKRVFQDAIISVNVGFSKKLAGIFFPSISD
+         180       190       200       210       220       230     
+
+      240         250       260       270       280       290      
+hrmAp_ KIVSILSA--CSPTVRQKNFSEAILGPDPQDTPATSSEIDVAYFTLRGATVSAIESVFRA
+        .  . ::  :  :               : .   . ..: ::.:..::.:.:: : .  
+Aspnov MMFLVHSADDCFET-------------HAQTATRLQEKVDGAYLTFQGASVAAIASNLSP
+         240                    250       260       270       280  
+
+        300       310       320       330       340       350      
+hrmAp_ DICEGIKDSELRNWEKEQLLIDTTDCVTMQIWRAQPQHGTIKLRIGFYAAVNLANRLYAE
+        . ..:..:.:: :::..::: :::::::...:  :.:::...:.::  .... :.:::.
+Aspnov RVVRAIEESQLRVWEKNNLLIHTTDCVTMDVFRQPPHHGTLHIRVGFKMGTGIINELYAD
+            290       300       310       320       330       340  
+
+        360  
+hrmAp_ TPQDHI
+       :     
+Aspnov TDA*  
+             
+
+>>Aspell1|Aspell1_420908 fgenesh1_pm.114_#_5              (280 aa)
+ s-w opt: 673  Z-score: 866.9  bits: 168.6 E(15711829): 2.8e-39
+Smith-Waterman score: 673; 43.7% identity (70.5% similar) in 268 aa overlap (10-275:14-264)
+
+                   10        20        30        40        50      
+hrmAp_     MASTKPASSLIYQAWNKLSINQTIPSDSLELLGERLAIAFAPKLKEQRRNGRRRNL
+                    :.:: :... ..::::..:: :: :::.: .. : .: .:..: .: 
+Aspell MLFGHSLVLSFLKLLYQKWEEIHVSQTIPGSSLSLLEERLSIIYTTK-EEPKRSNRCQNS
+               10        20        30        40         50         
+
+         60        70        80        90       100       110      
+hrmAp_ EYVAQHRRKIARKIYLEILEKDPNIFLPFILAVSPRACLSFDISSFLEQHQSQGRHFLRN
+       .:. :::.: :. ::: :.. ::.::.:::: :.::::: :.:: :  .: .::  :  :
+Aspell HYIQQHRQKKAQDIYLSIFDIDPHIFIPFILIVTPRACLLFNISEFQSKHTKQGTLFSCN
+      60        70        80        90       100       110         
+
+        120       130       140       150       160       170      
+hrmAp_ NAEAILWGLAKKHDIDGSLHFRKLMREIFQLSPPATEAEGKEHYSLHLSTLPAIRNAFGD
+       .:  :. ..:.:: .. .: .:...  :: :.   :...:..:: :.::.: :....:.:
+Aspell EALHIFLSIARKHGLERNLLYRRFLGTIFYLTLLLTDTDGNKHYLLRLSNLAAVHSTFSD
+     120       130       140       150       160       170         
+
+        180       190         200       210       220       230    
+hrmAp_ VIFDAIERSPTQVTARAK--GYFSEKTESVWTKVPYRSSQDAIISLEVGSAIELANVLFP
+       .::..:..::.:. :.::    . : :::::::: :.: .:..: .:: :          
+Aspell TIFNTIKHSPVQIQAKAKVKDSLLETTESVWTKVSYKSHKDSVICIEVDS----------
+     180       190       200       210       220                   
+
+          240       250       260       270       280       290    
+hrmAp_ IATQKIVSILSACSPTVRQKNFSEAILGPDPQDTPATSSEIDVAYFTLRGATVSAIESVF
+           .::::::::.  . ::  : . :  :     . ::::                   
+Aspell ----RIVSILSACALDISQKYSSGTSL--DSGRLGTISSEIGEEVHLEIFAMTNID*   
+         230       240       250         260       270       280   
+
+          300       310       320       330       340       350    
+hrmAp_ RADICEGIKDSELRNWEKEQLLIDTTDCVTMQIWRAQPQHGTIKLRIGFYAAVNLANRLY
+
+>>Aspacri1|Aspacri1_201352 fgenesh1_kg.92_#_48_#_TRINITY  (355 aa)
+ s-w opt: 671  Z-score: 861.9  bits: 168.0 E(15711829): 5.3e-39
+Smith-Waterman score: 671; 37.5% identity (66.2% similar) in 355 aa overlap (6-355:4-354)
+
+               10        20        30        40         50         
+hrmAp_ MASTKPASSLIYQAWNKLSINQTIPSDSLELLGERLAIAFAPK-LKEQRRNGRRRNLEYV
+            :.   . .  ..:.  ::::.:  . : .::::.: :   . .::. :: . :: 
+Aspacr   MVSPTCRRMSNIQQELNRRQTIPTDYHDTLEKRLAITFKPPPSRLERRKTRRDKKEYK
+                 10        20        30        40        50        
+
+      60        70        80        90       100       110         
+hrmAp_ AQHRRKIARKIYLEILEKDPNIFLPFILAVSPRACLSFDISSFLEQHQSQGRHFLRNNAE
+        ..  . :.:.:.::::  :.::.::::.::: ::  .:.  : .. .  :.  : ..:.
+Aspacr LKYNTRKAQKVYVEILEDYPHIFVPFILSVSPDACQRLDLEEFRKSLDITGKVDLGDDAQ
+       60        70        80        90       100       110        
+
+     120       130       140        150       160       170        
+hrmAp_ AILWGLAKKHDIDGSLHFRKLMREIFQ-LSPPATEAEGKEHYSLHLSTLPAIRNAFGDVI
+       ::: ..:::  .: :  ...: . .:. .: : : ::    .. . ..  :::: : . :
+Aspacr AILDSIAKKIGFDQSRLYQRLRKSLFSPVSKPLTSAETGTFWDCRAANWDAIRNIFDEHI
+      120       130       140       150       160       170        
+
+      180       190       200       210       220       230        
+hrmAp_ FDAIERSPTQVTARAKGYFSEKTESVWTKVPYRSSQDAIISLEVGSAIELANVLFPIATQ
+        .::: : ..   .::    . :: :: :.: .. :::::::::. : ::...::: . .
+Aspacr CSAIENS-SKWMQEAKCRALQVTECVWMKLPKQNYQDAIISLEVSVAEELVKALFPSTYE
+      180        190       200       210       220       230       
+
+      240       250        260       270         280       290     
+hrmAp_ KIVSILSACSPT-VRQKNFSEAILGPDPQDTPATSSEI--DVAYFTLRGATVSAIESVFR
+       .:....:  :   : ..:  ::.   . :  : .:     : .  ....: .:.:  .: 
+Aspacr EILALVSIPSTEDVTRHN--EAVALSQLQK-PMSSEPYHQDGTSRVFQAAHTSGIPLIFG
+       240       250         260        270       280       290    
+
+         300       310       320       330       340       350     
+hrmAp_ ADICEGIKDSELRNWEKEQLLIDTTDCVTMQIWRAQPQHGTIKLRIGFYAAVNLANRLYA
+         : :.:. :.::.:::.. ...:::::.....  :: .....::::: :.. .:  :::
+Aspacr PRIAEAIEKSQLREWEKHHSFLETTDCVSLKVYSQQPANAVFHLRIGFVAGTYIARTLYA
+          300       310       320       330       340       350    
+
+         360  
+hrmAp_ ETPQDHI
+              
+Aspacr *      
+              
+
+>>Amnli1|Amnli1_527144 fgenesh1_kg.104_#_24_#_Locus2628v  (340 aa)
+ s-w opt: 628  Z-score: 806.2  bits: 157.7 E(15711829): 6.7e-36
+Smith-Waterman score: 628; 35.8% identity (65.1% similar) in 344 aa overlap (22-357:20-336)
+
+               10        20        30        40        50        60
+hrmAp_ MASTKPASSLIYQAWNKLSINQTIPSDSLELLGERLAIAFAPKLKEQRRNGRRRNLEYVA
+                            .:.:..  ..: ::::::: : :..: :.   : .. : 
+Amnli1   MTSRSLSDMSNINKELLRRRTVPASHRKILEERLAIAFKP-LERQTRETTPRPIRDVR
+                 10        20        30        40         50       
+
+                70        80        90       100       110         
+hrmAp_ Q-HRRKIARKIYLEILEKDPNIFLPFILAVSPRACLSFDISSFLEQHQSQGRHFLRNNAE
+       . ..:: :.:.::.::..::. :: ::::.::.::  :..:::......:.:  :  ...
+Amnli1 RRYKRKKAQKVYLDILDEDPHAFLSFILAISPKACERFEVSSFFQSREKQSRIPLNISTR
+        60        70        80        90       100       110       
+
+     120       130       140         150          160       170    
+hrmAp_ AILWGLAKKHDIDGSLHFRKLMREIFQLSP--PA---TEAEGKEHYSLHLSTLPAIRNAF
+       ::: ..::.:... : :..  .  .:  ::  :    :  . . :.. : ..: .:: .:
+Amnli1 AILHNMAKEHEFSQSHHYQIWIDLLFPGSPSQPIELITTIRHNTHWKYHGASLEGIRIVF
+       120       130       140       150       160       170       
+
+          180       190       200       210       220       230    
+hrmAp_ GDVIFDAIERSPTQVTARAKGYFSEKTESVWTKVPYRSSQDAIISLEVGSAIELANVLFP
+       :. ... .: . ..   .      . :: :  .:: :. ::.:: ..:: : :.: .:::
+Amnli1 GNGLYEFLEGTLVRQGEKEVTPTLQTTECVRMNVPRRNFQDVIICIDVGPAREFARILFP
+       180       190       200       210       220       230       
+
+          240       250       260       270       280       290    
+hrmAp_ IATQKIVSILSACSPTVRQKNFSEAILGPDPQDTPATSSEIDVAYFTLRGATVSAIESVF
+        :..:.                   ..  : .:  :     :.. ::: ::...::: .:
+Amnli1 QASHKM-------------------LFPNDAEDGQAK----DTTSFTLNGASAQAIELIF
+       240                          250           260       270    
+
+          300       310         320       330       340       350  
+hrmAp_ RADICEGIKDSELRNWEKEQ--LLIDTTDCVTMQIWRAQPQHGTIKLRIGFYAAVNLANR
+          : ..:..:.::.::.:.  : ::.:::: :..     . ::. :: ::  ....:. 
+Amnli1 APRIRKAIENSNLRKWERERGDLRIDVTDCVMMEL---TDNDGTLYLRTGFIDSISIAKD
+          280       290       300          310       320       330 
+
+            360  
+hrmAp_ LYAETPQDHI
+       ::..:     
+Amnli1 LYSDTSLV* 
+             340 
+
+>>Penth1|Penth1_122329 e_gw1.518.17.1                     (279 aa)
+ s-w opt: 596  Z-score: 766.4  bits: 150.0 E(15711829): 1.1e-33
+Smith-Waterman score: 596; 43.8% identity (69.4% similar) in 258 aa overlap (9-266:5-256)
+
+               10        20        30        40        50        60
+hrmAp_ MASTKPASSLIYQAWNKLSINQTIPSDSLELLGERLAIAFAPKLKEQRRNGRRRNLEYVA
+               ..::.  ....  ::::  .. :. .::.:.   : ... :.:   : : . 
+Penth1     MSKFAFIYKKHKEIGAVQTIPEADISLFEKRLVIVC--KTQNHTRGGIP-NREKLI
+                   10        20        30          40         50   
+
+               70        80        90       100       110       120
+hrmAp_ QHRRKIARKIYLEILEKDPNIFLPFILAVSPRACLSFDISSFLEQHQSQGRHFLRNNAEA
+       : :...:...::.:::: :.::: :::.::::: ..::.:.: .::  :    : .:::.
+Penth1 QSRERMAQRLYLNILEKLPGIFLAFILTVSPRASIDFDLSAFSKQHTEQPI-VLCDNAES
+            60        70        80        90       100        110  
+
+              130       140       150       160       170       180
+hrmAp_ ILWGLAKKHDIDGSLHFRKLMREIFQLSPPATEAEGKEHYSLHLSTLPAIRNAFGDVIFD
+       ..:  : :: :. :  :.::   .: :  :::::::.:  :: ::.::. : ::::.: .
+Penth1 FFWQSAIKHCIEKSKAFEKLTSLLFTLPRPATEAEGEESCSLSLSSLPVTRLAFGDMICE
+            120       130       140       150       160       170  
+
+              190       200       210       220       230       240
+hrmAp_ AIERSPTQVTARAKGYFSEKTESVWTKVPYRSSQDAIISLEVGSAIELANVLFPIATQKI
+       :.  :::..   : : ..: :. : : : : . ::.:: ..:: :..::..::: :..::
+Penth1 AVGCSPTHLPMNADGDYAEITQCVRTTVFY-NHQDTIIHIDVGCAVKLADMLFPSASRKI
+            180       190       200        210       220       230 
+
+              250       260       270       280       290       300
+hrmAp_ VSILSACSPTVRQKNFSEAILGPDPQDTPATSSEIDVAYFTLRGATVSAIESVFRADICE
+        : ::  . . . .: . :.: :  :                                  
+Penth1 KSALSQSNVSGQARNPNAALL-PGTQSKSLIQDHGTKEWRSMTMQCIN*           
+             240       250        260       270                    
+
+>>Aspuva1|Aspuva1_349812 estExt_Genewise1Plus.C_1450006   (353 aa)
+ s-w opt: 592  Z-score: 758.8  bits: 148.9 E(15711829): 2.9e-33
+Smith-Waterman score: 592; 33.6% identity (63.9% similar) in 360 aa overlap (1-355:1-348)
+
+               10        20        30        40        50        60
+hrmAp_ MASTKPASSLIYQAWNKLSINQTIPSDSLELLGERLAIAFAPKLKEQRRNGRRRNLEYVA
+       : .: :    .:.  ..:  ...:::   ..: .::::::.:  .. :... :       
+Aspuva MENTLPR---VYKIQEELRATSSIPSFYDDVLKDRLAIAFTPIPRQPRQKSPRSRQAIHR
+                  10        20        30        40        50       
+
+               70        80        90       100       110       120
+hrmAp_ QHRRKIARKIYLEILEKDPNIFLPFILAVSPRACLSFDISSFLEQHQSQGRHFLRNNAEA
+       .  :: :.:.::. :. . .::. :::::: . :::.  . .  ..  .   : ..... 
+Aspuva RCNRKAAQKVYLNALDYNIHIFIAFILAVSVKKCLSIGTALYQIRKIEEPLPF-QQQTKI
+        60        70        80        90       100       110       
+
+              130       140           150        160       170     
+hrmAp_ ILWGLAKKHDIDGSLHFRKLMREIF----QLSPPATEAEGKEH-YSLHLSTLPAIRNAFG
+        : .:: .   . . ..: :.. .:    . . :.:.:   :  .  . . : : :. ::
+Aspuva KLEALAIEGTYQKNKQYRALIESLFPSNAEEAKPTTDAADDEACWVYNAACLAATRTLFG
+        120       130       140       150       160       170      
+
+         180       190       200       210       220       230     
+hrmAp_ DVIFDAIERSPTQVTARAKGYFSEKTESVWTKVPYRSSQDAIISLEVGSAIELANVLFPI
+       : : :..  .: ..  . :.   : :: : :. : :  :::::::.::.: ..: ..:: 
+Aspuva DEIGDGVAGAPLRMKEKRKSGTFELTEFVKTNFPKRVFQDAIISLQVGDARNIARTFFPS
+        180       190       200       210       220       230      
+
+         240       250       260       270       280       290     
+hrmAp_ ATQKIVSILSACSPTVRQKNFSEAILGPDPQDTPATSSEIDVAYFTLRGATVSAIESVFR
+       ... . : : :     .: . ..: ..    .: . .  :: ::::.:::...:: . : 
+Aspuva VSDDLFSTLFAE----EQGHDNQANMS----QTLSIKHGIDCAYFTFRGASTAAIATSFS
+        240           250           260       270       280        
+
+         300       310       320       330       340       350     
+hrmAp_ ADICEGIKDSELRNWEKEQLLIDTTDCVTMQIWRAQPQHGTIKLRIGFYAAVNLANRLYA
+       ... ..:..:.:: ::: .::.:::::. ... :  :. ::...::::  .....: :::
+Aspuva SSLFNAIEESQLRVWEKGHLLLDTTDCLLLEVSRQPPNLGTLRIRIGFKLGTDIVNALYA
+      290       300       310       320       330       340        
+
+         360  
+hrmAp_ ETPQDHI
+              
+Aspuva YSDD*  
+      350     
+
+>>Exosp1|Exosp1_9384 PV08_08997T0                         (347 aa)
+ s-w opt: 588  Z-score: 753.7  bits: 148.0 E(15711829): 5.6e-33
+Smith-Waterman score: 588; 31.5% identity (62.9% similar) in 356 aa overlap (17-354:15-343)
+
+               10        20        30        40        50        60
+hrmAp_ MASTKPASSLIYQAWNKLSINQTIPSDSLELLGERLAIAFAPKLKEQRRNGRRRNLEYVA
+                       ... . ::: .  : :..:: :.:  . .. :.  :. : ::  
+Exosp1   MAPTHLKKIKDLLREINTKGTIPFEHRETLNDRLRITFKSSENNPRQATRQSNAEYSR
+                 10        20        30        40        50        
+
+               70        80        90       100       110          
+hrmAp_ QHRRKIARKIYLEILEKDPNIFLPFILAVSPRACLSFDISSFLEQHQSQGRHF----LRN
+       . :.: :: .:::.:::: ..::::.. .::  : ..:.:..:.....  . .    : .
+Exosp1 RFREKHARPVYLEVLEKDVSLFLPFVIKISPTICSKLDLSTLLQEYMKLDQPLRELHLNH
+       60        70        80        90       100       110        
+
+        120       130       140        150       160               
+hrmAp_ NAEAILWGLAKKHDIDGSLHFRKLMREIF-QLSPPATEAEGKEHYSLHLSTL--------
+       .:. .: ..::.::.. . ...::   .: .::   ...:. :  :  ...:        
+Exosp1 SAKEFLSAIAKEHDFEQNEQYKKLSSSLFARLSSQHSDTESAESISRPIGALESVDRFSY
+      120       130       140       150       160       170        
+
+            170       180       190       200       210       220  
+hrmAp_ ----PA-IRNAFGDVIFDAIERSPTQVTARAKGYFSEKTESVWTKVPYRSSQDAIISLEV
+           :: . ...:  ... .:..:. .  ::   :.. :: : .        :....:..
+Exosp1 LGADPAAVLQVYGARVYEFVEQAPAWIQERA--VFARLTECVQAAFALDYLIDGVFNLQI
+      180       190       200         210       220       230      
+
+            230       240       250       260       270       280  
+hrmAp_ GSAIELANVLFPIATQKIVSILSACSPTVRQKNFSEAILGPDPQDTPATSSEIDVAYFTL
+       :.: ..: .:.:     : .            :.             :..:  : :::::
+Exosp1 GAADKIAAILYPNIKLDIST------------NY-------------ASDSVKDDAYFTL
+        240       250                                260       270 
+
+            290       300       310       320       330       340  
+hrmAp_ RGATVSAIESVFRADICEGIKDSELRNWEKEQLLIDTTDCVTMQIWRAQPQHGTIKLRIG
+        ::...::.: :  :.:..:. :.::.::: ..:...::::. .: :..:. :::..:.:
+Exosp1 IGASIKAIKSFFPKDLCDAIEASDLRDWEKTHFLLESTDCVVTHISRTKPHIGTISIRVG
+             280       290       300       310       320       330 
+
+            350       360  
+hrmAp_ FYAAVNLANRLYAETPQDHI
+       .  .: : :.::        
+Exosp1 YALGVLLLNKLYGVF*    
+             340           
+
+>>Aspfu_A1163_1|Aspfu_A1163_1_103689 CADAFUBT00004429m.0  (424 aa)
+ s-w opt: 580  Z-score: 741.3  bits: 146.0 E(15711829): 2.8e-32
+Smith-Waterman score: 580; 34.1% identity (65.9% similar) in 337 aa overlap (11-343:9-341)
+
+               10        20        30        40         50         
+hrmAp_ MASTKPASSLIYQAWNKLSINQTIPSDSLELLGERLAIAFA-PKLKEQRRNGRRRNLEYV
+                 :... ....  .:::.   : : .::.:.:. :.   .: . :: . :: 
+Aspfu_   MARSNYLRIFRVLEEINRRRTIPDIYHEALEDRLVITFTQPSGPLKRSKTRRPKKEYK
+                 10        20        30        40        50        
+
+      60        70        80        90       100        110        
+hrmAp_ AQHRRKIARKIYLEILEKDPNIFLPFILAVSPRACLSFDISSFLEQHQ-SQGRHFLRNNA
+        :..   :...:.::::  :..:.:::::. :..: .: .. : :.:. :  .  :: . 
+Aspfu_ LQYENTKAHRVYVEILEDYPQLFIPFILATPPKSCETFKLGEFREKHDLSAVKVDLRPDI
+       60        70        80        90       100       110        
+
+      120       130       140        150       160       170       
+hrmAp_ EAILWGLAKKHDIDGSLHFRKLMREIFQLS-PPATEAEGKEHYSLHLSTLPAIRNAFGDV
+       .  : ..:... .. . ..:.:.  .:  .  ::: :: .. .. . . : :... :.. 
+Aspfu_ RRTLDNIANRKGFNQNRRYRRLICTLFPSGRKPATTAETQNCWAYRAAYLNAVHTIFSEQ
+      120       130       140       150       160       170        
+
+       180       190       200       210       220       230       
+hrmAp_ IFDAIERSPTQVTARAKGYFSEKTESVWTKVPYRSSQDAIISLEVGSAIELANVLFPIAT
+       : .:.: :::  . . ..   . :  :  :.: .. ::::. ::..  :.  ..::: :.
+Aspfu_ ICSAMEVSPTAHSPECQA--PQTTSCVEMKLPKQNYQDAIVLLELSLPIDTIKILFPSAN
+      180       190         200       210       220       230      
+
+       240       250       260       270        280       290      
+hrmAp_ QKIVSILSACSPTVRQKNFSEAILGPDPQDTPATSSEIDVAY-FTLRGATVSAIESVFRA
+       ..:.  ::  :   :  . :  :  :  .:. . .: :. .  . ::::..::: :::  
+Aspfu_ ERIICSLSPQSG--RGPEPSTQIAEPGRHDSQSEQSTISQSEGYILRGASISAILSVFGP
+        240         250       260       270       280       290    
+
+        300       310       320       330       340       350      
+hrmAp_ DICEGIKDSELRNWEKEQLLIDTTDCVTMQIWRAQPQHGTIKLRIGFYAAVNLANRLYAE
+        :  .:. :.::.:::..:  .:::::...:   .:. .: ..::::             
+Aspfu_ RIWGAIEKSQLRKWEKDNLSEETTDCVSIEIHPRRPHCSTCRVRIGFIDDSHFRRKTVHL
+          300       310       320       330       340       350    
+
+        360                                                        
+hrmAp_ TPQDHI                                                      
+                                                                   
+Aspfu_ SLSLSAPNPLALLILEFNIFAVETVEPSFVVFRKYIIHWMFVAVIEEARRNSKGFPKGAL
+          360       370       380       390       400       410    
+
+>>Aspfu_A1163_1|Aspfu_A1163_1_108716 CADAFUBT00009562m.0  (343 aa)
+ s-w opt: 567  Z-score: 726.4  bits: 142.9 E(15711829): 1.9e-31
+Smith-Waterman score: 567; 34.1% identity (62.8% similar) in 358 aa overlap (4-355:3-339)
+
+               10        20        30        40        50        60
+hrmAp_ MASTKPASSLIYQAWNKLSINQTIPSDSLELLGERLAIAFAPKLKEQRRNGRRRNLEYVA
+          ::  .: : .  ..:.  :.. .:    : ::::..  :  . :: .  ::. :: .
+Aspfu_  MRTKTLQS-IQDMVEQLNRRQSMLGDYESTLEERLALVCNPPKRLQRMKIPRRKSEYSS
+                 10        20        30        40        50        
+
+               70        80        90       100       110       120
+hrmAp_ QHRRKIARKIYLEILEKDPNIFLPFILAVSPRACLSFDISSFLEQHQSQGRHFLRNNAEA
+       . : : :::::::.::. : ::.::::.: : :: ..  :      . : ::.  .. :.
+Aspfu_ HDRLKRARKIYLEVLENFPLIFVPFILVVPPNACRTWKAS------EVQ-RHL--KDCEG
+       60        70        80        90             100            
+
+              130             140       150       160       170    
+hrmAp_ ILWGLAKKHDIDG---SLHF---RKLMREIFQLSPPATEAEGKEHYSLHLSTLPAIRNAF
+       :  .   . ..::   .:.:     :  .. . : :.: .:. . .. . . . .  . :
+Aspfu_ IHLSYETRANFDGYCRTLRFGLESALTLNLVSCSRPTTITEADDAWAYNAADMDTAVKFF
+     110       120       130       140       150       160         
+
+          180       190       200       210       220       230    
+hrmAp_ GDVIFDAIERSPTQVTARAKGYFSEKTESVWTKVPYRSSQDAIISLEVGSAIELANVLFP
+       ...:. ::: :: ..  . .. : ..:. .  . : ...::::. :.::   :....:::
+Aspfu_ SEAIYKAIESSPKRLREK-ENQFVKSTQCIQMRFPRHNQQDAIVRLDVGFDSEVVKALFP
+     170       180        190       200       210       220        
+
+          240       250       260       270       280       290    
+hrmAp_ IATQKIVSILSACSPTVRQKNFSEAILGPDPQDTPATSSEIDVAYFTLRGATVSAIESVF
+        : ... :. .  : . .. : .   : :   :.         : :::.::::: : .:.
+Aspfu_ TAWERLSSVHGFRSSS-QSTNRNIEQLEPHLYDN---------ACFTLQGATVSEIPTVL
+      230       240        250       260                270        
+
+          300       310       320       330       340       350    
+hrmAp_ RADICEGIKDSELRNWEKEQLLIDTTDCVTMQIWRAQPQHGTIKLRIGFYAAVNLANRLY
+          . ..::.:.::.:: ...:. :::::...: : :: .::. ::.::  .: .:..::
+Aspfu_ GPHVYRAIKESQLRQWETDNFLLKTTDCVSLDISRRQPYEGTLCLRVGFSLGVFMATQLY
+      280       290       300       310       320       330        
+
+          360  
+hrmAp_ AETPQDHI
+       .       
+Aspfu_ SFDR*   
+      340      
+
+>>Pendi1|Pendi1_5644 PDIG_60520m.01                       (284 aa)
+ s-w opt: 559  Z-score: 717.8  bits: 141.1 E(15711829): 5.6e-31
+Smith-Waterman score: 559; 40.4% identity (69.2% similar) in 240 aa overlap (9-245:2-241)
+
+               10        20        30        40         50         
+hrmAp_ MASTKPASSLIYQAWNKLSINQTIPSDSLELLGERLAIAFAPKL-KEQRRNGRRRNLEYV
+               : ::.. . :    ::: .. : ..:::.:.   .  ...::.: :   .  
+Pendi1        MSSIYRTRDDLRDCGTIPVENYETIAERLVITCKRHTDHRRRRKGGRAPQDLR
+                      10        20        30        40        50   
+
+      60        70        80        90       100       110         
+hrmAp_ AQHRRKIARKIYLEILEKDPNIFLPFILAVSPRACLSFDISSFLEQHQSQGRHFLRNNAE
+       ...... :.: : ..:: ::.::.:::. .::: : :::.:.: : :  . .  . ....
+Pendi1 TKYQESKAQKSYSKVLEDDPHIFIPFIIDISPRICESFDVSKFCETHIERQEIGFDEKTK
+            60        70        80        90       100       110   
+
+     120       130       140         150       160       170       
+hrmAp_ AILWGLAKKHDIDGSLHFRKLMREIFQL-SP-PATEAEGKEHYSLHLSTLPAIRNAFGDV
+       ..:   :... :: :: :.:::: .: : .: : : :: ..::. .:. : .::: ::: 
+Pendi1 SFLEETARRKGIDESLPFKKLMRFLFPLRTPRPITGAETQDHYAYYLAELTSIRNFFGDR
+           120       130       140       150       160       170   
+
+       180       190       200       210       220       230       
+hrmAp_ IFDAIERSPTQVTARAKGYFSEKTESVWTKVPYRSSQDAIISLEVGSAIELANVLFPIAT
+       :..:.. : :..     .     :::::::.:  ...:::. :.::.:.:::. ::: :.
+Pendi1 IYEAVKTSATRIKENDLNPERTTTESVWTKIPRADNEDAIVHLDVGGAFELASDLFPQAS
+           180       190       200       210       220       230   
+
+       240       250       260       270       280       290       
+hrmAp_ QKIVSILSACSPTVRQKNFSEAILGPDPQDTPATSSEIDVAYFTLRGATVSAIESVFRAD
+       : . : ::                                                    
+Pendi1 QMVSSALSTHRFAPGSSALQADADLSEIPGALNEYGEYMYASPALGTIIC*         
+           240       250       260       270       280             
+
+>>Pendig1|Pendig1_6277 PDIP_69930                         (284 aa)
+ s-w opt: 559  Z-score: 717.8  bits: 141.1 E(15711829): 5.6e-31
+Smith-Waterman score: 559; 40.4% identity (69.2% similar) in 240 aa overlap (9-245:2-241)
+
+               10        20        30        40         50         
+hrmAp_ MASTKPASSLIYQAWNKLSINQTIPSDSLELLGERLAIAFAPKL-KEQRRNGRRRNLEYV
+               : ::.. . :    ::: .. : ..:::.:.   .  ...::.: :   .  
+Pendig        MSSIYRTRDDLRDCGTIPVENYETIAERLVITCKRHTDHRRRRKGGRAPQDLR
+                      10        20        30        40        50   
+
+      60        70        80        90       100       110         
+hrmAp_ AQHRRKIARKIYLEILEKDPNIFLPFILAVSPRACLSFDISSFLEQHQSQGRHFLRNNAE
+       ...... :.: : ..:: ::.::.:::. .::: : :::.:.: : :  . .  . ....
+Pendig TKYQESKAQKSYSKVLEDDPHIFIPFIIDISPRICESFDVSKFCETHIERQEIGFDEKTK
+            60        70        80        90       100       110   
+
+     120       130       140         150       160       170       
+hrmAp_ AILWGLAKKHDIDGSLHFRKLMREIFQL-SP-PATEAEGKEHYSLHLSTLPAIRNAFGDV
+       ..:   :... :: :: :.:::: .: : .: : : :: ..::. .:. : .::: ::: 
+Pendig SFLEETARRKGIDESLPFKKLMRFLFPLRTPRPITGAETQDHYAYYLAELTSIRNFFGDR
+           120       130       140       150       160       170   
+
+       180       190       200       210       220       230       
+hrmAp_ IFDAIERSPTQVTARAKGYFSEKTESVWTKVPYRSSQDAIISLEVGSAIELANVLFPIAT
+       :..:.. : :..     .     :::::::.:  ...:::. :.::.:.:::. ::: :.
+Pendig IYEAVKTSATRIKENDLNPERTTTESVWTKIPRADNEDAIVHLDVGGAFELASDLFPQAS
+           180       190       200       210       220       230   
+
+       240       250       260       270       280       290       
+hrmAp_ QKIVSILSACSPTVRQKNFSEAILGPDPQDTPATSSEIDVAYFTLRGATVSAIESVFRAD
+       : . : ::                                                    
+Pendig QMVSSALSTHRFAPGSSALQADADLSEIPGALNEYGEYMYASPALGTIIC*         
+           240       250       260       270       280             
+
+>>Aspgl1|Aspgl1_174118 estExt_Genewise1Plus.C_13_t20217   (331 aa)
+ s-w opt: 552  Z-score: 707.2  bits: 139.3 E(15711829): 2.2e-30
+Smith-Waterman score: 552; 33.7% identity (58.7% similar) in 356 aa overlap (8-355:3-330)
+
+               10          20        30        40        50        
+hrmAp_ MASTKPASSLIY--QAWNKLSINQTIPSDSLELLGERLAIAFAPKLKEQRRNGRRRNLEY
+              :.: :  ...: :  .::::.   . : ::: :    .   :.    :   :.
+Aspgl1      MRSTLEYFIRTYNDLIHSQTIPDFYRKDLRERLQILCWKRQAPQKVRTSRS--EH
+                    10        20        30        40        50     
+
+       60        70        80        90       100       110        
+hrmAp_ VAQHRRKIARKIYLEILEKDPNIFLPFILAVSPRACLSFDISSFLEQHQSQGRHFLRNNA
+         .:::  ::  :...::: : .::::.:::: ::: .. . ...: : .: :  : :. 
+Aspgl1 DRNHRRLHARDAYMRVLEKHPAMFLPFFLAVSNRACEGIKLEKYIEIHATQPRIQLNNTM
+            60        70        80        90       100       110   
+
+      120       130       140       150       160       170        
+hrmAp_ EAILWGLAKKHDIDGSLHFRKLMREIFQLSPPATEAEGKEHYSLHLSTLPAIRNAFGDVI
+       ..:.     .  . . ....:: .       :::    .. ..:  :.: ::.:.::. .
+Aspgl1 QSIIEQEIGNARVCNEINIQKLRK-------PATT---NNPWTLATSNLDAIKNVFGEWV
+           120       130              140          150       160   
+
+      180       190           200       210       220       230    
+hrmAp_ FDAIERSPTQVTARAK----GYFSEKTESVWTKVPYRSSQDAIISLEVGSAIELANVLFP
+        .::: : :.:  ::.    :.   .:..: .. :  :. :: . :..:   .:   :::
+Aspgl1 CSAIENSTTRVIERAQLTFSGFSEPRTRTVRSEFPEASAGDAAVYLDIGFNSKLILSLFP
+           170       180       190       200       210       220   
+
+          240       250       260       270         280       290  
+hrmAp_ IATQKIVSILSACSPTVRQKNFSEAILGPDPQDTPATSSEI--DVAYFTLRGATVSAIES
+        : ... ..  :                :.  : :  .. :  :   .::::: :::. :
+Aspgl1 RAQEEVFGLWYA----------------PQGTDIPPYANYILVDNDCLTLRGACVSAVCS
+           230                       240       250       260       
+
+            300       310       320       330       340       350  
+hrmAp_ VFRADICEGIKDSELRNWEKEQLLIDTTDCVTMQIWRAQPQHGTIKLRIGFYAAVNLANR
+       .: .. :: :. :.::.:: .. .   :::::  : :. :... :.::..:... :.:  
+Aspgl1 IFGSQTCETIQGSQLRQWELHNSMNKMTDCVTAYISRSPPHNSMIRLRVSFMGGFNIARL
+       270       280       290       300       310       320       
+
+            360  
+hrmAp_ LYAETPQDHI
+       :.:       
+Aspgl1 LHA*      
+       330       
+
+>>Claps1|Claps1_10563 A1O5_03922T0                        (339 aa)
+ s-w opt: 551  Z-score: 705.6  bits: 139.1 E(15711829): 2.7e-30
+Smith-Waterman score: 551; 33.7% identity (63.3% similar) in 341 aa overlap (21-353:25-336)
+
+                   10        20        30        40        50      
+hrmAp_     MASTKPASSLIYQAWNKLSINQTIPSDSLELLGERLAIAFAPKLKEQRRNGRRRN-
+                               .. ::    : : : :.:.:.   . .:: : :.: 
+Claps1 MNPMEKRLAKTTSKINAIRAELIRHKRIPLIYEENLEEGLSITFSFPKRLKRRAGVRQND
+               10        20        30        40        50        60
+
+          60        70        80        90       100       110     
+hrmAp_ LEYVAQHRRKIARKIYLEILEKDPNIFLPFILAVSPRACLSFDISSFLEQHQSQGRHF--
+        .:  .  .: :  .::.::.. :.:.. :::::::. :  .::. ...:..::. .   
+Claps1 RDYKLRSNQKRANLVYLRILDEIPQIYISFILAVSPQDCAPLDITLLVQQYSSQNLQPEA
+               70        80        90       100       110       120
+
+             120       130       140          150       160        
+hrmAp_ --LRNNAEAILWGLAKKHDIDGSLHFRKLMREIFQ--LSP-PATEAEGKEHYSLHLSTLP
+         .  ..: :.  .. ::. : . :..::.  ..   ..: : . ::. ... :.  .  
+Claps1 IQFDAGTERIIKEISTKHNCDRNPHYQKLLNILYPQVVTPKPISAAESGNKFLLEGLNPV
+              130       140       150       160       170       180
+
+      170       180       190       200       210       220        
+hrmAp_ AIRNAFGDVIFDAIERSPTQVTARAKGYFSEKTESVWTKVPYRSSQDAIISLEVGSAIEL
+       ::.. ::: . .:....: ..  .:    .:::. .: .    . .:.:. ::.:.: ..
+Claps1 AIHDHFGDRVHEAFNKGPGRLQEKA----TEKTRCAWIEFAQNGVDDSIFYLEIGNAEQF
+              190       200           210       220       230      
+
+      230       240       250       260       270       280        
+hrmAp_ ANVLFPIATQKIVSILSACSPTVRQKNFSEAILGPDPQDTPATSSEIDVAYFTLRGATVS
+       : .::  : . .        :    :. .      : :  :.     : :::...::.::
+Claps1 AYILFANAIRFL--------P----KEHT------DGQ--PG-----DNAYFSFKGASVS
+        240                   250                    260       270 
+
+      290       300       310       320       330       340        
+hrmAp_ AIESVFRADICEGIKDSELRNWEKEQLLIDTTDCVTMQIWRAQPQHGTIKLRIGFYAAVN
+       .: :.:  .::  :  :.:: ::::. :.::::::::.. ::.:. :.::.: . .:: .
+Claps1 GIASLFSPEICAMIDASNLRAWEKEHCLLDTTDCVTMEMSRAKPHWGVIKVRTAVFAAYS
+             280       290       300       310       320       330 
+
+      350       360  
+hrmAp_ LANRLYAETPQDHI
+       ... :         
+Claps1 VSHMLCE*      
+                     
+
+>>Zoprh1|Zoprh1_665631 estExt_Genewise1Plus.C_25_t10454   (251 aa)
+ s-w opt: 543  Z-score: 698.2  bits: 137.2 E(15711829): 6.9e-30
+Smith-Waterman score: 543; 38.6% identity (68.5% similar) in 241 aa overlap (8-240:6-246)
+
+               10        20        30        40        50        60
+hrmAp_ MASTKPASSLIYQAWNKLSINQTIPSDSLELLGERLAIAFAPKLKEQRRNGRRRNLEYVA
+              :: .:.. . :.  ::::..    : ::::::  :  .. :..  :   .  .
+Zoprh1   MPSRHSSRVYEVLKDLNRRQTIPANHRTTLEERLAIACKPLTRQPREKVPRARRDVRS
+                 10        20        30        40        50        
+
+               70        80        90       100       110       120
+hrmAp_ QHRRKIARKIYLEILEKDPNIFLPFILAVSPRACLSFDISSFLEQHQSQGRHFLRNNAEA
+        :.:: :...:: .:.. :..:::::::.::.::  :: :.: ..:..:.:  : ..:..
+Zoprh1 YHKRKKAQSVYLGVLDEAPHVFLPFILAISPKACECFDSSDFCQDHKKQNRIPLSSEAKS
+       60        70        80        90       100       110        
+
+              130       140          150         160       170     
+hrmAp_ ILWGLAKKHDIDGSLHFRKLMREIF---QLSPPA--TEAEGKEHYSLHLSTLPAIRNAFG
+       ::  .:.::.:. : :...:.. .:   .:.::   : . .  :.  : . : .:: .::
+Zoprh1 ILEEIAEKHEISQSPHYKRLIELLFPKVSLQPPKPITTTGSDTHWEYHAAYLKGIRCVFG
+      120       130       140       150       160       170        
+
+         180       190       200       210       220       230     
+hrmAp_ DVIFDAIERSPTQVTARAKGYFSEKTESVWTKVPYRSSQDAIISLEVGSAIELANVLFP-
+       : :.:.:: .: ..  .:     . :. . :.:: .. ::::: :..: : :.. .::: 
+Zoprh1 DGIYDTIESAPIRMHEKAITQTLQTTDCARTSVPRQNFQDAIIRLDIGHAREFTRILFPE
+      180       190       200       210       220       230        
+
+            240       250       260       270       280       290  
+hrmAp_ --IATQKIVSILSACSPTVRQKNFSEAILGPDPQDTPATSSEIDVAYFTLRGATVSAIES
+         ..:.::                                                    
+Zoprh1 HQVSTSKINTGK*                                               
+      240       250                                                
+
+>>Aspscle1|Aspscle1_403434 fgenesh1_pm.3_#_152            (339 aa)
+ s-w opt: 540  Z-score: 691.3  bits: 136.4 E(15711829): 1.7e-29
+Smith-Waterman score: 540; 31.3% identity (61.9% similar) in 339 aa overlap (18-354:14-338)
+
+               10        20        30        40        50        60
+hrmAp_ MASTKPASSLIYQAWNKLSINQTIPSDSLELLGERLAIAFAPKLKEQRRNGRRRNLEYVA
+                        :.  :.::::   .. ::. .  .   .  :.   : . :: :
+Aspscl     MKTLQRICHVIEVLNQRQSIPSDYEPIFEERIILICSTPKRLPRKATPRPKTEYKA
+                   10        20        30        40        50      
+
+               70        80        90       100       110       120
+hrmAp_ QHRRKIARKIYLEILEKDPNIFLPFILAVSPRACLSFDISSFLEQHQSQGRHFLRNNAEA
+       . : : ::: :::.::. :..:.::::.::: .: ..  . . .  :.    .: ..   
+Aspscl HDRLKTARKTYLEVLERFPSVFVPFILVVSPTSCQTWKADEMWRGLQGCKATLLSDKIYK
+         60        70        80        90       100       110      
+
+              130       140         150       160       170        
+hrmAp_ ILWGLAKKHDIDGSLHFRKLMREIF-QLS-PPATEAEGKEHYSLHLSTLPAIRNAFGDVI
+        .  ::  . :. .  ...: . .: :.   : :  :  : .. . . .  ::. ... :
+Aspscl YMECLAVDKGISQTAVYKRLKQLLFPQVHLKPRTIRETDECWAYNAADVDKIRKFLNEGI
+        120       130       140       150       160       170      
+
+      180       190       200       210       220       230        
+hrmAp_ FDAIERSPTQVTARAKGYFSEKTESVWTKVPYRSSQDAIISLEVGSAIELANVLFPIATQ
+       . :...:: ..  . .. . . :. :  . :. ..::: ..:...   :.. .::: : .
+Aspscl YRAFDKSPKRLREKEENLW-QTTHCVQMRFPWNNQQDATMQLDIAFDCEIVRALFPSAWD
+        180       190        200       210       220       230     
+
+      240       250       260       270       280       290        
+hrmAp_ KIVSILSACSPTVRQKNFSEAILGPDPQDTPATSSEIDVAYFTLRGATVSAIESVFRADI
+       :..:.    .:   :   ..::  :.       : . : : ::.:::::: . ... . :
+Aspscl KFISVH---GPISLQ---DHAIAYPN-------SHQYDNACFTFRGATVSQVSTILGSHI
+         240             250              260       270       280  
+
+      300       310       320       330       340       350        
+hrmAp_ CEGIKDSELRNWEKEQLLIDTTDCVTMQIWRAQPQHGTIKLRIGFYAAVNLANRLYAETP
+        ... .:.::.:: ...:. ::::.:..: :. :.  :: ::.:   .: .:.:::    
+Aspscl YQAMDESQLRKWEIDNFLLTTTDCITLHINRSWPHGCTICLRVGSSHGVFMATRLY*   
+            290       300       310       320       330            
+
+      360  
+hrmAp_ QDHI
+
+>>Aspnovo1|Aspnovo1_211291 gm1.13772_g                    (113 aa)
+ s-w opt: 526  Z-score: 683.9  bits: 133.4 E(15711829): 4.3e-29
+Smith-Waterman score: 526; 73.6% identity (82.7% similar) in 110 aa overlap (253-362:3-112)
+
+            230       240       250       260       270       280  
+hrmAp_ GSAIELANVLFPIATQKIVSILSACSPTVRQKNFSEAILGPDPQDTPATSSEIDVAYFTL
+                                     : : :    :     . :.: ::: :::::
+Aspnov                             MPQTNSSGIASGSGTGGSLAASPEIDFAYFTL
+                                           10        20        30  
+
+            290       300       310       320       330       340  
+hrmAp_ RGATVSAIESVFRADICEGIKDSELRNWEKEQLLIDTTDCVTMQIWRAQPQHGTIKLRIG
+       :::.:::: ::: .:::::::::::::::.::::.:::::::::::::::.:: :.::::
+Aspnov RGASVSAIASVFGSDICEGIKDSELRNWEREQLLVDTTDCVTMQIWRAQPHHGIIRLRIG
+             40        50        60        70        80        90  
+
+            350       360   
+hrmAp_ FYAAVNLANRLYAETPQDHI 
+       :::.::::::::::. :: : 
+Aspnov FYAGVNLANRLYAESSQDSI*
+            100       110   
+
+>>PenbrAgRF18_1|PenbrAgRF18_1_328858 fgenesh1_kg.14_#_27  (281 aa)
+ s-w opt: 532  Z-score: 682.7  bits: 134.5 E(15711829): 5.1e-29
+Smith-Waterman score: 532; 37.1% identity (66.2% similar) in 275 aa overlap (7-267:6-279)
+
+               10        20        30        40         50         
+hrmAp_ MASTKPASSLIYQAWNKLSINQTIPSDSLELLGERLAIAFAPKLKE-QRRNGRRRNLEYV
+             : : .:.  .::  ..::: : :  : . :...:. .:..    .::.    : 
+PenbrA  MPQSAAISRVYKMRDKLMTEHTIPPDVLTNLDRGLGLSFGQSLHQIPAGQGRKTPQVYR
+                10        20        30        40        50         
+
+      60        70        80        90       100       110         
+hrmAp_ AQHRRKIARKIYLEILEKDPNIFLPFILAVSPRACLSFDISSFLEQHQSQGRHFLRNNAE
+       .. : : :...:  : .:: .::::::::. :.:: .::...: ..:... .  : .. .
+PenbrA SRWRLKNAQSVYWSIRQKDIHIFLPFILAIPPKACETFDVTKFDQHHSNRYKVSLSEGCK
+      60        70        80        90       100       110         
+
+     120       130       140           150       160       170     
+hrmAp_ AILWGLAKKHDIDGSLHFRKLMREIFQLSP----PATEAEGKEHYSLHLSTLPAIRNAFG
+        .: . :::  :. . .:..:.  .:. .:    : :.:. . : .:.:. . ..::.::
+PenbrA QLLENQAKKLGIEQNSQFKELIACLFNPDPQRPQPITDAD-ETHCDLYLARVDSLRNVFG
+     120       130       140       150        160       170        
+
+         180       190       200       210       220       230     
+hrmAp_ DVIFDAIERSPTQVTARAKGYFSEKTESVWTKVPYRSSQDAIISLEVGSAIELANVLFPI
+       : :  :.  : ::.   :.:.  : :.:::.:.:..: ::::..:.:::: ::: .::: 
+PenbrA DYIQRAVANSLTQMHETANGHPPETTQSVWAKLPHQSMQDAILNLNVGSARELARLLFPH
+      180       190       200       210       220       230        
+
+         240              250       260         270       280      
+hrmAp_ ATQKIVSIL-------SACSPTVRQKNFSEAILGPD--PQDTPATSSEIDVAYFTLRGAT
+        .::. :.:       :. . .: : .   . :: :  :.:                   
+PenbrA MSQKVHSVLWPEAASSSGAAKSVIQPGGHSSSLGLDKFPDDG*                 
+      240       250       260       270       280                  
+
+        290       300       310       320       330       340      
+hrmAp_ VSAIESVFRADICEGIKDSELRNWEKEQLLIDTTDCVTMQIWRAQPQHGTIKLRIGFYAA
+
+>>Hisca1|Hisca1_8541 HCAG_11214T0                         (356 aa)
+ s-w opt: 526  Z-score: 672.5  bits: 133.0 E(15711829): 1.9e-28
+Smith-Waterman score: 526; 33.8% identity (59.9% similar) in 337 aa overlap (11-346:9-304)
+
+               10        20        30        40        50        60
+hrmAp_ MASTKPASSLIYQAWNKLSINQTIPSDSLELLGERLAIAFAPKLKEQRRNGRRRNLEYVA
+                 ...  ....  .:::.   :.: ::: :.: :   ..: .  : . :: .
+Hisca1   MVFSRSLRVFDILQEINRRRTIPAFYREILEERLIITFKPLGVQKRGKTPRSKEEYRV
+                 10        20        30        40        50        
+
+               70        80        90       100       110       120
+hrmAp_ QHRRKIARKIYLEILEKDPNIFLPFILAVSPRACLSFDISSFLEQHQSQGRHFLRNNAEA
+       ....: :.:.::::::  :.::.:::::..:..:  :... : ..:              
+Hisca1 KYKEKKAQKVYLEILEDYPHIFIPFILAITPKGCERFNVTEFRQNH--------------
+       60        70        80        90       100                  
+
+              130       140       150       160       170       180
+hrmAp_ ILWGLAKKHDIDGSLHFRKLMREIFQLSPPATEAEGKEHYSLHLSTLPAIRNAFGDVIFD
+          ::..:  :: . : :  ..  .. . : : .:   ... . .   ::.: :.. :  
+Hisca1 ---GLTEK--IDLGDHVRATLEISYRTQKPITSTETGSYWAYQAADSSAIHNIFSEHICC
+               110       120       130       140       150         
+
+              190       200       210       220       230       240
+hrmAp_ AIERSPTQVTARAKGYFSEKTESVWTKVPYRSSQDAIISLEVGSAIELANVLFPIATQKI
+       .::.:  . : ...    . :: :  :.: .. ::::::.::  . .: ..::: : ..:
+Hisca1 SIEKSARR-TLEVNCQTLRTTECVGMKLPKQNYQDAIISVEVCLTEDLIKTLFPSACERI
+     160        170       180       190       200       210        
+
+               250       260       270       280       290         
+hrmAp_ VSILSA-CSPTVRQKNFSEAILGPDPQDTPATSSEIDVAYFTLRGATVSAIESVFRADIC
+       .:. :   :    :::        . ::           .:  . :.::::  .:   : 
+Hisca1 LSLASLYSSEECVQKN--------NNQD-----------FF--QEASVSAISPIFGPRIG
+      220       230                          240         250       
+
+     300       310       320       330       340       350         
+hrmAp_ EGIKDSELRNWEKEQLLIDTTDCVTMQIWRAQPQHGTIKLRIGFYAAVNLANRLYAETPQ
+       ..:. :.::.::: .   ::::::....   ::..: ..::::: ::             
+Hisca1 NAIEKSQLREWEKADSSHDTTDCVSIEVQPQQPHNGIFRLRIGFIAARGKLRVGQKWSPT
+       260       270       280       290       300       310       
+
+     360                                      
+hrmAp_ DHI                                    
+                                              
+Hisca1 RIQDQVMWLLSTILSPTTASYDKILFNYLNHSGTAHFH*
+       320       330       340       350      
+
+>>Aspuva1|Aspuva1_388367 estExt_fgenesh1_pm.C_1300005     (338 aa)
+ s-w opt: 523  Z-score: 669.1  bits: 132.3 E(15711829): 2.9e-28
+Smith-Waterman score: 523; 28.1% identity (62.6% similar) in 345 aa overlap (11-355:7-334)
+
+               10        20        30        40        50        60
+hrmAp_ MASTKPASSLIYQAWNKLSINQTIPSDSLELLGERLAIAFAPKLKEQRRNGRRRNLEYVA
+                 :.. ...::  ...:.: . :. :::..   :  . .: .  : . ::  
+Aspuva     MNMIERIHEMFEQLSRVKSVPNDYVSLVEERLTLICRPPDRLKRMERARPKKEYNL
+                   10        20        30        40        50      
+
+               70        80        90       100       110       120
+hrmAp_ QHRRKIARKIYLEILEKDPNIFLPFILAVSPRACLSFDISSFLEQHQSQGRHFLRNNAEA
+       . : : ::.::::.::  :.::::::.:::: .: :.  :.  .. ::     : ..  .
+Aspuva HDRLKRARRIYLEVLEVFPGIFLPFIMAVSPNSCRSWKTSDVRKNLQSCKSAALSGERVG
+         60        70        80        90       100       110      
+
+              130       140       150       160       170       180
+hrmAp_ ILWGLAKKHDIDGSLHFRKLMREIFQLSPPATEAEGKEHYSLHLSTLPAIRNAFGDVIFD
+       .    . :. .:       :.     :  : :..:.   .    . .   :. ..  ...
+Aspuva VYQTTTFKNILD-------LLSTSVPLPKPKTNTESDGAWFYSTADVTRARHFLSKDLYE
+        120              130       140       150       160         
+
+              190       200       210       220       230       240
+hrmAp_ AIERSPTQVTARAKGYFSEKTESVWTKVPYRSSQDAIISLEVGSAIELANVLFPIATQKI
+       :.: :: ..  . .  .. .:. .  . :  . ::: ..:..:    ....::: : ...
+Aspuva AFENSPRRTREKENQLLT-STQCIRMSFPRYDHQDATVQLDIGFHDSIVKALFPTAWERF
+     170       180        190       200       210       220        
+
+              250       260       270       280       290       300
+hrmAp_ VSILSACSPTVRQKNFSEAILGPDPQDTPATSSEIDVAYFTLRGATVSAIESVFRADICE
+       ... ..   .:.......          :. .   : : ::.:::..:.:  .: ... .
+Aspuva LTVHGTEMTNVESSQLARE---------PSIAEIYDNACFTFRGASMSSIPIIFGSSLSQ
+      230       240                250       260       270         
+
+              310       320       330       340       350       360
+hrmAp_ GIKDSELRNWEKEQLLIDTTDCVTMQIWRAQPQHGTIKLRIGFYAAVNLANRLYAETPQD
+       ::..:.:: :: ..... ::::..... :..: ..:. ::.:.  .. .:..:::     
+Aspuva GIEESQLRAWEIKNFVLRTTDCISLDLTRSRPCEATVTLRVGWSHGIFMATKLYAFDG* 
+     280       290       300       310       320       330         
+
+         
+hrmAp_ HI
+
+>>Photr1|Photr1_473398 fgenesh1_kg.87_#_6_#_Locus1273v1r  (311 aa)
+ s-w opt: 520  Z-score: 666.0  bits: 131.6 E(15711829): 4.3e-28
+Smith-Waterman score: 520; 31.9% identity (60.5% similar) in 354 aa overlap (3-354:2-309)
+
+               10        20        30        40        50          
+hrmAp_ MASTKPASSLIYQAWNKLSINQTIPSDSLELLGERLAIAFAPKLKEQRRN-GRRRNLEYV
+         ..:  :. : .: . :. ....:    ..: :::.:::.:.  :.::  :.  . . .
+Photr1  MAAKRRSNKINKALKDLKRHNAVPPHVQNVLEERLVIAFTPRSYEKRRRRGKTLSTKDI
+                10        20        30        40        50         
+
+       60        70        80        90       100       110        
+hrmAp_ -AQHRRKIARKIYLEILEKDPNIFLPFILAVSPRACLSFDISSFLEQHQSQGRHFLRNNA
+        ..:..  :::.:..::.. :. ::::.:..:::.: .::   : .. .   .. : ...
+Photr1 RTRHQQWKARKVYMDILKSAPHAFLPFLLVTSPRTCEDFDSYEFCQSLEVTQENKLPDSV
+      60        70        80        90       100       110         
+
+      120       130       140       150       160       170        
+hrmAp_ EAILWGLAKKHDIDGSLHFRKLMREIFQLSPPATEAEGKEHYSLHLSTLPAIRNAFGDVI
+       . .:  .. ::.:  . ... :.. .:  . :.::.:. . :.. :..: .:   .::..
+Photr1 RNFLQDVSDKHEIMHTPEYKDLIELLFP-QGPTTETESDKTYQFLLASLSGISRWLGDLM
+     120       130       140        150       160       170        
+
+      180       190       200       210       220       230        
+hrmAp_ FDAIERSPTQVTARAKGYFSEKTESVWTKVPYRSSQDAIISLEVGSAIELANVLFPIATQ
+          .:::  .    ::. . . :  : : .:  : ::.:.:..:::. ::: .:::    
+Photr1 TTKVERSLLRSQEIAKSQM-HITGCVRTMLPRDSFQDVIVSIDVGSGDELARLLFP----
+      180       190        200       210       220       230       
+
+      240       250       260       270       280       290        
+hrmAp_ KIVSILSACSPTVRQKNFSEAILGPDPQDTPATSSEIDVAYFTLRGATVSAIESVFRADI
+                                  .:   . :         :::.::::.:.: . :
+Photr1 -------------------------HIEDHANSVS---------RGASVSAIQSIFPGRI
+                                    240                250         
+
+      300       310       320       330       340       350        
+hrmAp_ CEGIKDSELRNWEKEQLLIDTTDCVTMQIWRAQPQHGTIKLRIGFYAAVNLANRLYAETP
+       :..:..:::: ::: ::  ::::::.:.          ..::. . ::. ... .:    
+Photr1 CNAIEESELRIWEKSQLRQDTTDCVAME------GLCCVRLRVQYDAAIVMVGDIYP*  
+     260       270       280             290       300       310   
+
+      360  
+hrmAp_ QDHI
+
+>>Aspjap1|Aspjap1_417242 fgenesh1_pm.9_#_96               (330 aa)
+ s-w opt: 513  Z-score: 656.3  bits: 129.9 E(15711829): 1.5e-27
+Smith-Waterman score: 513; 28.4% identity (62.9% similar) in 345 aa overlap (11-355:7-326)
+
+               10        20        30        40        50        60
+hrmAp_ MASTKPASSLIYQAWNKLSINQTIPSDSLELLGERLAIAFAPKLKEQRRNGRRRNLEYVA
+                 : . ...::  ...:.: . :. :::..   :  . .: .  : . ::  
+Aspjap     MNMIERINELFEQLSRVKSVPNDYVSLVEERLTLICRPPDRLRRMETARPKREYNL
+                   10        20        30        40        50      
+
+               70        80        90       100       110       120
+hrmAp_ QHRRKIARKIYLEILEKDPNIFLPFILAVSPRACLSFDISSFLEQHQSQGRHFLRNNAEA
+       . : : ::.::::.::  :.::::::..::: .: :.  :.         :. :..   :
+Aspjap HDRLKRARRIYLEVLEVFPSIFLPFIMTVSPNSCRSWKTSDV--------RKNLQSCKSA
+         60        70        80        90               100        
+
+              130       140       150       160       170       180
+hrmAp_ ILWGLAKKHDIDGSLHFRKLMREIFQLSPPATEAEGKEHYSLHLSTLPAIRNAFGDVIFD
+        : : .  .:...      . ...  :  : :..:.   .    . .   :. ..  ...
+Aspjap ALSGEVL-NDLEN------IAKRVVPLPKPKTNTESDGAWFYSTADVTRARHFLNKDLYE
+      110        120             130       140       150       160 
+
+              190       200       210       220       230       240
+hrmAp_ AIERSPTQVTARAKGYFSEKTESVWTKVPYRSSQDAIISLEVGSAIELANVLFPIATQKI
+       :.: :: ..  . .  .. .:. .  . :  . ::: ..:..:    ....::: : ...
+Aspjap AFENSPRRTREKENQLLT-STQCIRMSFPRYDHQDATVQLDIGFHDSIVKALFPTAWERF
+             170        180       190       200       210       220
+
+              250       260       270       280       290       300
+hrmAp_ VSILSACSPTVRQKNFSEAILGPDPQDTPATSSEIDVAYFTLRGATVSAIESVFRADICE
+       ... ..   .:.......          :: .   : : ::.:::..:.:  .: ... .
+Aspjap LTVHGTELTNVESSQLARE---------PAIAEIYDNACFTFRGASTSSIPIIFGSSLSQ
+              230                240       250       260       270 
+
+              310       320       330       340       350       360
+hrmAp_ GIKDSELRNWEKEQLLIDTTDCVTMQIWRAQPQHGTIKLRIGFYAAVNLANRLYAETPQD
+       ::..:.:: :: ..... ::::....: :..: ..:. ::.:.  .. .:..:::     
+Aspjap GIEESQLRAWEIKNFVLRTTDCISLDIMRSRPCEATVTLRVGWSHGIFMATKLYAFDG* 
+             280       290       300       310       320       330 
+
+         
+hrmAp_ HI
+
+>>CodFL1790_1|CodFL1790_1_640372 e_gw1.23.556.1           (344 aa)
+ s-w opt: 513  Z-score: 655.9  bits: 129.9 E(15711829): 1.6e-27
+Smith-Waterman score: 513; 29.4% identity (63.3% similar) in 330 aa overlap (32-355:30-339)
+
+              10        20        30        40        50        60 
+hrmAp_ ASTKPASSLIYQAWNKLSINQTIPSDSLELLGERLAIAFAPKLKEQRRNGRRRNLEYVAQ
+                                     : :::..:     . .  .:.:     .. 
+CodFL1  MKDKDLEDIHKIRTELQSLKAIRGRYHANLEERLGLACQITRRSHSNDGQR-----AST
+                10        20        30        40        50         
+
+                70        80        90       100       110         
+hrmAp_ HRR--KIARKIYLEILEKDPNIFLPFILAVSPRACLSFDISSFLEQHQSQGRHFLRNNAE
+       :.:  : : . :  .::..:: :::::...::::: :::. ..  ::    .  : ....
+CodFL1 HKRDTKTASETYSTVLEENPNAFLPFIISISPRACRSFDVVKYCIQHFETKKIVLGDGSR
+           60        70        80        90       100       110    
+
+     120       130       140       150       160       170         
+hrmAp_ AILWGLAKKHDIDGSLHFRKLMREIFQLSPPATEAEGKEHYSLHLSTLPAIRNAFGDVIF
+        .:      .:. ::   :. .::  .:  : : :..  :.. ... . :. . ::.  .
+CodFL1 KVL------EDM-GS---RQEIRE-HDLPLPITTANSDAHWAYNVADMVAFSTIFGSQSY
+                120            130       140       150       160   
+
+     180       190         200       210       220       230       
+hrmAp_ DAIERSPTQVTARAK--GYFSEKTESVWTKVPYRSSQDAIISLEVGSAIELANVLFPIAT
+       ::.:  : ... . .  . ... :. : ...: .. .:.:. ...: .::   .::::. 
+CodFL1 DAVESHPMRIAEKQREDAPMQQATQLVPARLPQENYHDGIFWVHTGRVIEAIRILFPITY
+           170       180       190       200       210       220   
+
+       240       250       260       270       280       290       
+hrmAp_ QKIVSILSACSPTVRQKNFSEAILGPDPQDTPATSSEIDVAYFTLRGATVSAIESVFRAD
+       :..  .. : :    . . .. ..  .::.  . .     :.::.. .....:   : . 
+CodFL1 QRVSWLFEANSSPFDSGHPNQDVVFQEPQEKCVMAE----AHFTIEWGSTAGIALFFNSL
+           230       240       250           260       270         
+
+       300       310       320         330       340       350     
+hrmAp_ ICEGIKDSELRNWEKEQLLIDTTDCVTMQIW--RAQPQHGTIKLRIGFYAAVNLANRLYA
+       . ..:  :.::.::... ..:.:.::::..   : ::  :::.::.::  ....:  .:.
+CodFL1 VYDAIDRSNLRDWERDHHIFDVTNCVTMEVKLRRNQPPVGTIRLRMGFQLSTQIARSMYS
+     280       290       300       310       320       330         
+
+         360  
+hrmAp_ ETPQDHI
+              
+CodFL1 YKDI*  
+     340      
+
+>>Didma1|Didma1_20132 g3037.t1                            (488 aa)
+ s-w opt: 508  Z-score: 645.8  bits: 128.5 E(15711829): 5.7e-27
+Smith-Waterman score: 508; 32.1% identity (60.2% similar) in 349 aa overlap (11-355:165-475)
+
+                                   10        20        30        40
+hrmAp_                     MASTKPASSLIYQAWNKLSINQTIPSDSLELLGERLAIAF
+                                     : ... ..: .. ::.  :. : ..: :  
+Didma1 SSSPLNIPLHPPRRSSQAARYIMSQGLFATIRKTFFEISQQRDIPARLLDTLENQLIILC
+          140       150       160       170       180       190    
+
+               50        60        70        80        90       100
+hrmAp_ APKLKEQRRNGRRRNLEYVAQHRRKIARKIYLEILEKDPNIFLPFILAVSPRACLSFDIS
+       .   ...: .. :   .  ...:.: :. .:..:: . :..::: ::...:::: ..  .
+Didma1 TTYHRQKRSESSRARRDIKSRNRHKRAQALYVDILGEVPHLFLPVILVATPRACEKLKAN
+          200       210       220       230       240       250    
+
+              110        120       130       140        150        
+hrmAp_ SFLEQHQSQGRHF-LRNNAEAILWGLAKKHDIDGSLHFRKLMREIFQLSP-PATEAEGKE
+        : .  :.  ::. ::....  .  .: .. ..:: :.:::.: .:. :  :.: : :. 
+Didma1 EF-RGIQTGDRHIELRQSVRETFEEIAGRNGLEGSPHYRKLIRTLFRPSTRPVTTA-GSG
+           260       270       280       290       300        310  
+
+      160       170       180       190       200       210        
+hrmAp_ HYSLHLSTLPAIRNAFGDVIFDAIERSPTQVTARAKGYFSEKTESVWTKVPYRSSQDAII
+        :   :     ::...:: ::: .  .:        :   . :  : : ::  . :::::
+Didma1 GYEYLLPETQNIRKVLGDRIFDFLLAAPM-----LPGESRQGTGWVETFVPRNNFQDAII
+            320       330       340            350       360       
+
+      220       230       240         250       260       270      
+hrmAp_ SLEVGSAIELANVLFPIATQKIVS--ILSACSPTVRQKNFSEAILGPDPQDTPATSSEID
+       .:.::.: :::. ::: :.:.: .  . : :.:                           
+Didma1 QLRVGQAHELAKFLFPAAAQQISTDIMASNCDP---------------------------
+       370       380       390       400                           
+
+        280       290       300       310       320       330      
+hrmAp_ VAYFTLRGATVSAIESVFRADICEGIKDSELRNWEKEQLLIDTTDCVTMQIWRAQPQHGT
+          . : ::..::. :.:.. ::..:. :.::.::..    ..:::::.... .  . : 
+Didma1 ---ICLSGASISALASLFHVRICDAISKSQLRSWEEQWSAQEVTDCVTLELYPGA-RDGL
+                 410       420       430       440       450       
+
+        340       350       360        
+hrmAp_ IKLRIGFYAAVNLANRLYAETPQDHI      
+       .:::: :  .. ... :::             
+Didma1 LKLRIEFTRGIAIVKGLYAVSQSTLDVPLYM*
+        460       470       480        
+
+>>Gloac1|Gloac1_1584021 fgenesh1_kg.165_#_62_#_Locus3857  (291 aa)
+ s-w opt: 495  Z-score: 634.0  bits: 125.6 E(15711829): 2.6e-26
+Smith-Waterman score: 495; 33.1% identity (65.6% similar) in 299 aa overlap (65-355:2-289)
+
+           40        50        60        70        80        90    
+hrmAp_ RLAIAFAPKLKEQRRNGRRRNLEYVAQHRRKIARKIYLEILEKDPNIFLPFILAVSPRAC
+                                     : ::..:  ::...: .:::::.::.: : 
+Gloac1                              MKQARNVYSSILDRSPLLFLPFIIAVGPGAS
+                                            10        20        30 
+
+          100       110       120       130       140           150
+hrmAp_ LSFDISSFLEQHQSQGRHFLRNNAEAILWGLAKKHDIDGSLHFRKLMREIFQLSP----P
+        :..::   .. . :..  :  .....:  .:....:  : .:.. .  .:  .:    :
+Gloac1 PSINISETKRRFSRQSKIRLDASSRSFLQDVAERNNIVKSREFQQALAVLFPRDPMSTAP
+              40        50        60        70        80        90 
+
+              160       170       180           190       200      
+hrmAp_ ATEAEGKEHYSLHLSTLPAIRNAFGDVIFDAIERSPTQV----TARAKGYFSEKTESVWT
+        : :. ..  ..    :  : ..:: .. . .  .  .:    . . .   :. :. . .
+Gloac1 LTSANPRHVADFDTCDLRRISTTFGRLVSEHVMLAHEHVMLSHVNKPSRSGSQLTKCIRA
+             100       110       120       130       140       150 
+
+        210       220       230       240       250       260      
+hrmAp_ KVPYRSSQDAIISLEVGSAIELANVLFPIATQKIVSILSACSPTVRQKNFSEAILGPDPQ
+         : .. .: :. :.::.::.::..:::  .  .   ... .:    :.:.:. : ::  
+Gloac1 YRPDKD-EDIIFHLDVGNAIDLAKILFP-QSLAVKFPVAVAGPL---KDFAEG-LRPD--
+              160       170        180       190           200     
+
+        270       280       290       300       310       320      
+hrmAp_ DTPATSSEIDVAYFTLRGATVSAIESVFRADICEGIKDSELRNWEKEQLLIDTTDCVTMQ
+          :.::.:: .:::. :. : .: ::: :   ... .:.::.::.:..:.:.:::.:: 
+Gloac1 ---ASSSHIDYGYFTMLGTDVVGIGSVFNAATYDALLESQLRQWEEEHFLLDVTDCLTMT
+              210       220       230       240       250       260
+
+        330       340       350       360  
+hrmAp_ IWRAQPQHGTIKLRIGFYAAVNLANRLYAETPQDHI
+       : :. :..:::.::  :. ...: :.::.       
+Gloac1 IMRGTPKYGTIRLRTQFWKGIQLINQLYSL*     
+              270       280       290      
+
+>>Aspstec1_1|Aspstec1_1_266378 fgenesh1_kg.157_#_2_#_TRI  (289 aa)
+ s-w opt: 494  Z-score: 632.8  bits: 125.3 E(15711829): 3.1e-26
+Smith-Waterman score: 494; 38.4% identity (65.5% similar) in 258 aa overlap (6-260:4-260)
+
+               10        20        30        40         50         
+hrmAp_ MASTKPASSLIYQAWNKLSINQTIPSDSLELLGERLAIAFAPK-LKEQRRNGRRRNLEYV
+            :.   . .  ..:.  ::::.:  . : .::::.: :   . .::. :: . :: 
+Aspste   MVSPTCRRMSNIQQELNRRQTIPTDYHDTLEKRLAITFKPPPSRLERRKTRRDKKEYK
+                 10        20        30        40        50        
+
+      60        70        80        90       100       110         
+hrmAp_ AQHRRKIARKIYLEILEKDPNIFLPFILAVSPRACLSFDISSFLEQHQSQGRHFLRNNAE
+        ..  . :::.:.::::  :.::.::::.::: ::  .:.  : .. .  :.  : ..:.
+Aspste LKYNTRKARKVYVEILEDYPHIFVPFILSVSPDACQRLDLEEFRRSLDITGKVDLGDDAQ
+       60        70        80        90       100       110        
+
+     120       130       140        150       160       170        
+hrmAp_ AILWGLAKKHDIDGSLHFRKLMREIFQ-LSPPATEAEGKEHYSLHLSTLPAIRNAFGDVI
+       ::: ..:::  .: :  ...: . .:. .: : : ::    .. . ..  :::: : . :
+Aspste AILDSIAKKIGFDQSRLYQRLRKSLFSPVSKPLTSAETGTFWDCRAANWDAIRNIFDEHI
+      120       130       140       150       160       170        
+
+      180       190       200       210       220       230        
+hrmAp_ FDAIERSPTQVTARAKGYFSEKTESVWTKVPYRSSQDAIISLEVGSAIELANVLFPIATQ
+        .::: : ..   .::    . :: :: :.: .. :::::::::. : ::...::: . .
+Aspste CSAIENS-SKWMQEAKCRALQVTECVWMKLPKQNYQDAIISLEVSVAEELVKALFPSTYE
+      180        190       200       210       220       230       
+
+      240       250        260       270       280       290       
+hrmAp_ KIVSILSACSPT-VRQKNFSEAILGPDPQDTPATSSEIDVAYFTLRGATVSAIESVFRAD
+       .:....:  :   : ..: . :.                                     
+Aspste EILALVSIPSTEDVTRHNETVALSQLQKPMPSEPYHRKQCTLPENMLIAYS*        
+       240       250       260       270       280                 
+
+>>Colgo1|Colgo1_627601 fgenesh1_pg.4_#_429                (363 aa)
+ s-w opt: 480  Z-score: 612.2  bits: 121.9 E(15711829): 4.3e-25
+Smith-Waterman score: 480; 32.3% identity (63.1% similar) in 325 aa overlap (50-355:48-361)
+
+      20        30        40        50        60         70        
+hrmAp_ INQTIPSDSLELLGERLAIAFAPKLKEQRRNGRRRNLEYVAQHRR-KIARKIYLEILEKD
+                                     :: . .   .:.. : : ::..:  ::...
+Colgo1 IEHGAILPKHRANLESRLPIVCGVPRPPPSNGSKYSRAEIASYARMKQARNVYSSILDRS
+        20        30        40        50        60        70       
+
+       80        90       100       110       120       130        
+hrmAp_ PNIFLPFILAVSPRACLSFDISSFLEQHQSQGRHFLRNNAEAILWGLAKKHDIDGSLHFR
+       : .:::::.::.: :  :..::   .. . :..  :  .....:  .:....:  : .:.
+Colgo1 PLLFLPFIIAVGPGASPSINISETKRRFSRQSKIRLDASSRSFLQDVAERNNIIKSREFQ
+        80        90       100       110       120       130       
+
+      140                     150       160       170       180    
+hrmAp_ KLMREIF--------------QLSPPATEAEGKEHYSLHLSTLPAIRNAFGDVIFDAIER
+       . .  .:              . . : : :. :.  ..    :  : ..::  . . .  
+Colgo1 QALAVLFPRVEANDANTVEDPMSTAPLTSANPKHVADFDTCDLRRISTTFGRRVSEHVML
+       140       150       160       170       180       190       
+
+          190       200         210         220       230       240
+hrmAp_ SPTQVTARAKGYFSEKTESVWTKV--PYR--SSQDAIISLEVGSAIELANVLFPIATQKI
+       .  .:   ...  : .. :  ::    ::  ...: :. :.::.::.::..:.:  .  .
+Colgo1 AHEHVML-SHANKSSRSGSQLTKCIRAYRPDKDEDIIFHLDVGNAIDLAKILYP-QSLAV
+       200        210       220       230       240       250      
+
+              250       260       270       280       290       300
+hrmAp_ VSILSACSPTVRQKNFSEAILGPDPQDTPATSSEIDVAYFTLRGATVSAIESVFRADICE
+          ... .:    :.:.:. : ::     :.::.:: .:::. :. : .: ::: :   .
+Colgo1 KFPVAVAGPL---KDFAEG-LRPD-----ASSSHIDYGYFTMLGTDVVGIGSVFNAATYD
+         260          270             280       290       300      
+
+              310       320       330       340       350       360
+hrmAp_ GIKDSELRNWEKEQLLIDTTDCVTMQIWRAQPQHGTIKLRIGFYAAVNLANRLYAETPQD
+       .. .:.::.::.:..:.:.:::.:: : :. :..:::.::  :. ...: :.::.     
+Colgo1 ALLESQLRQWEEEHFLLDVTDCLTMTIMRGTPNYGTIRLRTQFWKGIQLINQLYSL*   
+        310       320       330       340       350       360      
+
+         
+hrmAp_ HI
+
+>>Penbr2|Penbr2_47537 fgenesh1_pg.13_#_12                 (170 aa)
+ s-w opt: 471  Z-score: 608.0  bits: 120.0 E(15711829): 7.3e-25
+Smith-Waterman score: 471; 47.4% identity (71.9% similar) in 171 aa overlap (193-354:5-168)
+
+            170       180       190       200       210       220  
+hrmAp_ HLSTLPAIRNAFGDVIFDAIERSPTQVTARAKGYFSEKTESVWTKVPYRSSQDAIISLEV
+                                     :.:.  : :.:::.:.:..: ::::..:.:
+Penbr2                           MHETANGHPPETTQSVWAKLPHQSMQDAILNLNV
+                                         10        20        30    
+
+            230       240              250       260         270   
+hrmAp_ GSAIELANVLFPIATQKIVSIL-------SACSPTVRQKNFSEAILGPD--PQDTPATSS
+       ::: ::: .:::  .::. :.:       :. . .: : .   . :: :  :.:      
+Penbr2 GSARELARLLFPHMSQKVHSVLWPEAASSSGAAKSVIQPGGHSSSLGLDKFPDDG-----
+           40        50        60        70        80              
+
+           280       290       300       310       320       330   
+hrmAp_ EIDVAYFTLRGATVSAIESVFRADICEGIKDSELRNWEKEQLLIDTTDCVTMQIWRAQPQ
+         : ::::::::.:::: :.: . .:..:. :.:: ::.:.::..::::: ...::.::.
+Penbr2 --DCAYFTLRGASVSAITSLFTTYVCDAIECSDLRLWESENLLLETTDCVMLNLWRSQPD
+        90       100       110       120       130       140       
+
+           340       350       360  
+hrmAp_ HGTIKLRIGFYAAVNLANRLYAETPQDHI
+        : :.:::::  .... : ::        
+Penbr2 FGFIRLRIGFSMSMSFLNSLYT*      
+       150       160       170      
+
+>>Didma1|Didma1_22083 g1366.t1                            (332 aa)
+ s-w opt: 475  Z-score: 606.6  bits: 120.7 E(15711829): 8.8e-25
+Smith-Waterman score: 475; 31.7% identity (58.5% similar) in 347 aa overlap (11-355:9-319)
+
+               10        20        30        40        50        60
+hrmAp_ MASTKPASSLIYQAWNKLSINQTIPSDSLELLGERLAIAFAPKLKEQRRNGRRRNLEYVA
+                 . ... ..:  . ::   :. :  .:.:  .   .. : .. :   .  .
+Didma1   MSHRLFVNVRKTFFEISQRRDIPPTLLDTLESQLVILCTTYRRQLRSESSRARRDIKS
+                 10        20        30        40        50        
+
+               70        80        90       100       110          
+hrmAp_ QHRRKIARKIYLEILEKDPNIFLPFILAVSPRACLSFDISSFLEQHQSQGRHF-LRNNAE
+       ..: : :. .:..::.: :..::: ::...:::: ..  .  :.  :.   :. ::....
+Didma1 RNRLKRAQALYVDILDKLPHLFLPAILVTTPRACEKLKANE-LRGIQTGDCHIELRQSVK
+       60        70        80        90        100       110       
+
+     120       130       140        150       160       170        
+hrmAp_ AILWGLAKKHDIDGSLHFRKLMREIFQLSP-PATEAEGKEHYSLHLSTLPAIRNAFGDVI
+         .  .: .. ..:: :..::.: .:  :  :.: ::.   :   :  .  ::...:: :
+Didma1 ETFEEIAVRNGLEGSPHYKKLIRTLFPPSTRPVTTAESG-GYEYLLPDIQNIRKVLGDRI
+       120       130       140       150        160       170      
+
+      180       190       200       210       220       230        
+hrmAp_ FDAIERSPTQVTARAKGYFSEKTESVWTKVPYRSSQDAIISLEVGSAIELANVLFPIATQ
+       :: .  .:        :  ...:  : : ::  . :::::.:.::.: :::  ::   .:
+Didma1 FDFLLSAPM-----LPGQSQQRTGCVETFVPRNNFQDAIIQLRVGQAQELARFLFQAPVQ
+        180            190       200       210       220       230 
+
+      240       250       260       270       280       290        
+hrmAp_ KIVSILSACSPTVRQKNFSEAILGPDPQDTPATSSEIDVAYFTLRGATVSAIESVFRADI
+       .:       :  :  .:        ::              . : :: .::. :.:.. :
+Didma1 QI-------STDVMARNR-------DP--------------ICLSGAYISALASLFHVRI
+                    240                            250       260   
+
+      300       310       320       330       340       350        
+hrmAp_ CEGIKDSELRNWEKEQLLIDTTDCVTMQIWRAQPQHGTIKLRIGFYAAVNLANRLYAETP
+       :..:  :.:: ::.. .  ..:::::.... .    ::.:.:: :  .. ... :::   
+Didma1 CDAILKSQLRLWEEQLFAQEVTDCVTLKLYPGGGG-GTLKVRIDFTRSIAIVKDLYAVSQ
+           270       280       290        300       310       320  
+
+      360        
+hrmAp_ QDHI      
+                 
+Didma1 STLDVPLYM*
+            330  
+
+>>Gelte1|Gelte1_327423 CE327422_3763                      (362 aa)
+ s-w opt: 474  Z-score: 604.4  bits: 120.4 E(15711829): 1.2e-24
+Smith-Waterman score: 474; 27.9% identity (61.5% similar) in 358 aa overlap (11-355:9-334)
+
+               10        20        30        40        50        60
+hrmAp_ MASTKPASSLIYQAWNKLSINQTIPSDSLELLGERLAIAFAPKLKEQRRNGRRRNLEYVA
+                 .:.  ....  ..::.   .:: .::.:: .   ...: .  : . :  .
+Gelte1   MAPHRLACMYKLRDRINQLDSIPTTYRNLLEHRLVIACSEFKRQDRGEEVRSTREIRT
+                 10        20        30        40        50        
+
+               70        80        90        100       110         
+hrmAp_ QHRRKIARKIYLEILEKDPNIFLPFILAVSPR-ACLSFDISSFLEQHQSQGRHFLRNNAE
+       .: .: :.:.::..:..::.::.::.: :.   ::.....  : ..:.....  : .  .
+Gelte1 RHAEKRAHKLYLDVLDEDPQIFIPFLLIVNTNTACVKYNLELFRQHHEQRAKIRLGDADK
+       60        70        80        90       100       110        
+
+     120       130       140               150       160       170 
+hrmAp_ AILWGLAKKHDIDGSLHFRKLMREIFQLSP--------PATEAEGKEHYSLHLSTLPAIR
+       .::  .:..: : ::. :.::.. .:   :        :.: :.: . . .. . : ..:
+Gelte1 VILEDIARRHRIRGSIAFQKLIQALFPAIPRTAMAVESPTTTADGPKPWRFNGAPLEVVR
+      120       130       140       150       160       170        
+
+             180       190       200         210       220         
+hrmAp_ NAFGDVIFDAIERSPTQVTARAKGYFSEKTES--VWTKVPYRSSQDAIISLEVGSAIELA
+       . :.  .:.:: ..:..    ..  :: .: .  :    :  ...: :. :..:..  . 
+Gelte1 SQFAVGVFEAICKAPARC---GNDQFSIRTTTGLVRMDFPSVDKEDCILWLDIGDVDLFE
+      180       190          200       210       220       230     
+
+     230       240       250       260       270       280         
+hrmAp_ NVLFPIATQKIVSILSACSPTVRQKNFSEAILGPDPQDTPATSSEIDVAYFTLRGATVSA
+       .::::          ..:        ..:.  : . .: : .          :. :  .:
+Gelte1 KVLFP----------AGCR-------IQES--GYNSSDGPCS----------LQRACCAA
+         240                          250                 260      
+
+     290       300       310        320       330        340       
+hrmAp_ IESVFRADICEGIKDSELRNWEKEQL-LIDTTDCVTMQIWRA-QPQHGTIKLRIGFYAAV
+          .: ... :.:  :.::.::..   : :::::. ...  . .:..::..::. :  ..
+Gelte1 AALIFGSQLYEAIDTSRLRTWERDTAGLADTTDCIMIEVHATHEPRYGTLRLRLEFLRGL
+        270       280       290       300       310       320      
+
+       350       360                       
+hrmAp_ NLANRLYAETPQDHI                     
+        .:.::.:                            
+Gelte1 RIAQRLFAIPNASDIQANNDDNGIAAAHFHFPRIR*
+        330       340       350       360  
+
+>>Setho1|Setho1_80139 e_gw1.170.4.1                       (298 aa)
+ s-w opt: 434  Z-score: 554.1  bits: 110.8 E(15711829): 7.4e-22
+Smith-Waterman score: 434; 31.3% identity (62.4% similar) in 319 aa overlap (11-327:9-292)
+
+               10        20        30        40        50        60
+hrmAp_ MASTKPASSLIYQAWNKLSINQTIPSDSLELLGERLAIAFAPKLKEQRRNGRRRNLEYVA
+                 . ... ..: .:.::.  :  :  .: :  . . .. : .. :   .   
+Setho1   MSRNLHATVRKTFFEISQQQSIPTRLLGTLESHLIILCTVHHRQLRSDSSRARRDVRR
+                 10        20        30        40        50        
+
+               70        80        90       100       110          
+hrmAp_ QHRRKIARKIYLEILEKDPNIFLPFILAVSPRACLSFDISSFLEQHQSQGRHF-LRNNAE
+        ...: :. .:...:.. :..:::.::...:.:: .:   .:    ...::.. ::....
+Setho1 YYKQKRAQALYMDMLDNAPHLFLPIILVATPKACEKFKARDFYGI-RTDGRRIELRQDVK
+       60        70        80        90       100        110       
+
+     120       130       140        150       160       170        
+hrmAp_ AILWGLAKKHDIDGSLHFRKLMREIFQLSP-PATEAEGKEHYSLHLSTLPAIRNAFGDVI
+         .  .: :: . :: :. ::.  .:  :  :.: ::.   :. ::. .  :: ..:: :
+Setho1 RTFEEIADKHGLKGSSHYNKLITILFPPSARPVTTAESG-GYKYHLADIQNIRMVLGDQI
+       120       130       140       150        160       170      
+
+      180       190       200       210       220       230        
+hrmAp_ FDAIERSPTQVTARAKGYFSEKTESVWTKVPYRSSQDAIISLEVGSAIELANVLFPIATQ
+       .: .  .: .....:.    ..:. : : ::  . ::::: :.::.: ::: ::: .:..
+Setho1 LDFLVGAP-MLSGEAR----HETDCVGTCVPRNNFQDAIIELRVGQARELARVLF-LASE
+        180        190           200       210       220        230
+
+      240       250       260       270       280       290        
+hrmAp_ KIVSILSACSPTVRQKNFSEAILGPDPQDTPATSSEIDVAYFTLRGATVSAIESVFRADI
+                     :.: .: :.  .:...             : ::..::. :.:.  :
+Setho1 --------------QQNSAE-IVTSNPDSV------------CLSGASMSAFASLFHDRI
+                             240                   250       260   
+
+      300       310       320       330       340       350        
+hrmAp_ CEGIKDSELRNWEKEQLLIDTTDCVTMQIWRAQPQHGTIKLRIGFYAAVNLANRLYAETP
+        ..:..:.::.: .:    ..:::::..:                               
+Setho1 YDAIEQSQLRSWGREWSSRQVTDCVTLEIHPDEA*                         
+           270       280       290                                 
+
+>>Claba1|Claba1_134726 Z519_12093T0                       (282 aa)
+ s-w opt: 418  Z-score: 533.7  bits: 107.0 E(15711829): 1e-20
+Smith-Waterman score: 418; 34.0% identity (62.8% similar) in 247 aa overlap (9-234:6-250)
+
+               10        20        30        40        50        60
+hrmAp_ MASTKPASSLIYQAWNKLSINQTIPSDSLELLGERLAIAFAPKLKEQRRNGRRRNLEYVA
+               : : .. . :. :.:.:   :. : :::..  .   .. :   :: . :  .
+Claba1    MSSKLSQIDKVSKDLNRNKTVPFVYLRTLEERLVLLCTFFERQPRSAERRPKKEVNS
+                  10        20        30        40        50       
+
+               70        80        90       100         110        
+hrmAp_ QHRRKIARKIYLEILEKDPNIFLPFILAVSPRACLSFDISSFLEQHQS--QGRHFLRNNA
+        .  : :.:.:.:.::  :..:::::::.:::.:::::.:. : ...:  .: :.  ::.
+Claba1 VYCCKKAQKVYFEVLETYPHVFLPFILAISPRSCLSFDLSQ-LGHYNSPPDGFHW-SNNV
+        60        70        80        90        100       110      
+
+      120       130       140                          150         
+hrmAp_ EAILWGLAKKHDIDGSLHFRKLMREIFQLSP-------------------PATEAEGKEH
+       .  . ....:..:. : ...:... .:   :                   :.. ::. .:
+Claba1 KETFASIGQKREISESTYYKKVIEVLFLSWPSTFTQIFKERLTGADCCPKPVSTAEADKH
+         120       130       140       150       160       170     
+
+     160       170       180       190       200       210         
+hrmAp_ YSLHLSTLPAIRNAFGDVIFDAIERSPTQVTARAKGYFSEKTESVWTKVPYRSSQDAIIS
+        . : . : ::   ::. :. ..: : .... .:..   . :::: :: : :.  :.:: 
+Claba1 LAYHAAELAAIVAIFGNRIYGGVEISSVRLSEKARSRTLQTTESVRTKFPLRDLTDGIIY
+         180       190       200       210       220       230     
+
+     220       230       240       250       260       270         
+hrmAp_ LEVGSAIELANVLFPIATQKIVSILSACSPTVRQKNFSEAILGPDPQDTPATSSEIDVAY
+       :..: : : ..::::                                             
+Claba1 LDIGCAAEYSSVLFPDEGDVTGVPISRTRECTSYTAKGETSNPTYG*             
+         240       250       260       270       280               
+
+>>Claps1|Claps1_6092 A1O5_10635T0                         (282 aa)
+ s-w opt: 412  Z-score: 525.9  bits: 105.5 E(15711829): 2.7e-20
+Smith-Waterman score: 412; 33.6% identity (62.8% similar) in 247 aa overlap (9-234:6-250)
+
+               10        20        30        40        50        60
+hrmAp_ MASTKPASSLIYQAWNKLSINQTIPSDSLELLGERLAIAFAPKLKEQRRNGRRRNLEYVA
+               : : .. . :. :.:.:   :. : .::..  .   .. :   :: . :  :
+Claps1    MSSKLSQIDKVSKDLNRNKTVPFVYLRTLEDRLVLLCTFFGRQPRSAERRPKKEVNA
+                  10        20        30        40        50       
+
+               70        80        90       100         110        
+hrmAp_ QHRRKIARKIYLEILEKDPNIFLPFILAVSPRACLSFDISSFLEQHQS--QGRHFLRNNA
+        .  : :.:.:.:.::  :..:::::::.:::.:::::.:. : ...:  .: :.  ::.
+Claps1 VYCCKKAQKVYFEVLETYPHVFLPFILAISPRSCLSFDLSQ-LGHYNSPPDGFHW-SNNV
+        60        70        80        90        100       110      
+
+      120       130       140                          150         
+hrmAp_ EAILWGLAKKHDIDGSLHFRKLMREIFQLSP-------------------PATEAEGKEH
+       .  . ....:..:. . ...:... .:   :                   :.. ::. .:
+Claps1 KETFASIGQKREISEGTYYKKVIEVLFLSWPSTFTQIFKERLTGADCCPKPVSTAEADKH
+         120       130       140       150       160       170     
+
+     160       170       180       190       200       210         
+hrmAp_ YSLHLSTLPAIRNAFGDVIFDAIERSPTQVTARAKGYFSEKTESVWTKVPYRSSQDAIIS
+        . : . : ::   ::. :. ..: : .... .:..   . :::: :: : :.  :.:: 
+Claps1 LAYHAAELAAIVAIFGNRIYGGVEISSVRLSEKARSRTLQTTESVRTKFPLRDLTDGIIY
+         180       190       200       210       220       230     
+
+     220       230       240       250       260       270         
+hrmAp_ LEVGSAIELANVLFPIATQKIVSILSACSPTVRQKNFSEAILGPDPQDTPATSSEIDVAY
+       :..: : : ..::::                                             
+Claps1 LDIGCAAEYSSVLFPDEGDVTGVPISRTRECTSYTAKGETSNPTYG*             
+         240       250       260       270       280               
+
+>>Lizem1|Lizem1_128809 e_gw1.29.85.1                      (258 aa)
+ s-w opt: 405  Z-score: 517.7  bits: 103.9 E(15711829): 7.9e-20
+Smith-Waterman score: 405; 32.8% identity (65.6% similar) in 241 aa overlap (9-246:7-240)
+
+               10        20        30        40        50        60
+hrmAp_ MASTKPASSLIYQAWNKLSINQTIPSDSLELLGERLAIAFAPKLKEQRRNGRRRNLEYVA
+               : ....  ..: .: :::  :. : ..: :  .:  .  : .. :   .  .
+Lizem1   MSRHLRSTVHKTLLEISEQQRIPSRLLDTLEKHLIIFCTPYPRLPRSDSLRARRDVRS
+                 10        20        30        40        50        
+
+               70        80        90       100       110          
+hrmAp_ QHRRKIARKIYLEILEKDPNIFLPFILAVSPRACLSFDISSFLEQHQSQGRHF-LRNNAE
+        ...: :.:.:...:.. :.:::::::.:.:.:: ..   .:  :  ..::.. :: ...
+Lizem1 YYKKKRAQKVYVDMLDNAPQIFLPFILVVTPKACENLKAIDFY-QMPTDGRRMKLRRGTK
+       60        70        80        90       100        110       
+
+     120       130       140        150       160       170        
+hrmAp_ AILWGLAKKHDIDGSLHFRKLMREIF-QLSPPATEAEGKEHYSLHLSTLPAIRNAFGDVI
+        ..  .:.:. .. : ...:... .: ... : : ::.   :  ::. .  .: ..:: :
+Lizem1 LVFDEIAEKNGLNDSPQYKKMIKVLFPEFARPITTAESG-GYEYHLADVQNVRMVLGDRI
+       120       130       140       150        160       170      
+
+      180       190       200       210       220       230        
+hrmAp_ FDAIERSPTQVTARAKGYFSEKTESVWTKVPYRSSQDAIISLEVGSAIELANVLFP-IAT
+       .: .. .:      . :   ..:. : : ::  . ::::: :..:.: :::..::: .  
+Lizem1 LDFLNSAPM-----GPGESRHETDCVGTCVPRNNFQDAIIYLRIGQARELAQILFPALRH
+        180            190       200       210       220       230 
+
+       240       250       260       270       280       290       
+hrmAp_ QKIVSILSACSPTVRQKNFSEAILGPDPQDTPATSSEIDVAYFTLRGATVSAIESVFRAD
+       : :. : ::                                                   
+Lizem1 QDITEIASAAGKFNVKAGIEQRPNVN*                                 
+             240       250                                         
+
+>>Penja1|Penja1_348587 gw1.76.4.1                         (189 aa)
+ s-w opt: 377  Z-score: 484.2  bits: 97.2 E(15711829): 5.8e-18
+Smith-Waterman score: 377; 36.6% identity (68.1% similar) in 191 aa overlap (63-250:1-189)
+
+             40        50        60        70        80        90  
+hrmAp_ GERLAIAFAPKLKEQRRNGRRRNLEYVAQHRRKIARKIYLEILEKDPNIFLPFILAVSPR
+                                     : . :: .: .::. : .:::::.:..::.
+Penja1                               RDRNARYVYRKILRLDVHIFLPFVLSTSPK
+                                             10        20        30
+
+            100       110       120       130       140            
+hrmAp_ ACLSFDISSFLEQHQSQGRHFLRNNAEAILWGLAKKHDIDGSLHFRKLMREIF--QLSP-
+       .: :.:.:.: ..::.. :    .. . .: . :::  :. . ..  ..::.:  .  : 
+Penja1 TCESLDVSKFDQNHQDRYRIAYSDKCKDLLESRAKKLGIQENKEYCDFFRELFPSESRPR
+               40        50        60        70        80        90
+
+     150       160       170       180       190       200         
+hrmAp_ PATEAEGKEHYSLHLSTLPAIRNAFGDVIFDAIERSPTQVTARAKGYFSEKTESVWTKVP
+       :.:.::..     .:. . .:.:.::  :  :.  :  :.. ::...  :.:.:::   :
+Penja1 PSTDAESNSSCIYRLARVASIQNVFGGHIQKAVCASLIQLNERANAHTPESTQSVWLMSP
+              100       110       120       130       140       150
+
+     210       220       230       240       250       260         
+hrmAp_ YRSSQDAIISLEVGSAIELANVLFPIATQKIVSILSACSPTVRQKNFSEAILGPDPQDTP
+        .: .:::. :..: . .:: .:::  .::. :..  :: :                   
+Penja1 NQSMHDAIFRLNIGFTDDLARILFPHRSQKFPSLF--CSGT                   
+              160       170       180                              
+
+     270       280       290       300       310       320         
+hrmAp_ ATSSEIDVAYFTLRGATVSAIESVFRADICEGIKDSELRNWEKEQLLIDTTDCVTMQIWR
+
+>>Phimu1|Phimu1_649289 fgenesh1_pg.27_#_10                (361 aa)
+ s-w opt: 378  Z-score: 479.0  bits: 97.2 E(15711829): 1.1e-17
+Smith-Waterman score: 378; 28.2% identity (59.3% similar) in 351 aa overlap (11-356:34-358)
+
+                                   10        20        30        40
+hrmAp_                     MASTKPASSLIYQAWNKLSINQTIPSDSLELLGERLAIAF
+                                     ::.: ..:.   :.::   ..: .::.:: 
+Phimu1 QEALHPPSIFVPQSLIILVMTTLQERRYLPIYSAIEELNKRGTVPSYRRKVLEDRLVIAC
+            10        20        30        40        50        60   
+
+               50        60        70        80        90       100
+hrmAp_ APKLKEQRRNGRRRNLEYVAQHRRKIARKIYLEILEKDPNIFLPFILAVSPRACLSFDIS
+           .. : .  :.  . .:. :.. :...:::.:... . ::::::::::::: ::...
+Phimu1 KNPGRQPRAKTPRERKQILANSRENKAHRVYLEVLDENCHAFLPFILAVSPRACDSFNLG
+            70        80        90       100       110       120   
+
+               110       120       130       140       150         
+hrmAp_ SFLE-QHQSQGRHFLRNNAEAILWGLAKKHDIDGSLHFRKLMREIFQLSPPATEAEGKEH
+        ::. : . . :  :  .:...:  .:... .  : :...:.. .:  . :.   .   .
+Phimu1 EFLRYQADHRCRLDLSIEAKGLLDEIARRQGLIQSPHYERLIKSVFPKALPSRIQQIAYR
+           130       140       150       160       170       180   
+
+     160        170       180       190       200       210        
+hrmAp_ YS-LHLSTLPAIRNAFGDVIFDAIERSPTQVTARAKGYFSEKTESVWTKVPYRSSQDAII
+       :: . .. .:..    ::..:::.. :      :    ..  :. . . .:  ...:  :
+Phimu1 YSQISITRIPVL----GDLLFDAVQASAQWKQERKTTGLT--TDCLIVLIPRSQNEDISI
+           190           200       210         220       230       
+
+      220         230       240       250       260       270      
+hrmAp_ SLEVG--SAIELANVLFPIATQKIVSILSACSPTVRQKNFSEAILGPDPQDTPATSSEID
+        : ::  ...:: ..:.  ...     :.  .::.      : .    : :    ..: :
+Phimu1 ILSVGHMKGLELIQLLLEDGSE-----LD--QPTI------ENVEMERPTDM---QTEKD
+       240       250            260               270          280 
+
+        280       290       300       310        320       330     
+hrmAp_ VAYFTLRGATVSAIESVFRADICEGIKDSELRNWEKEQLLIDT-TDCVTMQIWRAQPQHG
+       . :   . : .: : ::.   . :... :    :..:.    . :::..  : :.:    
+Phimu1 IEYKCSQIA-ISRI-SVLGDLLSEAMHASA--RWKQERNGGGSRTDCLVALIPRSQNVDI
+             290         300         310       320       330       
+
+         340       350       360  
+hrmAp_ TIKLRIGFYAAVNLANRLYAETPQDHI
+       .:.. .: . ...: :.:  :      
+Phimu1 SINISVGHMKGLELINQLQLEPI*   
+       340       350       360    
+
+>>Altro1|Altro1_297979 gw1.5.2109.1                       (184 aa)
+ s-w opt: 350  Z-score: 449.2  bits: 90.7 E(15711829): 5.1e-16
+Smith-Waterman score: 350; 35.9% identity (64.6% similar) in 192 aa overlap (152-343:1-184)
+
+             130       140       150       160       170       180 
+hrmAp_ LWGLAKKHDIDGSLHFRKLMREIFQLSPPATEAEGKEHYSLHLSTLPAIRNAFGDVIFDA
+                                     : ::. ::..   .:.  ::...:. : ::
+Altro1                               TTAESDEHWTYLAATVDRIRTTLGQRIRDA
+                                             10        20        30
+
+             190       200       210       220       230       240 
+hrmAp_ IERSPTQVTARAKGYFSEKTESVWTKVPYRSSQDAIISLEVGSAIELANVLFPIATQKIV
+       :: .::..  :.  .  . :: : ::.: .. :::.::...: : :.:..::: ..  . 
+Altro1 IECAPTRLRERTTIHTLQVTECVKTKLPKHNFQDAVISVDIGPAREFAETLFPGSAFPV-
+               40        50        60        70        80          
+
+             250       260       270       280       290       300 
+hrmAp_ SILSACSPTVRQKNFSEAILGPDPQDTPATSSEIDVAYFTLRGATVSAIESVFRADICEG
+             .: .  ....   .    :    : ..  .  ::::::. .::...:  .: ..
+Altro1 ------DPELNGRQIGSDTMRALAQAGTETLQDEHLC-FTLRGASFAAIKALFPPQIYNA
+            90       100       110       120        130       140  
+
+             310       320       330       340       350       360 
+hrmAp_ IKDSELRNWEKEQLLIDTTDCVTMQIWRAQPQHGTIKLRIGFYAAVNLANRLYAETPQDH
+       :. :.::.:::.. :   :::::: .   .:  :::.::. :                  
+Altro1 IEKSRLRTWEKDHQLHTYTDCVTMVVRCEEPYFGTIHLRLEF                  
+            150       160       170       180                      
+
+        
+hrmAp_ I
+
+>>Cloaq1|Cloaq1_495502 e_gw1.199.10.1                     (111 aa)
+ s-w opt: 273  Z-score: 353.6  bits: 72.3 E(15711829): 1.1e-10
+Smith-Waterman score: 273; 38.2% identity (76.4% similar) in 110 aa overlap (32-141:1-110)
+
+              10        20        30        40        50        60 
+hrmAp_ ASTKPASSLIYQAWNKLSINQTIPSDSLELLGERLAIAFAPKLKEQRRNGRRRNLEYVAQ
+                                     : ..:.::  :  .. ::. :: . . ...
+Cloaq1                               LKKQLVIACKPLTRQPRRKVRRSQSDILSH
+                                             10        20        30
+
+              70        80        90       100       110       120 
+hrmAp_ HRRKIARKIYLEILEKDPNIFLPFILAVSPRACLSFDISSFLEQHQSQGRHFLRNNAEAI
+       ...: : ..:::.:.:::..:::::::.:: :: .:. :.. .. ...    :.:::. .
+Cloaq1 YKQKKANNVYLEVLNKDPHLFLPFILAISPSACRTFNASKLCQRLKQEHPIQLQNNAKIV
+               40        50        60        70        80        90
+
+             130       140       150       160       170       180 
+hrmAp_ LWGLAKKHDIDGSLHFRKLMREIFQLSPPATEAEGKEHYSLHLSTLPAIRNAFGDVIFDA
+       : ..:.:..:  : ...::.                                        
+Cloaq1 LNNIANKNSIIRSPYYKKLI*                                       
+              100       110                                        
+
+>>Trepe1|Trepe1_522299 fgenesh1_kg.13_#_61_#_Locus4615v1  (305 aa)
+ s-w opt: 279  Z-score: 351.4  bits: 73.4 E(15711829): 1.4e-10
+Smith-Waterman score: 279; 33.5% identity (56.4% similar) in 218 aa overlap (141-354:119-303)
+
+              120       130       140       150       160          
+hrmAp_ RHFLRNNAEAILWGLAKKHDIDGSLHFRKLMREIFQLSPPATEAEGKEHYSLH-LSTL--
+                                     ...:   : :    . ...: .. ..:.  
+Trepe1 AASRSSLLGILEKKKGLPLIRNLKDIVPTRLKDIHVASHPRPVEKIRDQYHIYKFATIDN
+       90       100       110       120       130       140        
+
+       170       180       190       200       210       220       
+hrmAp_ PAIRNAFGDVIFDAIERSPTQVTARAKGYFSEKTESVWTKVPYRSSQDAIISLEVGSAIE
+       ::. . :   ...::. :   .    :.  : .:: : : ::. . .: .. ::::::  
+Trepe1 PAFSSYFPPRLLQAINDSALWAWEMRKS--STETEIVRTDVPWSAFEDCMMFLEVGSA--
+      150       160       170         180       190       200      
+
+       230       240       250       260       270       280       
+hrmAp_ LANVLFPIATQKIVSILSACSPTVRQKNFSEAILGPDPQDTPATSSEIDVAYFTLRGATV
+                 : :...:           :.     :: . ::  :   :  :: ::::..
+Trepe1 ----------QGIIAML-----------FT-----PD-KRTPCPSCCPD-HYF-LRGASI
+                    210                        220         230     
+
+       290       300       310       320        330       340      
+hrmAp_ SAIESVFRADICEGIKDSELRNWEKEQLLIDTTDCVTMQIWR-AQPQHGTIKLRIGFYAA
+        :: ..: : . ..: .::::.::::.  ..::::: ::. : .   :: .:::::.  .
+Trepe1 EAISALFGAYLSQAIDESELRKWEKENQQLETTDCVEMQLLRDSTSPHGILKLRIGWRLG
+         240       250       260       270       280       290     
+
+        350       360  
+hrmAp_ VNLANRLYAETPQDHI
+         ..: ::        
+Trepe1 NPIVNSLYT*      
+         300           
+
+>>TriharT22_1|TriharT22_1_175974 CE175569_1013            (328 aa)
+ s-w opt: 266  Z-score: 333.7  bits: 70.2 E(15711829): 1.4e-09
+Smith-Waterman score: 266; 25.5% identity (53.5% similar) in 314 aa overlap (35-341:32-305)
+
+           10        20        30        40          50        60  
+hrmAp_ KPASSLIYQAWNKLSINQTIPSDSLELLGERLAIAFAPKLKEQR--RNGRRRNLEYVAQH
+                                     ::::::     .     ........     
+Trihar KMKLSKCEKLYTSIINGKQISQKNWTEFPGRLAIAFYTFDYRWSLAAKAKEKSMKTWELC
+              10        20        30        40        50        60 
+
+             70        80        90       100       110       120  
+hrmAp_ RRKIARKIYLEILEKDPNIFLPFILAVSPRACLSFDISSFLEQHQSQGRHFLRNNAEAIL
+       ::. :.: : ..:.. :..:: :.:::::: : .    .:...        .:. :   :
+Trihar RRRKAHKNYTRVLQEIPHFFLIFLLAVSPRMCNASLTETFINE--------FRDMAPIDL
+              70        80        90       100               110   
+
+            130       140            150       160       170       
+hrmAp_ WGLAKKHDIDGSLHFRKL-----MREIFQLSPPATEAEGKEHYSLHLSTLPAIRNAFGDV
+           .:. :...  ...:     .:. : :  :.  .  : : .. .... :. ...:: 
+Trihar DTTFRKK-IESAAALKRLEELPDYRKWFALVFPSPTVADKMHLTFGFANVAALNETLGDR
+           120        130       140       150       160       170  
+
+       180       190       200       210       220       230       
+hrmAp_ IFDAIERSPTQVTARAKGYFSEKTESVWTKVPYRSSQDAIISLEVGSAIELANVLFPIAT
+       .:  :. :  . .  .   ..  :: . : :     .: :..:..:.: .::. ::: . 
+Trihar LFCHIQASSKRQNEISIYNMDGLTECALTCVSSGYRDDIILQLDIGDAHQLAQKLFPTTF
+            180       190       200       210       220       230  
+
+       240       250       260       270       280       290       
+hrmAp_ QKIVSILSACSPTVRQKNFSEAILGPDPQDTPATSSEIDVAYFTLRGATVSAIESVFRAD
+       :: :     ::                       ..  :.  :  : : .:  ::.:  .
+Trihar QKAV-----CS-----------------------NGATDI--FLTR-AQISEAESIFSPQ
+                                        240          250       260 
+
+       300       310       320       330       340       350       
+hrmAp_ ICEGIKDSELRNWEKEQLLIDTTDCVTMQIWRAQPQHGTIKLRIGFYAAVNLANRLYAET
+       :  ....:.:: :::  .    :.:.....   . ..:.. : .                
+Trihar ILYALESSRLRRWEKLGIDETRTECISLNLNCEDTHNGVLYLYLASDWAKQVPKVYIVEN
+             270       280       290       300       310       320 
+
+       360    
+hrmAp_ PQDHI  
+              
+Trihar FECISQ*
+              
+
+>>Aspscl1|Aspscl1_617576 MIX25674_2_39                    (94 aa)
+ s-w opt: 230  Z-score: 299.1  bits: 62.0 E(15711829): 1.2e-07
+Smith-Waterman score: 230; 37.6% identity (72.0% similar) in 93 aa overlap (70-162:1-93)
+
+      40        50        60        70        80        90         
+hrmAp_ FAPKLKEQRRNGRRRNLEYVAQHRRKIARKIYLEILEKDPNIFLPFILAVSPRACLSFDI
+                                     :::.:.. . ..:.::::..  :.:: :.:
+Aspscl                               IYLNIFKINSQVFVPFILVIISRVCLLFNI
+                                             10        20        30
+
+     100       110       120       130       140       150         
+hrmAp_ SSFLEQHQSQGRHFLRNNAEAILWGLAKKHDIDGSLHFRKLMREIFQLSPPATEAEGKEH
+       :.:  .. .:   :  :.:  :.  ...:: .. .: :.::.  :: :.:: :... ...
+Aspscl SKFKSKYTKQETLFSCNKALPIFLDITRKHGLEKTLIFKKLLNAIFYLTPPLTDTDKNKY
+               40        50        60        70        80        90
+
+     160       170       180       190       200       210         
+hrmAp_ YSLHLSTLPAIRNAFGDVIFDAIERSPTQVTARAKGYFSEKTESVWTKVPYRSSQDAIIS
+       : :                                                         
+Aspscl YLL*                                                        
+                                                                   
+
+>>Hymvar1|Hymvar1_513880 estExt_fgenesh1_pg.C_80030       (361 aa)
+ s-w opt: 236  Z-score: 293.6  bits: 62.9 E(15711829): 2.4e-07
+Smith-Waterman score: 236; 23.2% identity (53.6% similar) in 375 aa overlap (20-354:12-359)
+
+               10        20        30        40        50        60
+hrmAp_ MASTKPASSLIYQAWNKLSINQTIPSDSLELLGERLAIAFAPKLKEQRRNGRRRNLEYVA
+                          :.. :::   . : .::::... . ... :.  . . .  .
+Hymvar         MIRRLQKLTTEISDGIPSAYHKDLEDRLAIVWGERKRHRSRDKPQPKAKTES
+                       10        20        30        40        50  
+
+               70        80        90       100       110          
+hrmAp_ QHRRKIARKIYLEILEKDPNIFLPFILAVSPRACLSFDISSFLEQHQSQGR-HFLRNNAE
+       ..:.. :: .::.. .:.  .::::.:: ::::: .. : . ..:  . :: .   ....
+Hymvar DYRKNRARTLYLKVQDKNAFFFLPFVLAYSPRACADIKIIQ-VDQLLNYGRDQVYVDKTK
+             60        70        80        90        100       110 
+
+     120       130       140                                   150 
+hrmAp_ AILWGLAKKHDIDGSLHFRKLMREIF----------------------------QLSPPA
+        .. :.: .. .. .  .  .:.:::                            ..: : 
+Hymvar ELIEGMAIRRGFSTNPIYLAFMKEIFPEGSRKPEAIVEAVDLTTRQNSTVAPVTSISSPN
+             120       130       140       150       160       170 
+
+                      160       170       180       190       200  
+hrmAp_ --TEAEG-------KEHYSLHLSTLPAIRNAFGDVIFDAIERSPTQVTARAKGYFSEKTE
+         :   :       ..:  :. ..: .: ..:.  : :.:.    .... .  :..    
+Hymvar SPTTIPGIPLNDPVQQHKVLEHASLQGIADVFNKYICDVIKGEIFHINGTT--YLK---A
+             180       190       200       210       220           
+
+            210       220         230       240       250       260
+hrmAp_ SVWTKVPYRSSQDAIISLEVG-SAIE-LANVLFPIATQKIVSILSACSPTVRQKNFSEAI
+       ..    :  .  : ..:: .  : .: ::..:: .   ..::          ..:    :
+Hymvar AITMTFPQWAILDCVMSLVIHESKVEDLAKALFNV---QVVS----------ERNVRYLI
+        230       240       250       260                    270   
+
+              270       280       290       300       310       320
+hrmAp_ LGPDPQDTPATSSEIDVAYFTLRGATVSAIESVFRADICEGIKDSELRNWEKEQLLIDTT
+       :    . ::  .       .::.:.  .::  ::  ..  ..  : ::. :  .  .  .
+Hymvar LPGGVRVTPNPD-------LTLKGVPDQAIIHVFGLEVYAAVAASSLREQELVEG-VKLA
+           280              290       300       310       320      
+
+              330       340       350       360  
+hrmAp_ DCVTMQIWRAQPQHGTIKLRIGFYAAVNLANRLYAETPQDHI
+       . :.: . . . ..:...: .:. .::.. :..:        
+Hymvar QGVSMILPKNSSDKGVVNLTLGIKGAVQIRNKIYP*      
+         330       340       350       360       
+
+>>Lizem1|Lizem1_158680 fgenesh1_pg.35_#_81                (303 aa)
+ s-w opt: 223  Z-score: 278.3  bits: 59.8 E(15711829): 1.7e-06
+Smith-Waterman score: 223; 30.9% identity (53.0% similar) in 181 aa overlap (150-329:129-276)
+
+     120       130       140       150        160       170        
+hrmAp_ AILWGLAKKHDIDGSLHFRKLMREIFQLSPPATEAEGKEH-YSLHLSTLPAIRNAFGDVI
+                                     :: ... . : :..    .:..   :   .
+Lizem1 EKKKGHALVKRLESIVPSGLKDIHVTSRPRPAERSRDQYHIYKFATIDMPVFSRYFPPRL
+      100       110       120       130       140       150        
+
+      180       190       200       210       220       230        
+hrmAp_ FDAIERSPTQVTARAKGYFSEKTESVWTKVPYRSSQDAIISLEVGSAIELANVLFPIATQ
+       .. :. :  ..    :.  :  :: : : ::. . .: .. :::::: ..  .:::    
+Lizem1 LQDIDDSALRAWEMRKS--STGTEIVRTDVPWSAFEDCLMFLEVGSAQDIIALLFP----
+      160       170         180       190       200       210      
+
+      240       250       260       270       280       290        
+hrmAp_ KIVSILSACSPTVRQKNFSEAILGPDPQDTPATSSEIDVAYFTLRGATVSAIESVFRADI
+                               :: . ::  :   :  .. .:::...:: . : : .
+Lizem1 ------------------------PD-KRTPCPSCCPD--HYFIRGASTDAISAFFGAYL
+                                     220         230       240     
+
+      300       310       320       330       340       350        
+hrmAp_ CEGIKDSELRNWEKEQLLIDTTDCVTMQIWRAQPQHGTIKLRIGFYAAVNLANRLYAETP
+        ..: .:::: ::::.  ..::::: ::. :                             
+Lizem1 SQAIDESELRIWEKENQQLETTDCVEMQLLRDPTSPHDWSLLYSGAKYRIIGHVVLA*  
+         250       260       270       280       290       300     
+
+      360  
+hrmAp_ QDHI
+
+>>Parch1|Parch1_199075 CE198872_35970                     (246 aa)
+ s-w opt: 221  Z-score: 277.8  bits: 59.4 E(15711829): 1.8e-06
+Smith-Waterman score: 221; 31.5% identity (64.6% similar) in 127 aa overlap (22-145:18-144)
+
+               10        20        30        40          50        
+hrmAp_ MASTKPASSLIYQAWNKLSINQTIPSDSLELLGERLAIAFAPKLKE--QRRNGRRRNLEY
+                            :.:::   : :  :: :.  :   .  ..:.  .:  : 
+Parch1     MTAPPSFKTISEDLERRQAIPSKYREDLEARLFITCNPAGYDPPHKRSKIKRPSEV
+                   10        20        30        40        50      
+
+        60        70        80        90       100       110       
+hrmAp_ V-AQHRRKIARKIYLEILEKDPNIFLPFILAVSPRACLSFDISSFLEQHQSQGRHFLRNN
+       : .: ... :...: :.:.  :. ::::::..::. : :::   : .....:   .. ..
+Parch1 VRSQFKQRKAQRVYREVLQDAPHAFLPFILSASPKFCESFDPYEFCKDNKGQRNFYFGDD
+         60        70        80        90       100       110      
+
+       120       130       140       150       160       170       
+hrmAp_ AEAILWGLAKKHDIDGSLHFRKLMREIFQLSPPATEAEGKEHYSLHLSTLPAIRNAFGDV
+       ....:  .: :..:. .  . ..:  .:                                
+Parch1 VKTLLQDIAVKKEISQTTLYLNMMGMFFPADHTYQTNTTWIPDQPEETILNFEFVDLTNF
+        120       130       140       150       160       170      
+
+>>Schves1|Schves1_401126 fgenesh1_kg.1_#_5602_#_TRINITY_  (142 aa)
+ s-w opt: 210  Z-score: 268.9  bits: 57.0 E(15711829): 5.7e-06
+Smith-Waterman score: 210; 33.1% identity (53.2% similar) in 154 aa overlap (201-354:18-140)
+
+              180       190       200       210       220       230
+hrmAp_ RNAFGDVIFDAIERSPTQVTARAKGYFSEKTESVWTKVPYRSSQDAIISLEVGSAIELAN
+                                     :: :   ::    .: .. :::: : .: .
+Schves              MEESCLRAWEMRRSITGTEVVRIDVPKVVFEDCLMFLEVGLAQDLIS
+                            10        20        30        40       
+
+              240       250       260       270       280       290
+hrmAp_ VLFPIATQKIVSILSACSPTVRQKNFSEAILGPDPQDTPATSSEIDVAYFTLRGATVSAI
+        ::: : .....  : :               ::              .:.: ::.: .:
+Schves ELFP-ADKRMITP-SCC---------------PD--------------HFSLTGASVETI
+        50          60                                     70      
+
+              300       310       320       330       340       350
+hrmAp_ ESVFRADICEGIKDSELRNWEKEQLLIDTTDCVTMQIWRAQPQHGTIKLRIGFYAAVNLA
+        . :   . ..: .:.::.::::.   . :.:: .:.     .:: .:::::.  : .:.
+Schves FAFFGPYLFQAIDQSKLREWEKEEQRPEITECVEVQLRDPTSRHGILKLRIGWSLAHGLV
+         80        90       100       110       120       130      
+
+              360  
+hrmAp_ NRLYAETPQDHI
+       : ::        
+Schves NSLYT*      
+        140        
+
+>>Cernew1|Cernew1_8215 CE8214_244                         (219 aa)
+ s-w opt: 209  Z-score: 263.3  bits: 56.6 E(15711829): 1.2e-05
+Smith-Waterman score: 209; 29.1% identity (53.1% similar) in 213 aa overlap (145-354:37-216)
+
+          120       130       140       150       160          170 
+hrmAp_ RNNAEAILWGLAKKHDIDGSLHFRKLMREIFQLSPPATEAEGKEHYSL-HLSTLPA--IR
+                                     ::.  :    ..::.: . .. :  :  . 
+Cernew RISLLGILGRNLENPHLRTLRSMAPDELIGFQVHRPRPPERSKEEYWIDKFCTADADTLS
+         10        20        30        40        50        60      
+
+             180       190       200       210       220       230 
+hrmAp_ NAFGDVIFDAIERSPTQVTARAKGYFSEKTESVWTKVPYRSSQDAIISLEVGSAIELANV
+       . :.  :   .:.:  ..    :. ..  :: : : ::    .: .. .::: : .: . 
+Cernew TYFSPRIRYFMEESCLRAWEMRKSIIG--TEVVRTDVPKVVFEDYLMFFEVGLAQDLISE
+         70        80        90         100       110       120    
+
+             240       250       260       270       280       290 
+hrmAp_ LFPIATQKIVSILSACSPTVRQKNFSEAILGPDPQDTPATSSEIDVAYFTLRGATVSAIE
+       ::: : .....  : :               ::              .:.: ::.: .. 
+Cernew LFP-ADKRMITP-SCC---------------PD--------------HFSLTGASVETMF
+           130                       140                     150   
+
+             300       310       320       330       340       350 
+hrmAp_ SVFRADICEGIKDSELRNWEKEQLLIDTTDCVTMQIWRAQPQHGTIKLRIGFYAAVNLAN
+       . :   . ..: .:.::.::::.   . :.:: .:.     .:: .:::::.  . .:.:
+Cernew AFFGPYLFQAIDQSKLREWEKEEKRSEITECVEVQLRDPTSRHGILKLRIGWSLGHGLVN
+           160       170       180       190       200       210   
+
+             360  
+hrmAp_ RLYAETPQDHI
+        ::        
+Cernew TLYKI*     
+                  
+
+>>Cocim1|Cocim1_5449 CIMG_13248T0                         (511 aa)
+ s-w opt: 214  Z-score: 261.4  bits: 57.4 E(15711829): 1.5e-05
+Smith-Waterman score: 214; 37.4% identity (66.7% similar) in 99 aa overlap (147-244:379-477)
+
+        120       130       140        150       160       170     
+hrmAp_ NAEAILWGLAKKHDIDGSLHFRKLMREIFQLSP-PATEAEGKEHYSLHLSTLPAIRNAFG
+                                     ..: : :.::. ::.  . . : :::..::
+Cocim1 GYMLNLEMADCVNNQGLPSSTEGQGAQNWPVTPKPITNAESDEHWVYYAADLHAIRSVFG
+      350       360       370       380       390       400        
+
+         180       190       200       210       220       230     
+hrmAp_ DVIFDAIERSPTQVTARAKGYFSEKTESVWTKVPYRSSQDAIISLEVGSAIELANVLFPI
+       : ...:.: :::..  ..:.   . :: :  : : .. .:::  .:.: : .:. .::: 
+Cocim1 DRFYNAVEGSPTRMCEKVKNQTLRTTECVKMKFPRQNFHDAIAWVEIGMADDLVRILFPQ
+      410       420       430       440       450       460        
+
+         240       250       260       270       280       290     
+hrmAp_ ATQKIVSILSACSPTVRQKNFSEAILGPDPQDTPATSSEIDVAYFTLRGATVSAIESVFR
+          .:  .:                                                   
+Cocim1 MDWRIPLLLPKNPVASYAQPPVAVSENQGMSRSISNIGEQKN*                 
+      470       480       490       500       510                  
+
+>>Micbo1|Micbo1_169989 fgenesh1_kg.65_#_1_#_Locus450v2rp  (353 aa)
+ s-w opt: 208  Z-score: 257.2  bits: 56.1 E(15711829): 2.5e-05
+Smith-Waterman score: 208; 22.6% identity (54.6% similar) in 372 aa overlap (11-359:11-351)
+
+               10        20        30        40          50        
+hrmAp_ MASTKPASSLIYQAWNKLSINQTIPSDSLELLGERLAIAF-APKL-KEQRRNGRRRNLEY
+                 :  .. ::  .  . .:. . ...:..  : :: . . ....  : . : 
+Micbo1 MPPHSHYHDAILATYRKLEDGTHLGTDDQKTINQRITWLFEAPPVWRPNKKSTPRSEKET
+               10        20        30        40        50        60
+
+       60        70        80        90       100       110        
+hrmAp_ VAQHRRKIARKIYLEILEKDPNIFLPFILAVSPRACLSFDISSFLEQHQSQGRHFLRNNA
+         ..: . : . : ..:...:  .::::: :: : : .    ...:.   ..  .  :..
+Micbo1 KDNYRARCANRKYARVLKRNPFYLLPFILCVSERQCEKSATEKIIESIPRSNVPIDVNKT
+               70        80        90       100       110       120
+
+           120       130       140        150              160     
+hrmAp_ E-----AILWGLAKKHDIDGSLHFRKLMREIF-QLSPPATE------AEGKE-HYSLHLS
+       .     .:  :: ..:    :: . :. ::   . .::..:      ::  :  :   ..
+Micbo1 QKLDETGICAGLNERHR---SLLIDKITREYRPDEQPPSNEPAPPTAAEDPETSYEYIFA
+              130          140       150       160       170       
+
+         170       180       190        200          210       220 
+hrmAp_ TLPAIRNAFGDVIFDAIERSPTQVTARAKGY-FSEKTESVWTKVP---YRSSQDAIISLE
+       .   . . ::  .. :...:  .    ....  .  : ..  .::    .  .::.::..
+Micbo1 STDHLLGHFGPQLL-ALNESYRMYEKNGQSFSHNTVTTTIRMRVPNELQHERNDALISID
+       180       190        200       210       220       230      
+
+             230       240       250       260       270       280 
+hrmAp_ VGSAIELANVLFPIATQKIVSILSACSPTVRQKNFSEAILGPDPQDTPATSSEIDVAYFT
+       .. : .::: .             ::    :. : ..     .::  : ...:.  :  .
+Micbo1 IAYAEQLANQI-------------AC----RNPNVTN-----NPQ--PNADKEVPKAGDS
+        240                        250              260       270  
+
+             290       300       310        320       330          
+hrmAp_ LRGATVSAIESVFRADICEGIKDSELRNWE-KEQLLIDTTDCVTMQIWRA-QPQHG--TI
+       :  .. . . . . ...  .. .:.::. : ... :   :  : ...    ::. :  :.
+Micbo1 L--VSWDFLAAFLPSEMLAAVAESQLRQHEGRDKRLARKTAAVKIELHDCRQPSSGSGTL
+              280       290       300       310       320       330
+
+       340       350       360  
+hrmAp_ KLRIGFYAAVNLANRLYAETPQDHI
+        .:.:: ... :.. .: ..:.   
+Micbo1 TMRVGFESGMRLVSYIY-KAPKI* 
+              340        350    
+
+>>Aspfu_A1163_1|Aspfu_A1163_1_103707 CADAFUBT00004447m.0  (143 aa)
+ s-w opt: 194  Z-score: 247.9  bits: 53.1 E(15711829): 8.3e-05
+Smith-Waterman score: 194; 31.0% identity (68.1% similar) in 116 aa overlap (72-185:1-116)
+
+              50        60        70        80        90       100 
+hrmAp_ PKLKEQRRNGRRRNLEYVAQHRRKIARKIYLEILEKDPNIFLPFILAVSPRACLSFDISS
+                                     .::::  :..:.:::::. :..: .: .. 
+Aspfu_                               MEILEDYPQLFIPFILATPPKSCKTFKLGE
+                                             10        20        30
+
+              110       120       130       140        150         
+hrmAp_ FLEQHQ-SQGRHFLRNNAEAILWGLAKKHDIDGSLHFRKLMREIFQLSP-PATEAEGKEH
+       : :.:. :  .  :: : .  : ..:... .. . ....:.  .: :.  ::: :. .. 
+Aspfu_ FQEKHNLSTVKVDLRPNIQQTLDNIANQKGFNQNQQYQHLICTLFPLGQKPATTAKTQNC
+               40        50        60        70        80        90
+
+     160       170       180       190       200       210         
+hrmAp_ YSLHLSTLPAIRNAFGDVIFDAIERSPTQVTARAKGYFSEKTESVWTKVPYRSSQDAIIS
+       .. . . : .... :.  : .:.: :                                  
+Aspfu_ WAYRAAYLNTMHTIFSKQICSAMEVSLMAYSPECQAPQTTLCMEIKLPKQNY*       
+              100       110       120       130       140          
+
+>>Cloaq1|Cloaq1_496750 e_gw1.230.12.1                     (66 aa)
+ s-w opt: 178  Z-score: 234.7  bits: 49.6 E(15711829): 0.00045
+Smith-Waterman score: 178; 45.3% identity (75.0% similar) in 64 aa overlap (48-108:1-64)
+
+        20        30        40        50        60        70       
+hrmAp_ LSINQTIPSDSLELLGERLAIAFAPKLKEQRRNGRRRNLEYVAQHRRKIARKIYLEILEK
+                                     ::. :   :. .  ...: : ..:::.:.:
+Cloaq1                               RRKVRCLWLDILLYYKQKKANNVYLEVLNK
+                                             10        20        30
+
+        80        90       100          110       120       130    
+hrmAp_ DPNIFLPFILAVSPRACLSFDISSF---LEQHQSQGRHFLRNNAEAILWGLAKKHDIDGS
+       :: .:::::::.:: :: .:. :..   :.:..:                          
+Cloaq1 DPYLFLPFILAISPSACRTFNASKLCQRLKQEHSI*                        
+               40        50        60                              
+
+          140       150       160       170       180       190    
+hrmAp_ LHFRKLMREIFQLSPPATEAEGKEHYSLHLSTLPAIRNAFGDVIFDAIERSPTQVTARAK
+
+>>Aaoar1|Aaoar1_32683 CE32590_1332                        (168 aa)
+ s-w opt: 183  Z-score: 232.0  bits: 50.4 E(15711829): 0.00065
+Smith-Waterman score: 183; 28.7% identity (60.1% similar) in 143 aa overlap (16-156:14-149)
+
+               10        20        30        40        50        60
+hrmAp_ MASTKPASSLIYQAWNKLSINQTIPSDSLELLGERLAIAFAPKLKEQRRNGRRRNLEYVA
+                      .::.:. .:  .   .:.:::..::. .. .. ..  : ..  : 
+Aaoar1   MQPGQQKRISDIASKLDIEGNISYEHEAILNERLVLAFS-SFPRRTKKIDRIHVSAVE
+                 10        20        30         40        50       
+
+               70        80        90       100       110          
+hrmAp_ QHRRKIARKIYLEILEKDPNIFLPFILAVSPRACLSFDISSFLEQHQSQGRHF--LRNNA
+       .  :: :  :: :.:.  :. ..: :::.:: ::  :..  .: :..   : :  :  . 
+Aaoar1 RSMRKKASIIYKEVLRCAPHQLIPVILAISPWACKRFNVREYLAQER---RAFSALNRSI
+        60        70        80        90       100          110    
+
+      120       130       140       150       160       170        
+hrmAp_ EAILWGLAKKHDIDGSLHFRKLMREIFQLSPPATEAEGKEHYSLHLSTLPAIRNAFGDVI
+       . .:  .:. : .:     .. .  .:   : .....:                      
+Aaoar1 QNVLDYVARIHGFDQEAASHQWINTLF---PQGANSQGTSMKRANKMQQIKGSRDR*   
+          120       130       140          150       160           
+
+      180       190       200       210       220       230        
+hrmAp_ FDAIERSPTQVTARAKGYFSEKTESVWTKVPYRSSQDAIISLEVGSAIELANVLFPIATQ
+
+>>Aspsc1|Aspsc1_240789 fgenesh1_pm.74_#_6                 (204 aa)
+ s-w opt: 183  Z-score: 230.0  bits: 50.3 E(15711829): 0.00083
+Smith-Waterman score: 183; 40.3% identity (66.7% similar) in 72 aa overlap (26-97:11-82)
+
+               10        20        30        40        50        60
+hrmAp_ MASTKPASSLIYQAWNKLSINQTIPSDSLELLGERLAIAFAPKLKEQRRNGRRRNLEYVA
+                                ::   .. ::. . ..      :.   : . :: :
+Aspsc1                MAVSPLLVKLSDYESIFEERIILIYSTPKCLLRKATPRLKTEYKA
+                              10        20        30        40     
+
+               70        80        90       100       110       120
+hrmAp_ QHRRKIARKIYLEILEKDPNIFLPFILAVSPRACLSFDISSFLEQHQSQGRHFLRNNAEA
+       . : ::::: :::.:.. :.::.::::..:: .: ..                       
+Aspsc1 HDRLKIARKTYLEVLKRFPSIFIPFILVISPTSCQTWKADEMWRDLQRTITETDECWAYN
+          50        60        70        80        90       100     
+
+              130       140       150       160       170       180
+hrmAp_ ILWGLAKKHDIDGSLHFRKLMREIFQLSPPATEAEGKEHYSLHLSTLPAIRNAFGDVIFD
+                                                                   
+Aspsc1 TADVDKICKFLNEGIYSAFDNSLKRLREKEENLRAWDKFILVHGLILLQDHAIAYPNSHQ
+         110       120       130       140       150       160     
+
+
+
+362 residues in 1 query   sequences
+6746674221 residues in 15711829 library sequences
+ Tcomplib [36.3.7a Jan, 2015(preload9)] (64 proc in memory [6G])
+ start: Tue Apr 30 12:28:29 2019 done: Tue Apr 30 12:32:01 2019
+ Total Scan time: 584.060 Total Display time:  0.130
+
+Function used was SSEARCH [36.3.7a Jan, 2015(preload9)]
