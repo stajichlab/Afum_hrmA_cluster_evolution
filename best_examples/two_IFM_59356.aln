@@ -1,0 +1,42 @@
+MUSCLE (3.8) multiple sequence alignment
+
+
+IFM_59356-1.scaffold_6__131047-1      ATGGTATTGATCATCGAGATCATCAAGATTGGACAGATTGGACCGATTGGACAGAGGGGA
+IFM_59356-3.scaffold_21__142504-      ATGGTATTGATCATCGAGATCATCAAGATTGGACAGATTGGACCGATTGGACAGAGGGGA
+                                      ************************************************************
+
+IFM_59356-1.scaffold_6__131047-1      CAGAGTGGACAGAGGGGACAGAGTGGACAGAGGGGACAGAGTGGACAGATTGGACAGAGT
+IFM_59356-3.scaffold_21__142504-      CAGAGTGGACAGAGGGGACAGAGTGGACAGAGGGGACAGAGTGGACAGATTGGACAGAGT
+                                      ************************************************************
+
+IFM_59356-1.scaffold_6__131047-1      GGACAGAGTGGACAGAGTGGACAGAGTGGACAGAGTGGACAGAGTGG-------------
+IFM_59356-3.scaffold_21__142504-      GGACAGAGTGGACAGAGTGGACAGAGTGGACAGAGTGGACAGAGTGGACAGATTGGACAG
+                                      ***********************************************             
+
+IFM_59356-1.scaffold_6__131047-1      ---------------------------------------GGACAGATTGGACAGATTGGA
+IFM_59356-3.scaffold_21__142504-      ATTGGACAGATTGGACAGATTGGACAGATTGGACAGATTGGACAGATTGGACAGATTGGA
+                                                                             *********************
+
+IFM_59356-1.scaffold_6__131047-1      CAGATTGGACAGATTGGACAGATTGGACAGATTGGACAGATTGGACAGATTGGACAGATT
+IFM_59356-3.scaffold_21__142504-      CAGATTGGACAGATTGGACAGATTGGACAGATTGGACAGATTGGACAGATTGGACAGATT
+                                      ************************************************************
+
+IFM_59356-1.scaffold_6__131047-1      GGACAGGCTCGACGGACTGGACGGACTGGACGGACTGTCCACCGAGTGAGAGTGATAAAC
+IFM_59356-3.scaffold_21__142504-      GGACAGGCTCGACGGACTGGACGGACTGGACGGACTGTCCACCGAGTGAGAGTGATAAAC
+                                      ************************************************************
+
+IFM_59356-1.scaffold_6__131047-1      GGGGAGAACTAGAGACCGATACGAATCGACGGACAATGAAGCGAGAGGTGCAATTCCCTG
+IFM_59356-3.scaffold_21__142504-      GGGGAGAACTAGAGACCGATACGAATCGACGGACAATGAAGCGAGAGGTGCAATTCCCTG
+                                      ************************************************************
+
+IFM_59356-1.scaffold_6__131047-1      AACTTAGACCTAATTGTGCCTACTCAGCTATCTGAATATGGCAGCACTTGAAGCGTATGC
+IFM_59356-3.scaffold_21__142504-      AACTTAGACCTAATTGTGCCTACTCAGCTATCTGAATATGGCAGCACTTGAAGCGTATGC
+                                      ************************************************************
+
+IFM_59356-1.scaffold_6__131047-1      TCCAGGCTTCCAGCGTATGCTCCAGGCTTCCAGCTCCTTTAACATATCTCCAGATATAAG
+IFM_59356-3.scaffold_21__142504-      TCCAGGCTTCCAGCGTATGCTCCAGGCTTCCAGCTCCTTTAACATATCTCCAGATATAAG
+                                      ************************************************************
+
+IFM_59356-1.scaffold_6__131047-1      TATATGCAGGCGCGCTACGAGAAACATGGGAGAAGAGGAGAGGCCGCTTGGATGC
+IFM_59356-3.scaffold_21__142504-      TATATGCAGGCGCGCTACGAGAAACATGGGAGAAGAGGAGAGGCCGCTTGGATGC
+                                      *******************************************************
