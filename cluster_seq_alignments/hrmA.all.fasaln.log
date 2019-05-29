@@ -1,0 +1,517 @@
+IQ-TREE multicore version 1.6.10 for Linux 64-bit built Feb 19 2019
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    m04 (AVX, FMA3, 125 GB RAM)
+Command: iqtree -s hrmA.all.fasaln -alrt 1000 -bb 1000
+Seed:    407589 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Mar  8 15:02:40 2019
+Kernel:  AVX+FMA - 1 threads (64 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 64 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file hrmA.all.fasaln ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 96 sequences with 1726 columns, 138 distinct patterns
+554 parsimony-informative, 23 singleton sites, 1149 constant sites
+                                         Gap/Ambiguity  Composition  p-value
+   1  08-19-02-30.scaffold_6__237376-238411     40.03%    passed     59.20%
+   2  08-31-08-91.scaffold_29__164587-163552    40.03%    failed      0.04%
+   3  08-36-03-25.scaffold_157__8093-9128       40.03%    passed     59.20%
+   4  10-01-02-27.scaffold_53__78236-79271      40.03%    passed     59.20%
+   5  12-7504462.scaffold_83__29744-30883       34.01%    passed     47.85%
+   6  12-7505220.scaffold_108__16950-15915      40.03%    passed     59.20%
+   7  1F1SW_F4.scaffold_19__127351-126316       40.03%    passed     12.54%
+   8  A1163.scaffold_41__240571-239432          34.01%    passed     47.85%
+   9  A1163.scaffold_62__153246-154281          40.03%    failed      0.42%
+  10  A1163.scaffold_91__34903-33868            40.03%    passed     59.20%
+  11  AF293.scaffold_308__23407-24546           34.01%    passed     47.85%
+  12  AF41.scaffold_27__196635-197670           40.03%    passed     17.31%
+  13  AF72.scaffold_19__205258-204223           40.03%    passed     17.31%
+  14  Af293.scaffold_41__39821-38682            34.01%    passed     47.85%
+  15  Af65.scaffold_9__467197-466162            40.03%    passed     59.20%
+  16  Afu_1042-09.scaffold_18__430221-431256    40.03%    passed     59.20%
+  17  Afu_124-E11.scaffold_19__430218-431253    40.03%    passed     59.20%
+  18  Afu_166-E11.scaffold_24__19173-18138      40.03%    passed     59.20%
+  19  Afu_218-E11.scaffold_21__430314-431349    40.03%    passed     59.20%
+  20  Afu_257-E11.scaffold_8__430221-431256     40.03%    passed     59.20%
+  21  Afu_343-P-11.scaffold_18__430196-431231   40.03%    passed     59.20%
+  22  Afu_591-12.scaffold_19__19240-18205       40.03%    passed     59.20%
+  23  Afu_942-09.scaffold_19__19240-18205       40.03%    passed     59.20%
+  24  CEA10.scaffold_211__4549-3514             40.03%    failed      0.42%
+  25  CEA10.scaffold_257__34925-33890           40.03%    passed     59.20%
+  26  CEA10.scaffold_468__4774-3635             34.01%    passed     47.85%
+  27  CM237.scaffold_513__4034-5173             34.01%    passed     47.85%
+  28  CM237.scaffold_794__1176-141              40.03%    failed      0.42%
+  29  CM237.scaffold_815__49-1084               40.03%    passed     59.20%
+  30  CM2495.scaffold_297__23891-24863          43.68%    passed     38.77%
+  31  CM2730.scaffold_296__4490-3518            43.68%    passed     38.77%
+  32  CM2733.scaffold_549__3-969                44.03%    passed     32.99%
+  33  CM3248.scaffold_7__238469-239504          40.03%    failed      0.42%
+  34  CM3249.scaffold_281__30424-31396          43.68%    passed     38.77%
+  35  CM3249b.scaffold_267__30588-31560         43.68%    passed     38.77%
+  36  CM3720.scaffold_150__61615-62587          43.68%    passed     38.77%
+  37  CM4602.scaffold_12__143144-144179         40.03%    passed     59.20%
+  38  CM4946.scaffold_289__23312-24284          43.68%    passed     38.77%
+  39  CM5757.scaffold_63__118287-119322         40.03%    failed      0.42%
+  40  CM7510.scaffold_100__49907-50942          40.03%    passed     59.20%
+  41  CM7510.scaffold_448__12449-11414          40.03%    failed      0.42%
+  42  CM7560.scaffold_248__30443-31415          43.68%    passed     38.77%
+  43  CM7570.scaffold_31__181323-182295         43.68%    passed     38.77%
+  44  F12219.scaffold_21__205286-204251         40.03%    passed     17.31%
+  45  F12636.scaffold_3__517841-518876          40.03%    passed     59.20%
+  46  F13619.scaffold_48__80026-81061           40.03%    passed     55.85%
+  47  F14403.scaffold_13__207186-206151         40.03%    failed      0.42%
+  48  F14532.scaffold_15__322367-321332         40.03%    passed     59.20%
+  49  F15390.scaffold_16__279074-278039         40.03%    passed     59.20%
+  50  F16134.scaffold_135__28304-27269          40.03%    failed      0.42%
+  51  F17582.scaffold_60__78576-79611           40.03%    passed     59.20%
+  52  F17764.scaffold_27__114553-113518         40.03%    passed     17.31%
+  53  F18149.scaffold_8__28314-27279            40.03%    failed      0.42%
+  54  F5211G.scaffold_45__78239-79274           40.03%    passed     59.20%
+  55  IFM_55369.scaffold_1__365883-364744       34.01%    passed     47.85%
+  56  IFM_58026.scaffold_526__3132-2100         40.21%    failed      0.53%
+  57  IFM_59073.scaffold_34__16864-15829        40.03%    passed     17.31%
+  58  IFM_59355-1.scaffold_5__122677-123816     34.01%    passed     47.85%
+  59  IFM_59355-2.scaffold_1__365816-364677     34.01%    passed     47.85%
+  60  IFM_59356-1.scaffold_6__128312-129451     34.01%    passed     47.85%
+  61  IFM_59356-2.scaffold_795__2469-1330       34.01%    passed     47.85%
+  62  IFM_59356-3.scaffold_21__145239-144100    34.01%    passed     47.85%
+  63  IFM_59359.scaffold_859__2482-1343         34.01%    passed     47.85%
+  64  IFM_59361-1.scaffold_45__45235-44200      40.03%    passed     59.20%
+  65  IFM_59361-1.scaffold_93__19167-20306      34.01%    passed     47.85%
+  66  IFM_59361-2.scaffold_27__330507-329472    40.03%    passed     59.20%
+  67  IFM_59361-2.scaffold_97__19167-20306      34.01%    passed     47.85%
+  68  IFM_59361.scaffold_62__4735-3700          40.03%    passed     59.20%
+  69  IFM_59361.scaffold_93__90017-88878        34.01%    passed     47.85%
+  70  IFM_60237.scaffold_125__19167-20306       34.01%    passed     47.85%
+  71  IFM_60237.scaffold_90__65170-66205        40.03%    passed     59.20%
+  72  IFM_60514.scaffold_315__16208-15173       40.03%    failed      0.42%
+  73  IFM_61118.scaffold_357__16391-15356       40.03%    failed      0.42%
+  74  IFM_61407.scaffold_569__206-1241          40.03%    failed      0.42%
+  75  IFM_61407.scaffold_860__1378-2413         40.03%    failed      0.79%
+  76  IFM_61578.scaffold_202__21882-23021       34.01%    passed     79.01%
+  77  IFM_61610.scaffold_2__39173-38138         40.03%    passed     12.54%
+  78  IFM_62516.scaffold_273__2519-1380         34.01%    passed     47.85%
+  79  ISSF_21.scaffold_26__25439-24404          40.03%    passed     86.73%
+  80  MO54056EXP.scaffold_104__27796-26761      40.03%    failed      0.42%
+  81  MO54056EXP.scaffold_47__224920-223885     40.03%    passed     59.20%
+  82  MO68507EXP.scaffold_1__941714-940679      40.03%    passed     59.20%
+  83  MO69250EXP.scaffold_44__224305-223270     40.03%    failed      0.42%
+  84  MO69250EXP.scaffold_68__113106-112071     40.03%    passed     59.20%
+  85  MO76959EXP.scaffold_58__156197-155162     40.03%    failed      0.42%
+  86  MO76959EXP.scaffold_77__2299-3334         40.03%    passed     59.20%
+  87  MO79587EXP.scaffold_71__25177-26212       40.03%    passed     59.20%
+  88  MO89263LAB.scaffold_46__2323-3358         40.03%    failed      0.42%
+  89  MO89263LAB.scaffold_70__87570-86535       40.03%    passed     59.20%
+  90  TP12.scaffold_508__10068-9033             40.03%    passed     63.11%
+  91  TP12.scaffold_664__1862-723               34.01%    passed     47.85%
+  92  TP32.scaffold_212__4554-3519              40.03%    passed     63.51%
+  93  akuBKU80.scaffold_1893__105-1140          40.03%    passed     59.20%
+  94  akuBKU80.scaffold_214__4552-3517          40.03%    failed      0.42%
+  95  akuBKU80.scaffold_456__9174-8035          34.01%    passed     47.85%
+  96  Afu5g14900_hrmA                            0.93%    failed      1.00%
+****  TOTAL                                     38.66%  21 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: 08-36-03-25.scaffold_157__8093-9128 is identical to 08-19-02-30.scaffold_6__237376-238411 but kept for subsequent analysis
+NOTE: A1163.scaffold_41__240571-239432 is identical to 12-7504462.scaffold_83__29744-30883 but kept for subsequent analysis
+NOTE: IFM_61610.scaffold_2__39173-38138 is identical to 1F1SW_F4.scaffold_19__127351-126316 but kept for subsequent analysis
+NOTE: CEA10.scaffold_211__4549-3514 is identical to A1163.scaffold_62__153246-154281 but kept for subsequent analysis
+NOTE: AF72.scaffold_19__205258-204223 is identical to AF41.scaffold_27__196635-197670 but kept for subsequent analysis
+NOTE: CM2730.scaffold_296__4490-3518 is identical to CM2495.scaffold_297__23891-24863 but kept for subsequent analysis
+NOTE: 74 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: 10-01-02-27.scaffold_53__78236-79271 (identical to 08-19-02-30.scaffold_6__237376-238411) is ignored but added at the end
+NOTE: 12-7505220.scaffold_108__16950-15915 (identical to 08-19-02-30.scaffold_6__237376-238411) is ignored but added at the end
+NOTE: A1163.scaffold_91__34903-33868 (identical to 08-19-02-30.scaffold_6__237376-238411) is ignored but added at the end
+NOTE: Af65.scaffold_9__467197-466162 (identical to 08-19-02-30.scaffold_6__237376-238411) is ignored but added at the end
+NOTE: Afu_1042-09.scaffold_18__430221-431256 (identical to 08-19-02-30.scaffold_6__237376-238411) is ignored but added at the end
+NOTE: Afu_124-E11.scaffold_19__430218-431253 (identical to 08-19-02-30.scaffold_6__237376-238411) is ignored but added at the end
+NOTE: Afu_166-E11.scaffold_24__19173-18138 (identical to 08-19-02-30.scaffold_6__237376-238411) is ignored but added at the end
+NOTE: Afu_218-E11.scaffold_21__430314-431349 (identical to 08-19-02-30.scaffold_6__237376-238411) is ignored but added at the end
+NOTE: Afu_257-E11.scaffold_8__430221-431256 (identical to 08-19-02-30.scaffold_6__237376-238411) is ignored but added at the end
+NOTE: Afu_343-P-11.scaffold_18__430196-431231 (identical to 08-19-02-30.scaffold_6__237376-238411) is ignored but added at the end
+NOTE: Afu_591-12.scaffold_19__19240-18205 (identical to 08-19-02-30.scaffold_6__237376-238411) is ignored but added at the end
+NOTE: Afu_942-09.scaffold_19__19240-18205 (identical to 08-19-02-30.scaffold_6__237376-238411) is ignored but added at the end
+NOTE: CEA10.scaffold_257__34925-33890 (identical to 08-19-02-30.scaffold_6__237376-238411) is ignored but added at the end
+NOTE: CM237.scaffold_815__49-1084 (identical to 08-19-02-30.scaffold_6__237376-238411) is ignored but added at the end
+NOTE: CM4602.scaffold_12__143144-144179 (identical to 08-19-02-30.scaffold_6__237376-238411) is ignored but added at the end
+NOTE: CM7510.scaffold_100__49907-50942 (identical to 08-19-02-30.scaffold_6__237376-238411) is ignored but added at the end
+NOTE: F12636.scaffold_3__517841-518876 (identical to 08-19-02-30.scaffold_6__237376-238411) is ignored but added at the end
+NOTE: F14532.scaffold_15__322367-321332 (identical to 08-19-02-30.scaffold_6__237376-238411) is ignored but added at the end
+NOTE: F15390.scaffold_16__279074-278039 (identical to 08-19-02-30.scaffold_6__237376-238411) is ignored but added at the end
+NOTE: F17582.scaffold_60__78576-79611 (identical to 08-19-02-30.scaffold_6__237376-238411) is ignored but added at the end
+NOTE: F5211G.scaffold_45__78239-79274 (identical to 08-19-02-30.scaffold_6__237376-238411) is ignored but added at the end
+NOTE: IFM_59361-1.scaffold_45__45235-44200 (identical to 08-19-02-30.scaffold_6__237376-238411) is ignored but added at the end
+NOTE: IFM_59361-2.scaffold_27__330507-329472 (identical to 08-19-02-30.scaffold_6__237376-238411) is ignored but added at the end
+NOTE: IFM_59361.scaffold_62__4735-3700 (identical to 08-19-02-30.scaffold_6__237376-238411) is ignored but added at the end
+NOTE: IFM_60237.scaffold_90__65170-66205 (identical to 08-19-02-30.scaffold_6__237376-238411) is ignored but added at the end
+NOTE: MO54056EXP.scaffold_47__224920-223885 (identical to 08-19-02-30.scaffold_6__237376-238411) is ignored but added at the end
+NOTE: MO68507EXP.scaffold_1__941714-940679 (identical to 08-19-02-30.scaffold_6__237376-238411) is ignored but added at the end
+NOTE: MO69250EXP.scaffold_68__113106-112071 (identical to 08-19-02-30.scaffold_6__237376-238411) is ignored but added at the end
+NOTE: MO76959EXP.scaffold_77__2299-3334 (identical to 08-19-02-30.scaffold_6__237376-238411) is ignored but added at the end
+NOTE: MO79587EXP.scaffold_71__25177-26212 (identical to 08-19-02-30.scaffold_6__237376-238411) is ignored but added at the end
+NOTE: MO89263LAB.scaffold_70__87570-86535 (identical to 08-19-02-30.scaffold_6__237376-238411) is ignored but added at the end
+NOTE: akuBKU80.scaffold_1893__105-1140 (identical to 08-19-02-30.scaffold_6__237376-238411) is ignored but added at the end
+NOTE: AF293.scaffold_308__23407-24546 (identical to 12-7504462.scaffold_83__29744-30883) is ignored but added at the end
+NOTE: Af293.scaffold_41__39821-38682 (identical to 12-7504462.scaffold_83__29744-30883) is ignored but added at the end
+NOTE: CEA10.scaffold_468__4774-3635 (identical to 12-7504462.scaffold_83__29744-30883) is ignored but added at the end
+NOTE: CM237.scaffold_513__4034-5173 (identical to 12-7504462.scaffold_83__29744-30883) is ignored but added at the end
+NOTE: IFM_55369.scaffold_1__365883-364744 (identical to 12-7504462.scaffold_83__29744-30883) is ignored but added at the end
+NOTE: IFM_59355-1.scaffold_5__122677-123816 (identical to 12-7504462.scaffold_83__29744-30883) is ignored but added at the end
+NOTE: IFM_59355-2.scaffold_1__365816-364677 (identical to 12-7504462.scaffold_83__29744-30883) is ignored but added at the end
+NOTE: IFM_59356-1.scaffold_6__128312-129451 (identical to 12-7504462.scaffold_83__29744-30883) is ignored but added at the end
+NOTE: IFM_59356-2.scaffold_795__2469-1330 (identical to 12-7504462.scaffold_83__29744-30883) is ignored but added at the end
+NOTE: IFM_59356-3.scaffold_21__145239-144100 (identical to 12-7504462.scaffold_83__29744-30883) is ignored but added at the end
+NOTE: IFM_59359.scaffold_859__2482-1343 (identical to 12-7504462.scaffold_83__29744-30883) is ignored but added at the end
+NOTE: IFM_59361-1.scaffold_93__19167-20306 (identical to 12-7504462.scaffold_83__29744-30883) is ignored but added at the end
+NOTE: IFM_59361-2.scaffold_97__19167-20306 (identical to 12-7504462.scaffold_83__29744-30883) is ignored but added at the end
+NOTE: IFM_59361.scaffold_93__90017-88878 (identical to 12-7504462.scaffold_83__29744-30883) is ignored but added at the end
+NOTE: IFM_60237.scaffold_125__19167-20306 (identical to 12-7504462.scaffold_83__29744-30883) is ignored but added at the end
+NOTE: IFM_62516.scaffold_273__2519-1380 (identical to 12-7504462.scaffold_83__29744-30883) is ignored but added at the end
+NOTE: TP12.scaffold_664__1862-723 (identical to 12-7504462.scaffold_83__29744-30883) is ignored but added at the end
+NOTE: akuBKU80.scaffold_456__9174-8035 (identical to 12-7504462.scaffold_83__29744-30883) is ignored but added at the end
+NOTE: CM237.scaffold_794__1176-141 (identical to A1163.scaffold_62__153246-154281) is ignored but added at the end
+NOTE: CM3248.scaffold_7__238469-239504 (identical to A1163.scaffold_62__153246-154281) is ignored but added at the end
+NOTE: CM5757.scaffold_63__118287-119322 (identical to A1163.scaffold_62__153246-154281) is ignored but added at the end
+NOTE: CM7510.scaffold_448__12449-11414 (identical to A1163.scaffold_62__153246-154281) is ignored but added at the end
+NOTE: F14403.scaffold_13__207186-206151 (identical to A1163.scaffold_62__153246-154281) is ignored but added at the end
+NOTE: F16134.scaffold_135__28304-27269 (identical to A1163.scaffold_62__153246-154281) is ignored but added at the end
+NOTE: F18149.scaffold_8__28314-27279 (identical to A1163.scaffold_62__153246-154281) is ignored but added at the end
+NOTE: IFM_60514.scaffold_315__16208-15173 (identical to A1163.scaffold_62__153246-154281) is ignored but added at the end
+NOTE: IFM_61118.scaffold_357__16391-15356 (identical to A1163.scaffold_62__153246-154281) is ignored but added at the end
+NOTE: IFM_61407.scaffold_569__206-1241 (identical to A1163.scaffold_62__153246-154281) is ignored but added at the end
+NOTE: MO54056EXP.scaffold_104__27796-26761 (identical to A1163.scaffold_62__153246-154281) is ignored but added at the end
+NOTE: MO69250EXP.scaffold_44__224305-223270 (identical to A1163.scaffold_62__153246-154281) is ignored but added at the end
+NOTE: MO76959EXP.scaffold_58__156197-155162 (identical to A1163.scaffold_62__153246-154281) is ignored but added at the end
+NOTE: MO89263LAB.scaffold_46__2323-3358 (identical to A1163.scaffold_62__153246-154281) is ignored but added at the end
+NOTE: akuBKU80.scaffold_214__4552-3517 (identical to A1163.scaffold_62__153246-154281) is ignored but added at the end
+NOTE: F12219.scaffold_21__205286-204251 (identical to AF41.scaffold_27__196635-197670) is ignored but added at the end
+NOTE: F17764.scaffold_27__114553-113518 (identical to AF41.scaffold_27__196635-197670) is ignored but added at the end
+NOTE: IFM_59073.scaffold_34__16864-15829 (identical to AF41.scaffold_27__196635-197670) is ignored but added at the end
+NOTE: CM3249.scaffold_281__30424-31396 (identical to CM2495.scaffold_297__23891-24863) is ignored but added at the end
+NOTE: CM3249b.scaffold_267__30588-31560 (identical to CM2495.scaffold_297__23891-24863) is ignored but added at the end
+NOTE: CM3720.scaffold_150__61615-62587 (identical to CM2495.scaffold_297__23891-24863) is ignored but added at the end
+NOTE: CM4946.scaffold_289__23312-24284 (identical to CM2495.scaffold_297__23891-24863) is ignored but added at the end
+NOTE: CM7560.scaffold_248__30443-31415 (identical to CM2495.scaffold_297__23891-24863) is ignored but added at the end
+NOTE: CM7570.scaffold_31__181323-182295 (identical to CM2495.scaffold_297__23891-24863) is ignored but added at the end
+
+For your convenience alignment with unique sequences printed to hrmA.all.fasaln.uniqueseq.phy
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.001 seconds
+NOTE: ModelFinder requires 1 MB RAM!
+ModelFinder will test 286 DNA models (sample size: 1726) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  JC            4987.966     41  10057.931    10059.976    10281.527
+  2  JC+I          4976.456     42  10036.912    10039.058    10265.962
+  3  JC+G4         4965.002     42  10014.003    10016.149    10243.053
+  4  JC+I+G4       4965.265     43  10016.529    10018.779    10251.032
+  5  JC+R2         4961.086     43  10008.171    10010.421    10242.675
+  6  JC+R3         4960.750     45  10011.501    10013.965    10256.911
+ 14  F81+F         4966.224     44  10020.447    10022.803    10260.404
+ 15  F81+F+I       4956.246     45  10002.492    10004.956    10247.902
+ 16  F81+F+G4      4946.055     45  9982.110     9984.575     10227.521
+ 17  F81+F+I+G4    4946.927     46  9985.855     9988.430     10236.719
+ 18  F81+F+R2      4941.547     46  9975.095     9977.670     10225.958
+ 19  F81+F+R3      4940.647     48  9977.293     9980.098     10239.064
+ 27  K2P           4816.820     42  9717.639     9719.785     9946.689
+ 28  K2P+I         4747.487     43  9580.974     9583.223     9815.477
+ 29  K2P+G4        4749.737     43  9585.474     9587.724     9819.978
+ 30  K2P+I+G4      4742.460     44  9572.919     9575.275     9812.876
+ 31  K2P+R2        4793.316     44  9674.632     9676.988     9914.589
+ 32  K2P+R3        4791.646     46  9675.291     9677.866     9926.155
+ 40  HKY+F         4786.189     45  9662.377     9664.841     9907.787
+ 41  HKY+F+I       4724.183     46  9540.366     9542.941     9791.230
+ 42  HKY+F+G4      4726.119     46  9544.238     9546.814     9795.102
+ 43  HKY+F+I+G4    4719.352     47  9532.704     9535.393     9789.022
+ 44  HKY+F+R2      4764.314     47  9622.629     9625.318     9878.946
+ 45  HKY+F+R3      4762.995     49  9623.990     9626.914     9891.214
+ 53  TNe           4806.164     43  9698.329     9700.578     9932.832
+ 54  TNe+I         4738.421     44  9564.843     9567.199     9804.800
+ 55  TNe+G4        4739.727     44  9567.453     9569.809     9807.410
+ 56  TNe+I+G4      4733.977     45  9557.955     9560.419     9803.365
+ 57  TNe+R2        4783.300     45  9656.601     9659.065     9902.011
+ 58  TNe+R3        4755.647     47  9605.295     9607.984     9861.612
+ 59  TNe+R4        4749.762     49  9597.525     9600.448     9864.749
+ 66  TN+F          4780.858     46  9653.715     9656.291     9904.579
+ 67  TN+F+I        4714.858     47  9523.715     9526.404     9780.033
+ 68  TN+F+G4       4715.738     47  9525.476     9528.165     9781.794
+ 69  TN+F+I+G4     4710.654     48  9517.308     9520.113     9779.079
+ 70  TN+F+R2       4754.131     48  9604.262     9607.067     9866.033
+ 71  TN+F+R3       4726.815     50  9553.629     9556.674     9826.307
+ 72  TN+F+R4       4722.746     52  9549.492     9552.786     9833.077
+ 79  K3P           4816.415     43  9718.830     9721.079     9953.333
+ 80  K3P+I         4746.916     44  9581.832     9584.188     9821.789
+ 81  K3P+G4        4749.008     44  9586.016     9588.371     9825.972
+ 82  K3P+I+G4      4742.189     45  9574.378     9576.842     9819.788
+ 83  K3P+R2        4793.036     45  9676.072     9678.536     9921.482
+ 84  K3P+R3        4763.684     47  9621.368     9624.057     9877.686
+ 85  K3P+R4        4759.294     49  9616.587     9619.511     9883.812
+ 92  K3Pu+F        4785.649     46  9663.299     9665.874     9914.162
+ 93  K3Pu+F+I      4723.549     47  9541.097     9543.786     9797.415
+ 94  K3Pu+F+G4     4725.346     47  9544.693     9547.382     9801.010
+ 95  K3Pu+F+I+G4   4718.780     48  9533.559     9536.364     9795.330
+ 96  K3Pu+F+R2     4763.961     48  9623.921     9626.726     9885.692
+ 97  K3Pu+F+R3     4738.332     50  9576.665     9579.710     9849.343
+ 98  K3Pu+F+R4     4734.217     52  9572.433     9575.728     9856.018
+105  TPM2+F        4786.282     46  9664.563     9667.139     9915.427
+106  TPM2+F+I      4724.052     47  9542.103     9544.792     9798.421
+107  TPM2+F+G4     4726.037     47  9546.073     9548.762     9802.391
+108  TPM2+F+I+G4   4719.344     48  9534.688     9537.493     9796.459
+109  TPM2+F+R2     4764.620     48  9625.239     9628.044     9887.010
+110  TPM2+F+R3     4739.057     50  9578.115     9581.160     9850.793
+111  TPM2+F+R4     4734.912     52  9573.824     9577.119     9857.410
+118  TPM2u+F       4786.363     46  9664.726     9667.302     9915.590
+119  TPM2u+F+I     4724.084     47  9542.169     9544.858     9798.486
+120  TPM2u+F+G4    4726.038     47  9546.077     9548.766     9802.394
+121  TPM2u+F+I+G4  4719.361     48  9534.721     9537.526     9796.492
+122  TPM2u+F+R2    4764.673     48  9625.346     9628.151     9887.117
+123  TPM2u+F+R3    4739.044     50  9578.089     9581.133     9850.767
+124  TPM2u+F+R4    4734.910     52  9573.821     9577.115     9857.406
+131  TPM3+F        4782.929     46  9657.858     9660.433     9908.722
+132  TPM3+F+I      4719.511     47  9533.021     9535.710     9789.339
+133  TPM3+F+G4     4722.199     47  9538.398     9541.087     9794.715
+134  TPM3+F+I+G4   4714.994     48  9525.989     9528.794     9787.760
+135  TPM3+F+R2     4761.507     48  9619.014     9621.819     9880.785
+136  TPM3+F+R3     4737.092     50  9574.183     9577.228     9846.861
+137  TPM3+F+R4     4732.393     52  9568.786     9572.081     9852.371
+144  TPM3u+F       4782.954     46  9657.908     9660.483     9908.772
+145  TPM3u+F+I     4719.513     47  9533.027     9535.716     9789.344
+146  TPM3u+F+G4    4722.200     47  9538.400     9541.089     9794.718
+147  TPM3u+F+I+G4  4715.024     48  9526.049     9528.854     9787.820
+148  TPM3u+F+R2    4761.564     48  9619.128     9621.933     9880.899
+149  TPM3u+F+R3    4737.096     50  9574.192     9577.237     9846.870
+150  TPM3u+F+R4    4732.391     52  9568.782     9572.077     9852.367
+157  TIMe          4805.728     44  9699.456     9701.812     9939.413
+158  TIMe+I        4737.796     45  9565.591     9568.056     9811.002
+159  TIMe+G4       4739.039     45  9568.079     9570.543     9813.489
+160  TIMe+I+G4     4733.414     46  9558.829     9561.404     9809.693
+161  TIMe+R2       4783.006     46  9658.012     9660.588     9908.876
+162  TIMe+R3       4752.015     48  9600.030     9602.835     9861.801
+163  TIMe+R4       4747.943     50  9595.886     9598.930     9868.564
+170  TIM+F         4780.664     47  9655.329     9658.018     9911.646
+171  TIM+F+I       4714.225     48  9524.449     9527.254     9786.220
+172  TIM+F+G4      4715.023     48  9526.046     9528.851     9787.817
+173  TIM+F+I+G4    4710.028     49  9518.055     9520.979     9785.280
+174  TIM+F+R2      4753.835     49  9605.670     9608.594     9872.895
+175  TIM+F+R3      4725.299     51  9552.597     9555.766     9830.729
+176  TIM+F+R4      4721.599     53  9549.198     9552.622     9838.237
+183  TIM2e         4806.567     44  9701.133     9703.489     9941.090
+184  TIM2e+I       4738.117     45  9566.235     9568.699     9811.645
+185  TIM2e+G4      4739.388     45  9568.776     9571.240     9814.186
+186  TIM2e+I+G4    4733.761     46  9559.523     9562.098     9810.387
+187  TIM2e+R2      4783.656     46  9659.312     9661.887     9910.176
+188  TIM2e+R3      4752.595     48  9601.190     9603.995     9862.961
+189  TIM2e+R4      4748.570     50  9597.140     9600.184     9869.818
+196  TIM2+F        4780.983     47  9655.967     9658.655     9912.284
+197  TIM2+F+I      4714.721     48  9525.442     9528.247     9787.213
+198  TIM2+F+G4     4715.627     48  9527.254     9530.059     9789.024
+199  TIM2+F+I+G4   4710.515     49  9519.030     9521.954     9786.254
+200  TIM2+F+R2     4754.350     49  9606.700     9609.624     9873.925
+201  TIM2+F+R3     4725.918     51  9553.835     9557.003     9831.967
+202  TIM2+F+R4     4722.173     53  9550.346     9553.770     9839.385
+209  TIM3e         4803.895     44  9695.790     9698.146     9935.747
+210  TIM3e+I       4734.010     45  9558.020     9560.484     9803.430
+211  TIM3e+G4      4737.148     45  9564.297     9566.761     9809.707
+212  TIM3e+I+G4    4730.408     46  9552.817     9555.392     9803.681
+213  TIM3e+R2      4782.035     46  9656.071     9658.646     9906.935
+214  TIM3e+R3      4751.382     48  9598.763     9601.568     9860.534
+215  TIM3e+R4      4746.900     50  9593.799     9596.844     9866.477
+222  TIM3+F        4772.329     47  9638.658     9641.347     9894.976
+223  TIM3+F+I      4710.442     48  9516.884     9519.689     9778.655
+224  TIM3+F+G4     4713.057     48  9522.113     9524.918     9783.884
+225  TIM3+F+I+G4   4707.040     49  9512.081     9515.005     9779.305
+226  TIM3+F+R2     4752.674     49  9603.348     9606.272     9870.573
+227  TIM3+F+R3     4724.539     51  9551.078     9554.247     9829.210
+228  TIM3+F+R4     4720.346     53  9546.691     9550.115     9835.730
+235  TVMe          4815.926     45  9721.851     9724.316     9967.262
+236  TVMe+I        4744.860     46  9581.721     9584.296     9832.585
+237  TVMe+G4       4745.562     46  9583.123     9585.698     9833.987
+238  TVMe+I+G4     4738.437     47  9570.874     9573.563     9827.192
+239  TVMe+R2       4791.180     47  9676.360     9679.049     9932.677
+240  TVMe+R3       4761.635     49  9621.271     9624.194     9888.495
+241  TVMe+R4       4757.034     51  9616.067     9619.235     9894.199
+248  TVM+F         4784.120     48  9664.240     9667.045     9926.011
+249  TVM+F+I       4720.905     49  9539.811     9542.734     9807.035
+250  TVM+F+G4      4722.135     49  9542.271     9545.194     9809.495
+251  TVM+F+I+G4    4714.950     50  9529.900     9532.945     9802.578
+252  TVM+F+R2      4761.794     50  9623.589     9626.634     9896.267
+253  TVM+F+R3      4736.354     52  9576.707     9580.002     9860.293
+254  TVM+F+R4      4731.936     54  9571.873     9575.427     9866.365
+261  SYM           4806.275     46  9704.550     9707.125     9955.413
+262  SYM+I         4736.292     47  9566.584     9569.273     9822.902
+263  SYM+G4        4736.756     47  9567.513     9570.202     9823.830
+264  SYM+I+G4      4730.058     48  9556.116     9558.921     9817.887
+265  SYM+R2        4782.501     48  9661.002     9663.807     9922.773
+266  SYM+R3        4750.610     50  9601.221     9604.265     9873.899
+267  SYM+R4        4746.259     52  9596.518     9599.813     9880.104
+274  GTR+F         4773.456     49  9644.912     9647.836     9912.137
+275  GTR+F+I       4711.790     50  9523.580     9526.625     9796.258
+276  GTR+F+G4      4712.858     50  9525.716     9528.761     9798.394
+277  GTR+F+I+G4    4706.567     51  9515.134     9518.302     9793.266
+278  GTR+F+R2      4752.922     51  9607.844     9611.012     9885.975
+279  GTR+F+R3      4723.938     53  9553.875     9557.299     9842.914
+280  GTR+F+R4      4719.883     55  9549.766     9553.455     9849.712
+Akaike Information Criterion:           TIM3+F+I+G4
+Corrected Akaike Information Criterion: TIM3+F+I+G4
+Bayesian Information Criterion:         TIM3+F+I
+Best-fit model: TIM3+F+I chosen according to BIC
+
+All model information printed to hrmA.all.fasaln.model.gz
+CPU time for ModelFinder: 10.360 seconds (0h:0m:10s)
+Wall-clock time for ModelFinder: 10.370 seconds (0h:0m:10s)
+Generating 1000 samples for ultrafast bootstrap (seed: 407589)...
+
+NOTE: 0 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -4962.767
+2. Current log-likelihood: -4771.094
+3. Current log-likelihood: -4725.720
+4. Current log-likelihood: -4720.769
+5. Current log-likelihood: -4717.309
+6. Current log-likelihood: -4714.927
+7. Current log-likelihood: -4714.155
+8. Current log-likelihood: -4713.767
+9. Current log-likelihood: -4713.440
+10. Current log-likelihood: -4713.161
+11. Current log-likelihood: -4712.917
+12. Current log-likelihood: -4712.703
+13. Current log-likelihood: -4712.513
+14. Current log-likelihood: -4712.343
+15. Current log-likelihood: -4712.190
+16. Current log-likelihood: -4712.050
+17. Current log-likelihood: -4711.923
+18. Current log-likelihood: -4711.807
+19. Current log-likelihood: -4711.700
+Optimal log-likelihood: -4711.594
+Rate parameters:  A-C: 0.00010  A-G: 20.87674  A-T: 1.00000  C-G: 0.00010  C-T: 11.55550  G-T: 1.00000
+Base frequencies:  A: 0.302  C: 0.248  G: 0.204  T: 0.246
+Proportion of invariable sites: 0.256
+Parameters optimization took 19 rounds (0.101 sec)
+Computing ML distances based on estimated model parameters... 0.003 sec
+Computing BIONJ tree...
+0.002 seconds
+Log-likelihood of BIONJ tree: -4707.138
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.161 second
+Computing log-likelihood of 98 initial trees ... 0.241 seconds
+Current best score: -4707.138
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -4706.698
+Iteration 10 / LogL: -4706.715 / Time: 0h:0m:0s
+Iteration 20 / LogL: -4706.715 / Time: 0h:0m:1s
+Finish initializing candidate tree set (15)
+Current best tree score: -4706.698 / CPU time: 1.125
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 23: -4706.623
+Iteration 30 / LogL: -4724.313 / Time: 0h:0m:1s (0h:0m:5s left)
+Iteration 40 / LogL: -4706.697 / Time: 0h:0m:2s (0h:0m:4s left)
+BETTER TREE FOUND at iteration 41: -4706.622
+Iteration 50 / LogL: -4706.624 / Time: 0h:0m:2s (0h:0m:4s left)
+Log-likelihood cutoff on original alignment: -4726.322
+Iteration 60 / LogL: -4706.623 / Time: 0h:0m:2s (0h:0m:3s left)
+Iteration 70 / LogL: -4706.647 / Time: 0h:0m:3s (0h:0m:3s left)
+UPDATE BEST LOG-LIKELIHOOD: -4706.621
+Iteration 80 / LogL: -4706.646 / Time: 0h:0m:3s (0h:0m:2s left)
+Iteration 90 / LogL: -4706.622 / Time: 0h:0m:3s (0h:0m:2s left)
+BETTER TREE FOUND at iteration 96: -4706.621
+UPDATE BEST LOG-LIKELIHOOD: -4706.621
+Iteration 100 / LogL: -4706.621 / Time: 0h:0m:4s (0h:0m:3s left)
+Log-likelihood cutoff on original alignment: -4726.302
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.977
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 110 / LogL: -4706.621 / Time: 0h:0m:4s (0h:0m:3s left)
+Iteration 120 / LogL: -4706.646 / Time: 0h:0m:4s (0h:0m:3s left)
+Iteration 130 / LogL: -4706.646 / Time: 0h:0m:5s (0h:0m:2s left)
+UPDATE BEST LOG-LIKELIHOOD: -4706.621
+Iteration 140 / LogL: -4706.621 / Time: 0h:0m:5s (0h:0m:2s left)
+BETTER TREE FOUND at iteration 142: -4706.621
+Iteration 150 / LogL: -4706.644 / Time: 0h:0m:5s (0h:0m:3s left)
+Log-likelihood cutoff on original alignment: -4727.438
+Iteration 160 / LogL: -4706.645 / Time: 0h:0m:6s (0h:0m:3s left)
+Iteration 170 / LogL: -4706.645 / Time: 0h:0m:6s (0h:0m:2s left)
+Iteration 180 / LogL: -4706.646 / Time: 0h:0m:7s (0h:0m:2s left)
+Iteration 190 / LogL: -4706.646 / Time: 0h:0m:7s (0h:0m:2s left)
+Iteration 200 / LogL: -4706.645 / Time: 0h:0m:7s (0h:0m:1s left)
+Log-likelihood cutoff on original alignment: -4728.611
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.996
+Iteration 210 / LogL: -4706.621 / Time: 0h:0m:8s (0h:0m:3s left)
+Iteration 220 / LogL: -4706.622 / Time: 0h:0m:8s (0h:0m:3s left)
+Iteration 230 / LogL: -4706.621 / Time: 0h:0m:9s (0h:0m:2s left)
+Iteration 240 / LogL: -4706.627 / Time: 0h:0m:9s (0h:0m:2s left)
+TREE SEARCH COMPLETED AFTER 243 ITERATIONS / Time: 0h:0m:9s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -4706.621
+2. Current log-likelihood: -4706.577
+3. Current log-likelihood: -4706.533
+4. Current log-likelihood: -4706.492
+5. Current log-likelihood: -4706.453
+6. Current log-likelihood: -4706.417
+7. Current log-likelihood: -4706.383
+8. Current log-likelihood: -4706.350
+9. Current log-likelihood: -4706.319
+10. Current log-likelihood: -4706.289
+11. Current log-likelihood: -4706.261
+12. Current log-likelihood: -4706.234
+13. Current log-likelihood: -4706.208
+14. Current log-likelihood: -4706.184
+15. Current log-likelihood: -4706.160
+16. Current log-likelihood: -4706.138
+17. Current log-likelihood: -4706.116
+18. Current log-likelihood: -4706.096
+19. Current log-likelihood: -4706.076
+20. Current log-likelihood: -4706.057
+21. Current log-likelihood: -4706.038
+22. Current log-likelihood: -4706.021
+23. Current log-likelihood: -4706.004
+24. Current log-likelihood: -4705.990
+Optimal log-likelihood: -4705.990
+Rate parameters:  A-C: 0.00010  A-G: 24.43843  A-T: 1.00000  C-G: 0.00010  C-T: 14.34826  G-T: 1.00000
+Base frequencies:  A: 0.302  C: 0.248  G: 0.204  T: 0.246
+Proportion of invariable sites: 0.253
+Parameters optimization took 24 rounds (0.105 sec)
+BEST SCORE FOUND : -4705.990
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+0.474 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file hrmA.all.fasaln.splits.nex
+Total tree length: 10.220
+
+Total number of iterations: 243
+CPU time used for tree search: 9.382 sec (0h:0m:9s)
+Wall-clock time used for tree search: 9.403 sec (0h:0m:9s)
+Total CPU time used: 10.249 sec (0h:0m:10s)
+Total wall-clock time used: 10.288 sec (0h:0m:10s)
+
+Computing bootstrap consensus tree...
+Reading input file hrmA.all.fasaln.splits.nex...
+22 taxa and 167 splits.
+Consensus tree written to hrmA.all.fasaln.contree
+Reading input trees file hrmA.all.fasaln.contree
+Log-likelihood of consensus tree: -4706.016
+
+Analysis results written to: 
+  IQ-TREE report:                hrmA.all.fasaln.iqtree
+  Maximum-likelihood tree:       hrmA.all.fasaln.treefile
+  Likelihood distances:          hrmA.all.fasaln.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          hrmA.all.fasaln.splits.nex
+  Consensus tree:                hrmA.all.fasaln.contree
+  Screen log file:               hrmA.all.fasaln.log
+
+Date and Time: Fri Mar  8 15:03:01 2019
